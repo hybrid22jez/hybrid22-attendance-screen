@@ -1,0 +1,77 @@
+{
+  "generatedAt": "2026-08-13",
+  "majorMilestones": [],
+  "everyLevelUp": [],
+  "almostThere": [
+    {
+      "memberId": 19102804,
+      "name": "Naya Stielow",
+      "totalVisits": 49,
+      "photoUrl": null,
+      "nextMilestone": 50,
+      "classesToGo": 1,
+      "badgeName": "Progress Seeker",
+      "major": false
+    },
+    {
+      "memberId": 20694006,
+      "name": "Belinda Tem",
+      "totalVisits": 49,
+      "photoUrl": null,
+      "nextMilestone": 50,
+      "classesToGo": 1,
+      "badgeName": "Progress Seeker",
+      "major": false
+    },
+    {
+      "memberId": 20971004,
+      "name": "Bee Jacobs",
+      "totalVisits": 49,
+      "photoUrl": null,
+      "nextMilestone": 50,
+      "classesToGo": 1,
+      "badgeName": "Progress Seeker",
+      "major": false
+    },
+    {
+      "memberId": 30935782,
+      "name": "Jacob Hohepa",
+      "totalVisits": 49,
+      "photoUrl": null,
+      "nextMilestone": 50,
+      "classesToGo": 1,
+      "badgeName": "Progress Seeker",
+      "major": false
+    },
+    {
+      "memberId": 20971513,
+      "name": "Matt Tivendale",
+      "totalVisits": 98,
+      "photoUrl": null,
+      "nextMilestone": 100,
+      "classesToGo": 2,
+      "badgeName": "Built Different",
+      "major": true
+    },
+    {
+      "memberId": 20970597,
+      "name": "Erin Merrett",
+      "totalVisits": 148,
+      "photoUrl": null,
+      "nextMilestone": 150,
+      "classesToGo": 2,
+      "badgeName": "The Unstoppable",
+      "major": false
+    },
+    {
+      "memberId": 29570996,
+      "name": "Sela Niu",
+      "totalVisits": 48,
+      "photoUrl": null,
+      "nextMilestone": 50,
+      "classesToGo": 2,
+      "badgeName": "Progress Seeker",
+      "major": false
+    }
+  ]
+}

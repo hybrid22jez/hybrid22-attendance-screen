@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Hybrid 22 — Attendance Milestones</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2/dist/tabler-icons.min.css">
+<style>
+  :root {
+    --gold: #C9A15A;
+    --bg: #000000;
+    --card: #141414;
+    --border: #2A2A2A;
+    --text: #F4F1E9;
+    --muted: #9A9A9A;
+    --muted-dim: #8A8A8A;
+    --avatar: #3A3A3A;
+    --flame: #D85A30;
+    --award: #7F77DD;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+    color: var(--text);
+    padding: 2rem;
+  }
+  .screen { max-width: 1400px; margin: 0 auto; }
+  .header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 2rem; }
+  .header-left { display: flex; align-items: center; gap: 16px; }
+  .logo { width: 52px; height: 52px; border-radius: 12px; background: var(--gold); display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 20px; color: #0F1B33; }
+  .title { font-size: 28px; font-weight: 600; margin: 0; }
+  .subtitle { font-size: 16px; color: var(--muted); margin: 0; }
+  .updated { color: var(--muted-dim); font-size: 15px; }
+
+  .top-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-bottom: 24px; }
+  .card { background: var(--card); border-radius: 16px; padding: 1.5rem; }
+  .card-header { display: flex; align-items: center; gap: 10px; margin-bottom: 4px; }
+  .card-header i { font-size: 24px; }
+  .card-title { font-size: 18px; font-weight: 600; }
+  .card-subtitle { color: var(--muted-dim); font-size: 13px; margin: 0 0 14px; }
+
+  .row { display: flex; align-items: center; gap: 14px; padding: 10px 0; border-bottom: 0.5px solid var(--border); }
+  .row:last-child { border-bottom: none; }
+  .avatar-wrap { position: relative; flex-shrink: 0; }
+  .avatar { width: 44px; height: 44px; border-radius: 50%; background: var(--avatar); display: flex; align-items: center; justify-content: center; font-size: 15px; color: #D4D4D4; font-weight: 600; overflow: hidden; }
+  .avatar img { width: 100%; height: 100%; object-fit: cover; }
+  .star-badge { position: absolute; bottom: -2px; right: -2px; width: 20px; height: 20px; border-radius: 50%; background: var(--gold); border: 2px solid var(--card); display: flex; align-items: center; justify-content: center; }
+  .star-badge i { font-size: 10px; color: #0F1B33; }
+  .row-name { font-size: 16px; margin: 0; font-weight: 500; }
+  .row-detail { font-size: 13px; margin: 0; color: var(--muted); }
+  .going-badge { width: 34px; height: 34px; border-radius: 50%; background: var(--avatar); display: flex; align-items: center; justify-content: center; font-size: 13px; color: var(--muted); font-weight: 600; flex-shrink: 0; }
+
+  .scroll-v { height: 320px; overflow: hidden; position: relative; }
+  .scroll-v .track { animation: scrollV 20s linear infinite; }
+  .scroll-v:hover .track { animation-play-state: paused; }
+  @keyframes scrollV { 0% { transform: translateY(0); } 100% { transform: translateY(-50%); } }
+
+  .ticker-card { padding: 1.5rem 0; }
+  .ticker-card .card-header { padding: 0 1.5rem; margin-bottom: 14px; }
+  .ticker-wrap { overflow: hidden; width: 100%; }
+  .ticker-wrap .track { display: flex; width: max-content; gap: 32px; padding: 0 1.5rem; animation: scrollH 30s linear infinite; }
+  .ticker-wrap:hover .track { animation-play-state: paused; }
+  @keyframes scrollH { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
+  .ticker-item { display: flex; align-items: center; gap: 10px; flex-shrink: 0; white-space: nowrap; }
+  .ticker-item .avatar { width: 36px; height: 36px; font-size: 13px; }
+
+  .empty-state { color: var(--muted-dim); font-size: 14px; padding: 12px 0; }
+</style>
+</head>
+<body>
+<div class="screen">
+  <div class="header">
+    <div class="header-left">
+      <div class="logo">H2</div>
+      <div>
+        <p class="title">Attendance Milestones</p>
+        <p class="subtitle">Who we're celebrating this week</p>
+      </div>
+    </div>
+    <span class="updated" id="updated-label">Updated daily</span>
+  </div>
+
+  <div class="top-grid">
+    <div class="card" id="major-card">
+      <div class="card-header"><i class="ti ti-trophy" style="color: var(--gold);"></i><span class="card-title">Major Milestones</span></div>
+      <p class="card-subtitle">250 · 500 · 750 · 1000 classes</p>
+      <div id="major-list"></div>
+    </div>
+
+    <div class="card" id="almost-card">
+      <div class="card-header"><i class="ti ti-flame" style="color: var(--flame);"></i><span class="card-title">Almost There</span></div>
+      <p class="card-subtitle">&nbsp;</p>
+      <div id="almost-list"></div>
+    </div>
+  </div>
+
+  <div class="card ticker-card" id="every-card">
+    <div class="card-header"><i class="ti ti-award" style="color: var(--award);"></i><span class="card-title">Every Level Up This Week</span></div>
+    <div id="every-list"></div>
+  </div>
+</div>
+
+<script>
+  const SCROLL_THRESHOLD = 6;
+  const DATA_URL = 'milestone-screen-data.json';
+
+  function initials(name) {
+    return (name || '').split(' ').filter(Boolean).map(p => p[0]).slice(0, 2).join('').toUpperCase();
+  }
+
+  function avatarHtml(item) {
+    if (item.photoUrl) {
+      return `<div class="avatar"><img src="${item.photoUrl}" alt=""></div>`;
+    }
+    return `<div class="avatar">${initials(item.name)}</div>`;
+  }
+
+  function majorRow(item) {
+    return `
+      <div class="row">
+        <div class="avatar-wrap">
+          ${avatarHtml(item)}
+          <div class="star-badge"><i class="ti ti-star-filled"></i></div>
+        </div>
+        <div>
+          <p class="row-name">${item.name}</p>
+          <p class="row-detail">${item.milestone} classes · ${item.badgeName}</p>
+        </div>
+      </div>`;
+  }
+
+  function almostRow(item) {
+    return `
+      <div class="row">
+        <div class="going-badge">${item.classesToGo}</div>
+        <div>
+          <p class="row-name">${item.name}</p>
+          <p class="row-detail">${item.classesToGo} class${item.classesToGo === 1 ? '' : 'es'} from ${item.nextMilestone} · ${item.badgeName}</p>
+        </div>
+      </div>`;
+  }
+
+  function tickerItem(item) {
+    return `
+      <div class="ticker-item">
+        ${avatarHtml(item)}
+        <div>
+          <p class="row-name" style="font-size:14px;">${item.name}</p>
+          <p class="row-detail">${item.milestone} · ${item.badgeName}</p>
+        </div>
+      </div>`;
+  }
+
+  function renderStaticOrScrollVertical(container, items, rowFn) {
+    if (items.length === 0) {
+      container.innerHTML = '<p class="empty-state">Nobody yet this week — check back tomorrow.</p>';
+      return;
+    }
+    if (items.length <= SCROLL_THRESHOLD) {
+      container.innerHTML = items.map(rowFn).join('');
+      return;
+    }
+    // Duplicate the list once so the vertical scroll loops seamlessly.
+    const doubled = [...items, ...items];
+    container.innerHTML = `<div class="scroll-v"><div class="track">${doubled.map(rowFn).join('')}</div></div>`;
+  }
+
+  function renderTicker(container, items) {
+    if (items.length === 0) {
+      container.innerHTML = '<p class="empty-state" style="padding:0 1.5rem;">Nobody yet this week — check back tomorrow.</p>';
+      return;
+    }
+    if (items.length <= SCROLL_THRESHOLD) {
+      container.innerHTML = `<div style="display:flex;gap:32px;padding:0 1.5rem;flex-wrap:wrap;">${items.map(tickerItem).join('')}</div>`;
+      return;
+    }
+    const doubled = [...items, ...items];
+    container.innerHTML = `<div class="ticker-wrap"><div class="track">${doubled.map(tickerItem).join('')}</div></div>`;
+  }
+
+  async function load() {
+    try {
+      const res = await fetch(`${DATA_URL}?t=${Date.now()}`);
+      const data = await res.json();
+
+      document.getElementById('updated-label').textContent = `Updated ${data.generatedAt}`;
+      renderStaticOrScrollVertical(document.getElementById('major-list'), data.majorMilestones, majorRow);
+      renderStaticOrScrollVertical(document.getElementById('almost-list'), data.almostThere, almostRow);
+      renderTicker(document.getElementById('every-list'), data.everyLevelUp);
+    } catch (err) {
+      console.error('Failed to load milestone screen data:', err);
+      document.getElementById('updated-label').textContent = 'Unable to load data';
+    }
+  }
+
+  load();
+  // Kiosk display - reload the page hourly so the freshly-committed JSON
+  // (and this file itself, if it's ever updated) gets picked up without
+  // anyone touching the screen.
+  setInterval(() => window.location.reload(), 60 * 60 * 1000);
+</script>
+</body>
+</html>
