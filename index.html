@@ -53,14 +53,17 @@
   .going-badge { width: 34px; height: 34px; border-radius: 50%; background: var(--avatar); display: flex; align-items: center; justify-content: center; font-size: 13px; color: var(--muted); font-weight: 600; flex-shrink: 0; }
 
   .scroll-v { height: 320px; overflow: hidden; position: relative; }
-  .scroll-v .track { animation: scrollV 20s linear infinite; }
+  /* Duration is set inline by JS, scaled to the number of items - see
+     SECONDS_PER_ITEM below. Only the animation name/timing/looping are
+     fixed here. */
+  .scroll-v .track { animation-name: scrollV; animation-timing-function: linear; animation-iteration-count: infinite; }
   .scroll-v:hover .track { animation-play-state: paused; }
   @keyframes scrollV { 0% { transform: translateY(0); } 100% { transform: translateY(-50%); } }
 
   .ticker-card { padding: 1.5rem 0; }
   .ticker-card .card-header { padding: 0 1.5rem; margin-bottom: 14px; }
   .ticker-wrap { overflow: hidden; width: 100%; }
-  .ticker-wrap .track { display: flex; width: max-content; gap: 32px; padding: 0 1.5rem; animation: scrollH 30s linear infinite; }
+  .ticker-wrap .track { display: flex; width: max-content; gap: 32px; padding: 0 1.5rem; animation-name: scrollH; animation-timing-function: linear; animation-iteration-count: infinite; }
   .ticker-wrap:hover .track { animation-play-state: paused; }
   @keyframes scrollH { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
   .ticker-item { display: flex; align-items: center; gap: 10px; flex-shrink: 0; white-space: nowrap; }
@@ -105,6 +108,11 @@
 <script>
   const SCROLL_THRESHOLD = 6;
   const DATA_URL = 'milestone-screen-data.json';
+  // Roughly how long each person stays readable on screen before the next
+  // one scrolls into view. Total loop duration = items.length * this value,
+  // so a list of 8 and a list of 40 both stay equally readable per-person -
+  // a fixed duration would make a 40-person list fly past unreadably fast.
+  const SECONDS_PER_ITEM = 2.5;
 
   function initials(name) {
     return (name || '').split(' ').filter(Boolean).map(p => p[0]).slice(0, 2).join('').toUpperCase();
@@ -164,7 +172,8 @@
     }
     // Duplicate the list once so the vertical scroll loops seamlessly.
     const doubled = [...items, ...items];
-    container.innerHTML = `<div class="scroll-v"><div class="track">${doubled.map(rowFn).join('')}</div></div>`;
+    const duration = items.length * SECONDS_PER_ITEM;
+    container.innerHTML = `<div class="scroll-v"><div class="track" style="animation-duration:${duration}s;">${doubled.map(rowFn).join('')}</div></div>`;
   }
 
   function renderTicker(container, items) {
@@ -177,7 +186,8 @@
       return;
     }
     const doubled = [...items, ...items];
-    container.innerHTML = `<div class="ticker-wrap"><div class="track">${doubled.map(tickerItem).join('')}</div></div>`;
+    const duration = items.length * SECONDS_PER_ITEM;
+    container.innerHTML = `<div class="ticker-wrap"><div class="track" style="animation-duration:${duration}s;">${doubled.map(tickerItem).join('')}</div></div>`;
   }
 
   async function load() {
