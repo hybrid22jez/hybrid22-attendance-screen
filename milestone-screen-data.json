@@ -1,38 +1,39 @@
 {
-  "generatedAt": "2026-08-14",
+  "generatedAt": "2026-08-15",
   "majorMilestones": [],
-  "everyLevelUp": [],
-  "almostThere": [
+  "everyLevelUp": [
     {
       "memberId": 19102804,
       "name": "Naya Stielow",
-      "totalVisits": 49,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/19102804.png?t=1776747899718",
-      "nextMilestone": 50,
-      "classesToGo": 1,
+      "milestone": 50,
       "badgeName": "Progress Seeker",
-      "major": false
+      "major": false,
+      "totalVisits": 50,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/19102804.png?t=1776747899718",
+      "date": "2026-08-15"
     },
     {
       "memberId": 20694006,
       "name": "Belinda Tem",
-      "totalVisits": 49,
-      "photoUrl": null,
-      "nextMilestone": 50,
-      "classesToGo": 1,
+      "milestone": 50,
       "badgeName": "Progress Seeker",
-      "major": false
+      "major": false,
+      "totalVisits": 50,
+      "photoUrl": null,
+      "date": "2026-08-15"
     },
     {
       "memberId": 20971004,
       "name": "Bee Jacobs",
-      "totalVisits": 49,
-      "photoUrl": null,
-      "nextMilestone": 50,
-      "classesToGo": 1,
+      "milestone": 50,
       "badgeName": "Progress Seeker",
-      "major": false
-    },
+      "major": false,
+      "totalVisits": 50,
+      "photoUrl": null,
+      "date": "2026-08-15"
+    }
+  ],
+  "almostThere": [
     {
       "memberId": 30935782,
       "name": "Jacob Hohepa",
