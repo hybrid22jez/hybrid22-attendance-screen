@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16",
+  "generatedAt": "2026-08-17",
   "majorMilestones": [],
   "everyLevelUp": [
     {
@@ -43,6 +43,16 @@
       "classesToGo": 1,
       "badgeName": "Progress Seeker",
       "major": false
+    },
+    {
+      "memberId": 28109953,
+      "name": "Tash Crichton",
+      "totalVisits": 98,
+      "photoUrl": null,
+      "nextMilestone": 100,
+      "classesToGo": 2,
+      "badgeName": "Built Different",
+      "major": true
     },
     {
       "memberId": 20971513,
