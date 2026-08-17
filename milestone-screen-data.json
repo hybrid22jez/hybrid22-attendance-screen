@@ -1,7 +1,17 @@
 {
-  "generatedAt": "2026-08-17",
+  "generatedAt": "2026-08-18",
   "majorMilestones": [],
   "everyLevelUp": [
+    {
+      "memberId": 30935782,
+      "name": "Jacob Hohepa",
+      "milestone": 50,
+      "badgeName": "Progress Seeker",
+      "major": false,
+      "totalVisits": 50,
+      "photoUrl": null,
+      "date": "2026-08-18"
+    },
     {
       "memberId": 19102804,
       "name": "Naya Stielow",
@@ -35,28 +45,28 @@
   ],
   "almostThere": [
     {
-      "memberId": 30935782,
-      "name": "Jacob Hohepa",
-      "totalVisits": 49,
+      "memberId": 20971513,
+      "name": "Matt Tivendale",
+      "totalVisits": 99,
       "photoUrl": null,
-      "nextMilestone": 50,
+      "nextMilestone": 100,
       "classesToGo": 1,
-      "badgeName": "Progress Seeker",
+      "badgeName": "Built Different",
+      "major": true
+    },
+    {
+      "memberId": 22150481,
+      "name": "Jane Faraimo",
+      "totalVisits": 148,
+      "photoUrl": null,
+      "nextMilestone": 150,
+      "classesToGo": 2,
+      "badgeName": "The Unstoppable",
       "major": false
     },
     {
       "memberId": 28109953,
       "name": "Tash Crichton",
-      "totalVisits": 98,
-      "photoUrl": null,
-      "nextMilestone": 100,
-      "classesToGo": 2,
-      "badgeName": "Built Different",
-      "major": true
-    },
-    {
-      "memberId": 20971513,
-      "name": "Matt Tivendale",
       "totalVisits": 98,
       "photoUrl": null,
       "nextMilestone": 100,
