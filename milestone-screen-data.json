@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-08-18",
-  "majorMilestones": [],
+  "generatedAt": "2026-08-19",
+  "majorMilestones": [
+    {
+      "memberId": 20971513,
+      "name": "Matt Tivendale",
+      "milestone": 100,
+      "badgeName": "Built Different",
+      "major": true,
+      "totalVisits": 100,
+      "photoUrl": null,
+      "date": "2026-08-19"
+    }
+  ],
   "everyLevelUp": [
     {
       "memberId": 30935782,
@@ -44,16 +55,6 @@
     }
   ],
   "almostThere": [
-    {
-      "memberId": 20971513,
-      "name": "Matt Tivendale",
-      "totalVisits": 99,
-      "photoUrl": null,
-      "nextMilestone": 100,
-      "classesToGo": 1,
-      "badgeName": "Built Different",
-      "major": true
-    },
     {
       "memberId": 22150481,
       "name": "Jane Faraimo",
