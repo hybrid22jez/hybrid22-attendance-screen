@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19",
+  "generatedAt": "2026-08-20",
   "majorMilestones": [
     {
       "memberId": 20971513,
@@ -56,28 +56,48 @@
   ],
   "almostThere": [
     {
-      "memberId": 22150481,
-      "name": "Jane Faraimo",
-      "totalVisits": 148,
+      "memberId": 20970597,
+      "name": "Erin Merrett",
+      "totalVisits": 149,
       "photoUrl": null,
       "nextMilestone": 150,
-      "classesToGo": 2,
+      "classesToGo": 1,
       "badgeName": "The Unstoppable",
+      "major": false
+    },
+    {
+      "memberId": 22178022,
+      "name": "Angel Mills",
+      "totalVisits": 199,
+      "photoUrl": null,
+      "nextMilestone": 200,
+      "classesToGo": 1,
+      "badgeName": "Hybrid Royalty",
       "major": false
     },
     {
       "memberId": 28109953,
       "name": "Tash Crichton",
-      "totalVisits": 98,
+      "totalVisits": 99,
       "photoUrl": null,
       "nextMilestone": 100,
-      "classesToGo": 2,
+      "classesToGo": 1,
       "badgeName": "Built Different",
       "major": true
     },
     {
-      "memberId": 20970597,
-      "name": "Erin Merrett",
+      "memberId": 31406581,
+      "name": "Alanah Fox",
+      "totalVisits": 48,
+      "photoUrl": null,
+      "nextMilestone": 50,
+      "classesToGo": 2,
+      "badgeName": "Progress Seeker",
+      "major": false
+    },
+    {
+      "memberId": 22150481,
+      "name": "Jane Faraimo",
       "totalVisits": 148,
       "photoUrl": null,
       "nextMilestone": 150,
