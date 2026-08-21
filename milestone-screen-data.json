@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-08-21",
+  "generatedAt": "2026-08-22",
   "majorMilestones": [
+    {
+      "memberId": 28109953,
+      "name": "Tash Crichton",
+      "milestone": 100,
+      "badgeName": "Built Different",
+      "major": true,
+      "totalVisits": 100,
+      "photoUrl": null,
+      "date": "2026-08-22"
+    },
     {
       "memberId": 20971513,
       "name": "Matt Tivendale",
@@ -13,6 +23,26 @@
     }
   ],
   "everyLevelUp": [
+    {
+      "memberId": 22150481,
+      "name": "Jane Faraimo",
+      "milestone": 150,
+      "badgeName": "The Unstoppable",
+      "major": false,
+      "totalVisits": 150,
+      "photoUrl": null,
+      "date": "2026-08-22"
+    },
+    {
+      "memberId": 31406581,
+      "name": "Alanah Fox",
+      "milestone": 50,
+      "badgeName": "Progress Seeker",
+      "major": false,
+      "totalVisits": 50,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/31406581.png?t=1787192786740",
+      "date": "2026-08-22"
+    },
     {
       "memberId": 20970597,
       "name": "Erin Merrett",
@@ -32,59 +62,9 @@
       "totalVisits": 50,
       "photoUrl": null,
       "date": "2026-08-18"
-    },
-    {
-      "memberId": 19102804,
-      "name": "Naya Stielow",
-      "milestone": 50,
-      "badgeName": "Progress Seeker",
-      "major": false,
-      "totalVisits": 50,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/19102804.png?t=1776747899718",
-      "date": "2026-08-15"
-    },
-    {
-      "memberId": 20694006,
-      "name": "Belinda Tem",
-      "milestone": 50,
-      "badgeName": "Progress Seeker",
-      "major": false,
-      "totalVisits": 50,
-      "photoUrl": null,
-      "date": "2026-08-15"
-    },
-    {
-      "memberId": 20971004,
-      "name": "Bee Jacobs",
-      "milestone": 50,
-      "badgeName": "Progress Seeker",
-      "major": false,
-      "totalVisits": 50,
-      "photoUrl": null,
-      "date": "2026-08-15"
     }
   ],
   "almostThere": [
-    {
-      "memberId": 22150481,
-      "name": "Jane Faraimo",
-      "totalVisits": 149,
-      "photoUrl": null,
-      "nextMilestone": 150,
-      "classesToGo": 1,
-      "badgeName": "The Unstoppable",
-      "major": false
-    },
-    {
-      "memberId": 31406581,
-      "name": "Alanah Fox",
-      "totalVisits": 49,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/31406581.png?t=1787192786740",
-      "nextMilestone": 50,
-      "classesToGo": 1,
-      "badgeName": "Progress Seeker",
-      "major": false
-    },
     {
       "memberId": 22178022,
       "name": "Angel Mills",
@@ -96,12 +76,12 @@
       "major": false
     },
     {
-      "memberId": 28109953,
-      "name": "Tash Crichton",
-      "totalVisits": 99,
-      "photoUrl": null,
+      "memberId": 30740717,
+      "name": "Kazandra Kennedy",
+      "totalVisits": 98,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/30740717.png?t=1787132164647",
       "nextMilestone": 100,
-      "classesToGo": 1,
+      "classesToGo": 2,
       "badgeName": "Built Different",
       "major": true
     },
@@ -118,6 +98,16 @@
     {
       "memberId": 27443770,
       "name": "Monique Ezard",
+      "totalVisits": 148,
+      "photoUrl": null,
+      "nextMilestone": 150,
+      "classesToGo": 2,
+      "badgeName": "The Unstoppable",
+      "major": false
+    },
+    {
+      "memberId": 22069723,
+      "name": "Juliana  Gartner",
       "totalVisits": 148,
       "photoUrl": null,
       "nextMilestone": 150,
