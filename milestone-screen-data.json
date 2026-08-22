@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22",
+  "generatedAt": "2026-08-23",
   "majorMilestones": [
     {
       "memberId": 28109953,
@@ -76,6 +76,26 @@
       "major": false
     },
     {
+      "memberId": 27443770,
+      "name": "Monique Ezard",
+      "totalVisits": 149,
+      "photoUrl": null,
+      "nextMilestone": 150,
+      "classesToGo": 1,
+      "badgeName": "The Unstoppable",
+      "major": false
+    },
+    {
+      "memberId": 22069723,
+      "name": "Juliana  Gartner",
+      "totalVisits": 149,
+      "photoUrl": null,
+      "nextMilestone": 150,
+      "classesToGo": 1,
+      "badgeName": "The Unstoppable",
+      "major": false
+    },
+    {
       "memberId": 30740717,
       "name": "Kazandra Kennedy",
       "totalVisits": 98,
@@ -93,26 +113,6 @@
       "nextMilestone": 50,
       "classesToGo": 2,
       "badgeName": "Progress Seeker",
-      "major": false
-    },
-    {
-      "memberId": 27443770,
-      "name": "Monique Ezard",
-      "totalVisits": 148,
-      "photoUrl": null,
-      "nextMilestone": 150,
-      "classesToGo": 2,
-      "badgeName": "The Unstoppable",
-      "major": false
-    },
-    {
-      "memberId": 22069723,
-      "name": "Juliana  Gartner",
-      "totalVisits": 148,
-      "photoUrl": null,
-      "nextMilestone": 150,
-      "classesToGo": 2,
-      "badgeName": "The Unstoppable",
       "major": false
     },
     {
