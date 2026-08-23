@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23",
+  "generatedAt": "2026-08-24",
   "majorMilestones": [
     {
       "memberId": 28109953,
@@ -66,6 +66,16 @@
   ],
   "almostThere": [
     {
+      "memberId": 22069723,
+      "name": "Juliana  Gartner",
+      "totalVisits": 149,
+      "photoUrl": null,
+      "nextMilestone": 150,
+      "classesToGo": 1,
+      "badgeName": "The Unstoppable",
+      "major": false
+    },
+    {
       "memberId": 22178022,
       "name": "Angel Mills",
       "totalVisits": 199,
@@ -78,16 +88,6 @@
     {
       "memberId": 27443770,
       "name": "Monique Ezard",
-      "totalVisits": 149,
-      "photoUrl": null,
-      "nextMilestone": 150,
-      "classesToGo": 1,
-      "badgeName": "The Unstoppable",
-      "major": false
-    },
-    {
-      "memberId": 22069723,
-      "name": "Juliana  Gartner",
       "totalVisits": 149,
       "photoUrl": null,
       "nextMilestone": 150,
