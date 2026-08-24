@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24",
+  "generatedAt": "2026-08-25",
   "majorMilestones": [
     {
       "memberId": 28109953,
@@ -23,6 +23,26 @@
     }
   ],
   "everyLevelUp": [
+    {
+      "memberId": 27443770,
+      "name": "Monique Ezard",
+      "milestone": 150,
+      "badgeName": "The Unstoppable",
+      "major": false,
+      "totalVisits": 150,
+      "photoUrl": null,
+      "date": "2026-08-25"
+    },
+    {
+      "memberId": 22069723,
+      "name": "Juliana  Gartner",
+      "milestone": 150,
+      "badgeName": "The Unstoppable",
+      "major": false,
+      "totalVisits": 150,
+      "photoUrl": null,
+      "date": "2026-08-25"
+    },
     {
       "memberId": 22150481,
       "name": "Jane Faraimo",
@@ -52,27 +72,17 @@
       "totalVisits": 150,
       "photoUrl": null,
       "date": "2026-08-21"
-    },
-    {
-      "memberId": 30935782,
-      "name": "Jacob Hohepa",
-      "milestone": 50,
-      "badgeName": "Progress Seeker",
-      "major": false,
-      "totalVisits": 50,
-      "photoUrl": null,
-      "date": "2026-08-18"
     }
   ],
   "almostThere": [
     {
-      "memberId": 22069723,
-      "name": "Juliana  Gartner",
-      "totalVisits": 149,
-      "photoUrl": null,
-      "nextMilestone": 150,
+      "memberId": 31780863,
+      "name": "Mudit Shukla",
+      "totalVisits": 49,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/31780863.png?t=1786955401854",
+      "nextMilestone": 50,
       "classesToGo": 1,
-      "badgeName": "The Unstoppable",
+      "badgeName": "Progress Seeker",
       "major": false
     },
     {
@@ -86,16 +96,6 @@
       "major": false
     },
     {
-      "memberId": 27443770,
-      "name": "Monique Ezard",
-      "totalVisits": 149,
-      "photoUrl": null,
-      "nextMilestone": 150,
-      "classesToGo": 1,
-      "badgeName": "The Unstoppable",
-      "major": false
-    },
-    {
       "memberId": 30740717,
       "name": "Kazandra Kennedy",
       "totalVisits": 98,
@@ -106,13 +106,33 @@
       "major": true
     },
     {
-      "memberId": 31780863,
-      "name": "Mudit Shukla",
+      "memberId": 31147494,
+      "name": "Esta Rarere",
       "totalVisits": 48,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/31780863.png?t=1786955401854",
+      "photoUrl": null,
       "nextMilestone": 50,
       "classesToGo": 2,
       "badgeName": "Progress Seeker",
+      "major": false
+    },
+    {
+      "memberId": 20971584,
+      "name": "Mimi French-Wright",
+      "totalVisits": 448,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/20971584.png?t=1740829858590",
+      "nextMilestone": 450,
+      "classesToGo": 2,
+      "badgeName": "The Unbreakable One",
+      "major": false
+    },
+    {
+      "memberId": 20971015,
+      "name": "Jacob Mcmahon",
+      "totalVisits": 348,
+      "photoUrl": null,
+      "nextMilestone": 350,
+      "classesToGo": 2,
+      "badgeName": "Hybrid Hall of Fame",
       "major": false
     },
     {
