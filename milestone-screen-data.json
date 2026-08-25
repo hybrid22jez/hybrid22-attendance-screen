@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25",
+  "generatedAt": "2026-08-26",
   "majorMilestones": [
     {
       "memberId": 28109953,
@@ -10,19 +10,19 @@
       "totalVisits": 100,
       "photoUrl": null,
       "date": "2026-08-22"
-    },
-    {
-      "memberId": 20971513,
-      "name": "Matt Tivendale",
-      "milestone": 100,
-      "badgeName": "Built Different",
-      "major": true,
-      "totalVisits": 100,
-      "photoUrl": null,
-      "date": "2026-08-19"
     }
   ],
   "everyLevelUp": [
+    {
+      "memberId": 31780863,
+      "name": "Mudit Shukla",
+      "milestone": 50,
+      "badgeName": "Progress Seeker",
+      "major": false,
+      "totalVisits": 50,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/31780863.png?t=1786955401854",
+      "date": "2026-08-26"
+    },
     {
       "memberId": 27443770,
       "name": "Monique Ezard",
@@ -76,13 +76,23 @@
   ],
   "almostThere": [
     {
-      "memberId": 31780863,
-      "name": "Mudit Shukla",
-      "totalVisits": 49,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/31780863.png?t=1786955401854",
-      "nextMilestone": 50,
+      "memberId": 20971015,
+      "name": "Jacob Mcmahon",
+      "totalVisits": 349,
+      "photoUrl": null,
+      "nextMilestone": 350,
       "classesToGo": 1,
-      "badgeName": "Progress Seeker",
+      "badgeName": "Hybrid Hall of Fame",
+      "major": false
+    },
+    {
+      "memberId": 20971584,
+      "name": "Mimi French-Wright",
+      "totalVisits": 449,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/20971584.png?t=1740829858590",
+      "nextMilestone": 450,
+      "classesToGo": 1,
+      "badgeName": "The Unbreakable One",
       "major": false
     },
     {
@@ -106,6 +116,16 @@
       "major": true
     },
     {
+      "memberId": 30999898,
+      "name": "Cleve Fryer",
+      "totalVisits": 48,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/30999898.png?t=1787639422566",
+      "nextMilestone": 50,
+      "classesToGo": 2,
+      "badgeName": "Progress Seeker",
+      "major": false
+    },
+    {
       "memberId": 31147494,
       "name": "Esta Rarere",
       "totalVisits": 48,
@@ -113,26 +133,6 @@
       "nextMilestone": 50,
       "classesToGo": 2,
       "badgeName": "Progress Seeker",
-      "major": false
-    },
-    {
-      "memberId": 20971584,
-      "name": "Mimi French-Wright",
-      "totalVisits": 448,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/20971584.png?t=1740829858590",
-      "nextMilestone": 450,
-      "classesToGo": 2,
-      "badgeName": "The Unbreakable One",
-      "major": false
-    },
-    {
-      "memberId": 20971015,
-      "name": "Jacob Mcmahon",
-      "totalVisits": 348,
-      "photoUrl": null,
-      "nextMilestone": 350,
-      "classesToGo": 2,
-      "badgeName": "Hybrid Hall of Fame",
       "major": false
     },
     {
