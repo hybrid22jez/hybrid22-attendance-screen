@@ -19,12 +19,20 @@
     --award: #7F77DD;
   }
   * { box-sizing: border-box; }
+  /* TV_ZOOM controls the overall size of everything on screen — bump this
+     number up or down to make the whole display bigger/smaller on a TV.
+     1 = normal size, 1.4 = 40% bigger, 2 = double size, etc. If content
+     starts getting cut off at the edges of the TV, that's this number
+     being too high for your screen's actual resolution — turn it down a
+     little rather than pushing it further. */
+  :root { --tv-zoom: 1.4; }
   body {
     margin: 0;
     background: var(--bg);
     font-family: 'Segoe UI', Roboto, Arial, sans-serif;
     color: var(--text);
     padding: 2rem;
+    zoom: var(--tv-zoom);
   }
   .screen { max-width: 1400px; margin: 0 auto; }
   .header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 2rem; }
