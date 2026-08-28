@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-08-26",
+  "generatedAt": "2026-08-28",
   "majorMilestones": [
+    {
+      "memberId": 30740717,
+      "name": "Kazandra Kennedy",
+      "milestone": 100,
+      "badgeName": "Built Different",
+      "major": true,
+      "totalVisits": 100,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/30740717.png?t=1787132164647",
+      "date": "2026-08-28"
+    },
     {
       "memberId": 28109953,
       "name": "Tash Crichton",
@@ -13,6 +23,26 @@
     }
   ],
   "everyLevelUp": [
+    {
+      "memberId": 20971584,
+      "name": "Mimi French-Wright",
+      "milestone": 450,
+      "badgeName": "The Unbreakable One",
+      "major": false,
+      "totalVisits": 451,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/20971584.png?t=1740829858590",
+      "date": "2026-08-28"
+    },
+    {
+      "memberId": 20971015,
+      "name": "Jacob Mcmahon",
+      "milestone": 350,
+      "badgeName": "Hybrid Hall of Fame",
+      "major": false,
+      "totalVisits": 350,
+      "photoUrl": null,
+      "date": "2026-08-28"
+    },
     {
       "memberId": 31780863,
       "name": "Mudit Shukla",
@@ -62,37 +92,27 @@
       "totalVisits": 50,
       "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/31406581.png?t=1787192786740",
       "date": "2026-08-22"
-    },
-    {
-      "memberId": 20970597,
-      "name": "Erin Merrett",
-      "milestone": 150,
-      "badgeName": "The Unstoppable",
-      "major": false,
-      "totalVisits": 150,
-      "photoUrl": null,
-      "date": "2026-08-21"
     }
   ],
   "almostThere": [
     {
-      "memberId": 20971015,
-      "name": "Jacob Mcmahon",
-      "totalVisits": 349,
-      "photoUrl": null,
-      "nextMilestone": 350,
+      "memberId": 31632835,
+      "name": "Aymee Wilson",
+      "totalVisits": 49,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/31632835.png?t=1787637777318",
+      "nextMilestone": 50,
       "classesToGo": 1,
-      "badgeName": "Hybrid Hall of Fame",
+      "badgeName": "Progress Seeker",
       "major": false
     },
     {
-      "memberId": 20971584,
-      "name": "Mimi French-Wright",
-      "totalVisits": 449,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/20971584.png?t=1740829858590",
-      "nextMilestone": 450,
+      "memberId": 30999898,
+      "name": "Cleve Fryer",
+      "totalVisits": 49,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/30999898.png?t=1787639422566",
+      "nextMilestone": 50,
       "classesToGo": 1,
-      "badgeName": "The Unbreakable One",
+      "badgeName": "Progress Seeker",
       "major": false
     },
     {
@@ -106,24 +126,14 @@
       "major": false
     },
     {
-      "memberId": 30740717,
-      "name": "Kazandra Kennedy",
+      "memberId": 28994259,
+      "name": "Jett Popinski",
       "totalVisits": 98,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/30740717.png?t=1787132164647",
+      "photoUrl": null,
       "nextMilestone": 100,
       "classesToGo": 2,
       "badgeName": "Built Different",
       "major": true
-    },
-    {
-      "memberId": 30999898,
-      "name": "Cleve Fryer",
-      "totalVisits": 48,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/30999898.png?t=1787639422566",
-      "nextMilestone": 50,
-      "classesToGo": 2,
-      "badgeName": "Progress Seeker",
-      "major": false
     },
     {
       "memberId": 31147494,
@@ -134,6 +144,16 @@
       "classesToGo": 2,
       "badgeName": "Progress Seeker",
       "major": false
+    },
+    {
+      "memberId": 29871768,
+      "name": "Leilani Aria",
+      "totalVisits": 98,
+      "photoUrl": null,
+      "nextMilestone": 100,
+      "classesToGo": 2,
+      "badgeName": "Built Different",
+      "major": true
     },
     {
       "memberId": 29570996,

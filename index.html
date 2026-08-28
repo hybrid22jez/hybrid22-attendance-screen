@@ -19,25 +19,17 @@
     --award: #7F77DD;
   }
   * { box-sizing: border-box; }
-  /* TV_ZOOM controls the overall size of everything on screen — bump this
-     number up or down to make the whole display bigger/smaller on a TV.
-     1 = normal size, 1.4 = 40% bigger, 2 = double size, etc. If content
-     starts getting cut off at the edges of the TV, that's this number
-     being too high for your screen's actual resolution — turn it down a
-     little rather than pushing it further. */
-  :root { --tv-zoom: 1.4; }
   body {
     margin: 0;
     background: var(--bg);
     font-family: 'Segoe UI', Roboto, Arial, sans-serif;
     color: var(--text);
     padding: 2rem;
-    zoom: var(--tv-zoom);
   }
   .screen { max-width: 1400px; margin: 0 auto; }
   .header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 2rem; }
   .header-left { display: flex; align-items: center; gap: 16px; }
-  .logo { height: 52px; width: auto; }
+  .logo { width: 52px; height: 52px; border-radius: 12px; background: var(--gold); display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 20px; color: #0F1B33; }
   .title { font-size: 28px; font-weight: 600; margin: 0; }
   .subtitle { font-size: 16px; color: var(--muted); margin: 0; }
   .updated { color: var(--muted-dim); font-size: 15px; }
@@ -61,6 +53,9 @@
   .going-badge { width: 34px; height: 34px; border-radius: 50%; background: var(--avatar); display: flex; align-items: center; justify-content: center; font-size: 13px; color: var(--muted); font-weight: 600; flex-shrink: 0; }
 
   .scroll-v { height: 320px; overflow: hidden; position: relative; }
+  /* Duration is set inline by JS, scaled to the number of items - see
+     SECONDS_PER_ITEM below. Only the animation name/timing/looping are
+     fixed here. */
   .scroll-v .track { animation-name: scrollV; animation-timing-function: linear; animation-iteration-count: infinite; }
   .scroll-v:hover .track { animation-play-state: paused; }
   @keyframes scrollV { 0% { transform: translateY(0); } 100% { transform: translateY(-50%); } }
@@ -81,7 +76,7 @@
 <div class="screen">
   <div class="header">
     <div class="header-left">
-      <img src="h22-logo.png" alt="Hybrid 22" class="logo">
+      <div class="logo">H2</div>
       <div>
         <p class="title">Attendance Milestones</p>
         <p class="subtitle">Who we're celebrating this week</p>
@@ -93,7 +88,7 @@
   <div class="top-grid">
     <div class="card" id="major-card">
       <div class="card-header"><i class="ti ti-trophy" style="color: var(--gold);"></i><span class="card-title">Major Milestones</span></div>
-      <p class="card-subtitle">100 · 250 · 500 · 750 · 1000 classes</p>
+      <p class="card-subtitle">250 · 500 · 750 · 1000 classes</p>
       <div id="major-list"></div>
     </div>
 
@@ -113,6 +108,10 @@
 <script>
   const SCROLL_THRESHOLD = 6;
   const DATA_URL = 'milestone-screen-data.json';
+  // Roughly how long each person stays readable on screen before the next
+  // one scrolls into view. Total loop duration = items.length * this value,
+  // so a list of 8 and a list of 40 both stay equally readable per-person -
+  // a fixed duration would make a 40-person list fly past unreadably fast.
   const SECONDS_PER_ITEM = 2.5;
 
   function initials(name) {
@@ -171,6 +170,7 @@
       container.innerHTML = items.map(rowFn).join('');
       return;
     }
+    // Duplicate the list once so the vertical scroll loops seamlessly.
     const doubled = [...items, ...items];
     const duration = items.length * SECONDS_PER_ITEM;
     container.innerHTML = `<div class="scroll-v"><div class="track" style="animation-duration:${duration}s;">${doubled.map(rowFn).join('')}</div></div>`;
@@ -206,6 +206,9 @@
   }
 
   load();
+  // Kiosk display - reload the page hourly so the freshly-committed JSON
+  // (and this file itself, if it's ever updated) gets picked up without
+  // anyone touching the screen.
   setInterval(() => window.location.reload(), 60 * 60 * 1000);
 </script>
 </body>
