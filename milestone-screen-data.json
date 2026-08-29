@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28",
+  "generatedAt": "2026-08-29",
   "majorMilestones": [
     {
       "memberId": 30740717,
@@ -10,16 +10,6 @@
       "totalVisits": 100,
       "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/30740717.png?t=1787132164647",
       "date": "2026-08-28"
-    },
-    {
-      "memberId": 28109953,
-      "name": "Tash Crichton",
-      "milestone": 100,
-      "badgeName": "Built Different",
-      "major": true,
-      "totalVisits": 100,
-      "photoUrl": null,
-      "date": "2026-08-22"
     }
   ],
   "everyLevelUp": [
@@ -72,29 +62,19 @@
       "totalVisits": 150,
       "photoUrl": null,
       "date": "2026-08-25"
-    },
-    {
-      "memberId": 22150481,
-      "name": "Jane Faraimo",
-      "milestone": 150,
-      "badgeName": "The Unstoppable",
-      "major": false,
-      "totalVisits": 150,
-      "photoUrl": null,
-      "date": "2026-08-22"
-    },
-    {
-      "memberId": 31406581,
-      "name": "Alanah Fox",
-      "milestone": 50,
-      "badgeName": "Progress Seeker",
-      "major": false,
-      "totalVisits": 50,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/31406581.png?t=1787192786740",
-      "date": "2026-08-22"
     }
   ],
   "almostThere": [
+    {
+      "memberId": 28994259,
+      "name": "Jett Popinski",
+      "totalVisits": 99,
+      "photoUrl": null,
+      "nextMilestone": 100,
+      "classesToGo": 1,
+      "badgeName": "Built Different",
+      "major": true
+    },
     {
       "memberId": 31632835,
       "name": "Aymee Wilson",
@@ -116,6 +96,16 @@
       "major": false
     },
     {
+      "memberId": 29871768,
+      "name": "Leilani Aria",
+      "totalVisits": 99,
+      "photoUrl": null,
+      "nextMilestone": 100,
+      "classesToGo": 1,
+      "badgeName": "Built Different",
+      "major": true
+    },
+    {
       "memberId": 22178022,
       "name": "Angel Mills",
       "totalVisits": 199,
@@ -126,8 +116,8 @@
       "major": false
     },
     {
-      "memberId": 28994259,
-      "name": "Jett Popinski",
+      "memberId": 29800177,
+      "name": "Beth Car",
       "totalVisits": 98,
       "photoUrl": null,
       "nextMilestone": 100,
@@ -144,16 +134,6 @@
       "classesToGo": 2,
       "badgeName": "Progress Seeker",
       "major": false
-    },
-    {
-      "memberId": 29871768,
-      "name": "Leilani Aria",
-      "totalVisits": 98,
-      "photoUrl": null,
-      "nextMilestone": 100,
-      "classesToGo": 2,
-      "badgeName": "Built Different",
-      "major": true
     },
     {
       "memberId": 29570996,
