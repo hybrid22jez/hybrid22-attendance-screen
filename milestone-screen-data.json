@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29",
+  "generatedAt": "2026-08-30",
   "majorMilestones": [
     {
       "memberId": 30740717,
@@ -66,6 +66,16 @@
   ],
   "almostThere": [
     {
+      "memberId": 29871768,
+      "name": "Leilani Aria",
+      "totalVisits": 99,
+      "photoUrl": null,
+      "nextMilestone": 100,
+      "classesToGo": 1,
+      "badgeName": "Built Different",
+      "major": true
+    },
+    {
       "memberId": 28994259,
       "name": "Jett Popinski",
       "totalVisits": 99,
@@ -94,16 +104,6 @@
       "classesToGo": 1,
       "badgeName": "Progress Seeker",
       "major": false
-    },
-    {
-      "memberId": 29871768,
-      "name": "Leilani Aria",
-      "totalVisits": 99,
-      "photoUrl": null,
-      "nextMilestone": 100,
-      "classesToGo": 1,
-      "badgeName": "Built Different",
-      "major": true
     },
     {
       "memberId": 22178022,
