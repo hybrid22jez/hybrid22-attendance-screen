@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-08-30",
+  "generatedAt": "2026-08-31",
   "majorMilestones": [
+    {
+      "memberId": 28994259,
+      "name": "Jett Popinski",
+      "milestone": 100,
+      "badgeName": "Built Different",
+      "major": true,
+      "totalVisits": 100,
+      "photoUrl": null,
+      "date": "2026-08-31"
+    },
     {
       "memberId": 30740717,
       "name": "Kazandra Kennedy",
@@ -66,18 +76,18 @@
   ],
   "almostThere": [
     {
-      "memberId": 29871768,
-      "name": "Leilani Aria",
-      "totalVisits": 99,
-      "photoUrl": null,
-      "nextMilestone": 100,
+      "memberId": 30999898,
+      "name": "Cleve Fryer",
+      "totalVisits": 49,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/30999898.png?t=1787639422566",
+      "nextMilestone": 50,
       "classesToGo": 1,
-      "badgeName": "Built Different",
-      "major": true
+      "badgeName": "Progress Seeker",
+      "major": false
     },
     {
-      "memberId": 28994259,
-      "name": "Jett Popinski",
+      "memberId": 29871768,
+      "name": "Leilani Aria",
       "totalVisits": 99,
       "photoUrl": null,
       "nextMilestone": 100,
@@ -90,16 +100,6 @@
       "name": "Aymee Wilson",
       "totalVisits": 49,
       "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/31632835.png?t=1787637777318",
-      "nextMilestone": 50,
-      "classesToGo": 1,
-      "badgeName": "Progress Seeker",
-      "major": false
-    },
-    {
-      "memberId": 30999898,
-      "name": "Cleve Fryer",
-      "totalVisits": 49,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/30999898.png?t=1787639422566",
       "nextMilestone": 50,
       "classesToGo": 1,
       "badgeName": "Progress Seeker",
