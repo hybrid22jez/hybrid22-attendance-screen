@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-08-31",
+  "generatedAt": "2026-09-01",
   "majorMilestones": [
+    {
+      "memberId": 29871768,
+      "name": "Leilani Aria",
+      "milestone": 100,
+      "badgeName": "Built Different",
+      "major": true,
+      "totalVisits": 100,
+      "photoUrl": null,
+      "date": "2026-09-01"
+    },
     {
       "memberId": 28994259,
       "name": "Jett Popinski",
@@ -23,6 +33,36 @@
     }
   ],
   "everyLevelUp": [
+    {
+      "memberId": 22178022,
+      "name": "Angel Mills",
+      "milestone": 200,
+      "badgeName": "Hybrid Royalty",
+      "major": false,
+      "totalVisits": 200,
+      "photoUrl": null,
+      "date": "2026-09-01"
+    },
+    {
+      "memberId": 30999898,
+      "name": "Cleve Fryer",
+      "milestone": 50,
+      "badgeName": "Progress Seeker",
+      "major": false,
+      "totalVisits": 50,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/30999898.png?t=1787639422566",
+      "date": "2026-09-01"
+    },
+    {
+      "memberId": 31632835,
+      "name": "Aymee Wilson",
+      "milestone": 50,
+      "badgeName": "Progress Seeker",
+      "major": false,
+      "totalVisits": 50,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/31632835.png?t=1787637777318",
+      "date": "2026-09-01"
+    },
     {
       "memberId": 20971584,
       "name": "Mimi French-Wright",
@@ -52,42 +92,12 @@
       "totalVisits": 50,
       "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/31780863.png?t=1786955401854",
       "date": "2026-08-26"
-    },
-    {
-      "memberId": 27443770,
-      "name": "Monique Ezard",
-      "milestone": 150,
-      "badgeName": "The Unstoppable",
-      "major": false,
-      "totalVisits": 150,
-      "photoUrl": null,
-      "date": "2026-08-25"
-    },
-    {
-      "memberId": 22069723,
-      "name": "Juliana  Gartner",
-      "milestone": 150,
-      "badgeName": "The Unstoppable",
-      "major": false,
-      "totalVisits": 150,
-      "photoUrl": null,
-      "date": "2026-08-25"
     }
   ],
   "almostThere": [
     {
-      "memberId": 30999898,
-      "name": "Cleve Fryer",
-      "totalVisits": 49,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/30999898.png?t=1787639422566",
-      "nextMilestone": 50,
-      "classesToGo": 1,
-      "badgeName": "Progress Seeker",
-      "major": false
-    },
-    {
-      "memberId": 29871768,
-      "name": "Leilani Aria",
+      "memberId": 29800177,
+      "name": "Beth Car",
       "totalVisits": 99,
       "photoUrl": null,
       "nextMilestone": 100,
@@ -96,28 +106,8 @@
       "major": true
     },
     {
-      "memberId": 31632835,
-      "name": "Aymee Wilson",
-      "totalVisits": 49,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/31632835.png?t=1787637777318",
-      "nextMilestone": 50,
-      "classesToGo": 1,
-      "badgeName": "Progress Seeker",
-      "major": false
-    },
-    {
-      "memberId": 22178022,
-      "name": "Angel Mills",
-      "totalVisits": 199,
-      "photoUrl": null,
-      "nextMilestone": 200,
-      "classesToGo": 1,
-      "badgeName": "Hybrid Royalty",
-      "major": false
-    },
-    {
-      "memberId": 29800177,
-      "name": "Beth Car",
+      "memberId": 20972505,
+      "name": "Wendy Cook",
       "totalVisits": 98,
       "photoUrl": null,
       "nextMilestone": 100,
@@ -126,10 +116,30 @@
       "major": true
     },
     {
+      "memberId": 31975887,
+      "name": "Wendy C",
+      "totalVisits": 48,
+      "photoUrl": null,
+      "nextMilestone": 50,
+      "classesToGo": 2,
+      "badgeName": "Progress Seeker",
+      "major": false
+    },
+    {
       "memberId": 31147494,
       "name": "Esta Rarere",
       "totalVisits": 48,
       "photoUrl": null,
+      "nextMilestone": 50,
+      "classesToGo": 2,
+      "badgeName": "Progress Seeker",
+      "major": false
+    },
+    {
+      "memberId": 20603239,
+      "name": "Jennifer  peters",
+      "totalVisits": 48,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/20603239.png?t=1787639088618",
       "nextMilestone": 50,
       "classesToGo": 2,
       "badgeName": "Progress Seeker",
