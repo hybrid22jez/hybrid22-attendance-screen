@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-09-01",
+  "generatedAt": "2026-09-02",
   "majorMilestones": [
+    {
+      "memberId": 29800177,
+      "name": "Beth Car",
+      "milestone": 100,
+      "badgeName": "Built Different",
+      "major": true,
+      "totalVisits": 100,
+      "photoUrl": null,
+      "date": "2026-09-02"
+    },
     {
       "memberId": 29871768,
       "name": "Leilani Aria",
@@ -82,28 +92,28 @@
       "totalVisits": 350,
       "photoUrl": null,
       "date": "2026-08-28"
-    },
-    {
-      "memberId": 31780863,
-      "name": "Mudit Shukla",
-      "milestone": 50,
-      "badgeName": "Progress Seeker",
-      "major": false,
-      "totalVisits": 50,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/31780863.png?t=1786955401854",
-      "date": "2026-08-26"
     }
   ],
   "almostThere": [
     {
-      "memberId": 29800177,
-      "name": "Beth Car",
-      "totalVisits": 99,
+      "memberId": 31147494,
+      "name": "Esta Rarere",
+      "totalVisits": 49,
       "photoUrl": null,
-      "nextMilestone": 100,
+      "nextMilestone": 50,
       "classesToGo": 1,
-      "badgeName": "Built Different",
-      "major": true
+      "badgeName": "Progress Seeker",
+      "major": false
+    },
+    {
+      "memberId": 20603239,
+      "name": "Jennifer  peters",
+      "totalVisits": 49,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/20603239.png?t=1787639088618",
+      "nextMilestone": 50,
+      "classesToGo": 1,
+      "badgeName": "Progress Seeker",
+      "major": false
     },
     {
       "memberId": 20972505,
@@ -126,20 +136,10 @@
       "major": false
     },
     {
-      "memberId": 31147494,
-      "name": "Esta Rarere",
+      "memberId": 32120014,
+      "name": "Mary Selave",
       "totalVisits": 48,
-      "photoUrl": null,
-      "nextMilestone": 50,
-      "classesToGo": 2,
-      "badgeName": "Progress Seeker",
-      "major": false
-    },
-    {
-      "memberId": 20603239,
-      "name": "Jennifer  peters",
-      "totalVisits": 48,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/20603239.png?t=1787639088618",
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/32120014.png?t=1780635887664",
       "nextMilestone": 50,
       "classesToGo": 2,
       "badgeName": "Progress Seeker",
