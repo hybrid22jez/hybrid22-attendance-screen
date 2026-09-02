@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02",
+  "generatedAt": "2026-09-03",
   "majorMilestones": [
     {
       "memberId": 29800177,
@@ -43,6 +43,16 @@
     }
   ],
   "everyLevelUp": [
+    {
+      "memberId": 31147494,
+      "name": "Esta Rarere",
+      "milestone": 50,
+      "badgeName": "Progress Seeker",
+      "major": false,
+      "totalVisits": 50,
+      "photoUrl": null,
+      "date": "2026-09-03"
+    },
     {
       "memberId": 22178022,
       "name": "Angel Mills",
@@ -96,14 +106,24 @@
   ],
   "almostThere": [
     {
-      "memberId": 31147494,
-      "name": "Esta Rarere",
+      "memberId": 29570996,
+      "name": "Sela Niu",
       "totalVisits": 49,
       "photoUrl": null,
       "nextMilestone": 50,
       "classesToGo": 1,
       "badgeName": "Progress Seeker",
       "major": false
+    },
+    {
+      "memberId": 20972505,
+      "name": "Wendy Cook",
+      "totalVisits": 99,
+      "photoUrl": null,
+      "nextMilestone": 100,
+      "classesToGo": 1,
+      "badgeName": "Built Different",
+      "major": true
     },
     {
       "memberId": 20603239,
@@ -114,16 +134,6 @@
       "classesToGo": 1,
       "badgeName": "Progress Seeker",
       "major": false
-    },
-    {
-      "memberId": 20972505,
-      "name": "Wendy Cook",
-      "totalVisits": 98,
-      "photoUrl": null,
-      "nextMilestone": 100,
-      "classesToGo": 2,
-      "badgeName": "Built Different",
-      "major": true
     },
     {
       "memberId": 31975887,
@@ -140,16 +150,6 @@
       "name": "Mary Selave",
       "totalVisits": 48,
       "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/32120014.png?t=1780635887664",
-      "nextMilestone": 50,
-      "classesToGo": 2,
-      "badgeName": "Progress Seeker",
-      "major": false
-    },
-    {
-      "memberId": 29570996,
-      "name": "Sela Niu",
-      "totalVisits": 48,
-      "photoUrl": null,
       "nextMilestone": 50,
       "classesToGo": 2,
       "badgeName": "Progress Seeker",
