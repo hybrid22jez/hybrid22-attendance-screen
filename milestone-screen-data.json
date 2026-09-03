@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03",
+  "generatedAt": "2026-09-04",
   "majorMilestones": [
     {
       "memberId": 29800177,
@@ -30,16 +30,6 @@
       "totalVisits": 100,
       "photoUrl": null,
       "date": "2026-08-31"
-    },
-    {
-      "memberId": 30740717,
-      "name": "Kazandra Kennedy",
-      "milestone": 100,
-      "badgeName": "Built Different",
-      "major": true,
-      "totalVisits": 100,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/30740717.png?t=1787132164647",
-      "date": "2026-08-28"
     }
   ],
   "everyLevelUp": [
@@ -82,32 +72,22 @@
       "totalVisits": 50,
       "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/31632835.png?t=1787637777318",
       "date": "2026-09-01"
-    },
-    {
-      "memberId": 20971584,
-      "name": "Mimi French-Wright",
-      "milestone": 450,
-      "badgeName": "The Unbreakable One",
-      "major": false,
-      "totalVisits": 451,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/20971584.png?t=1740829858590",
-      "date": "2026-08-28"
-    },
-    {
-      "memberId": 20971015,
-      "name": "Jacob Mcmahon",
-      "milestone": 350,
-      "badgeName": "Hybrid Hall of Fame",
-      "major": false,
-      "totalVisits": 350,
-      "photoUrl": null,
-      "date": "2026-08-28"
     }
   ],
   "almostThere": [
     {
-      "memberId": 29570996,
-      "name": "Sela Niu",
+      "memberId": 20603239,
+      "name": "Jennifer  peters",
+      "totalVisits": 49,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/20603239.png?t=1787639088618",
+      "nextMilestone": 50,
+      "classesToGo": 1,
+      "badgeName": "Progress Seeker",
+      "major": false
+    },
+    {
+      "memberId": 31975887,
+      "name": "Wendy C",
       "totalVisits": 49,
       "photoUrl": null,
       "nextMilestone": 50,
@@ -126,30 +106,50 @@
       "major": true
     },
     {
-      "memberId": 20603239,
-      "name": "Jennifer  peters",
+      "memberId": 29570996,
+      "name": "Sela Niu",
       "totalVisits": 49,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/20603239.png?t=1787639088618",
+      "photoUrl": null,
       "nextMilestone": 50,
       "classesToGo": 1,
       "badgeName": "Progress Seeker",
       "major": false
     },
     {
-      "memberId": 31975887,
-      "name": "Wendy C",
-      "totalVisits": 48,
+      "memberId": 32120014,
+      "name": "Mary Selave",
+      "totalVisits": 49,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/32120014.png?t=1780635887664",
+      "nextMilestone": 50,
+      "classesToGo": 1,
+      "badgeName": "Progress Seeker",
+      "major": false
+    },
+    {
+      "memberId": 20970483,
+      "name": "Caitlyn Wendelborn",
+      "totalVisits": 498,
       "photoUrl": null,
+      "nextMilestone": 500,
+      "classesToGo": 2,
+      "badgeName": "The Relentless Machine",
+      "major": true
+    },
+    {
+      "memberId": 30985435,
+      "name": "Joseph Vite",
+      "totalVisits": 48,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/30985435.png?t=1787812125979",
       "nextMilestone": 50,
       "classesToGo": 2,
       "badgeName": "Progress Seeker",
       "major": false
     },
     {
-      "memberId": 32120014,
-      "name": "Mary Selave",
+      "memberId": 32525085,
+      "name": "Soo Opetaia",
       "totalVisits": 48,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/32120014.png?t=1780635887664",
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/32525085.png?t=1788306561562",
       "nextMilestone": 50,
       "classesToGo": 2,
       "badgeName": "Progress Seeker",
