@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04",
+  "generatedAt": "2026-09-05",
   "majorMilestones": [
     {
       "memberId": 29800177,
@@ -33,6 +33,16 @@
     }
   ],
   "everyLevelUp": [
+    {
+      "memberId": 20603239,
+      "name": "Jennifer  peters",
+      "milestone": 50,
+      "badgeName": "Progress Seeker",
+      "major": false,
+      "totalVisits": 50,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/20603239.png?t=1787639088618",
+      "date": "2026-09-05"
+    },
     {
       "memberId": 31147494,
       "name": "Esta Rarere",
@@ -76,16 +86,6 @@
   ],
   "almostThere": [
     {
-      "memberId": 20603239,
-      "name": "Jennifer  peters",
-      "totalVisits": 49,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/20603239.png?t=1787639088618",
-      "nextMilestone": 50,
-      "classesToGo": 1,
-      "badgeName": "Progress Seeker",
-      "major": false
-    },
-    {
       "memberId": 31975887,
       "name": "Wendy C",
       "totalVisits": 49,
@@ -116,42 +116,42 @@
       "major": false
     },
     {
-      "memberId": 32120014,
-      "name": "Mary Selave",
-      "totalVisits": 49,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/32120014.png?t=1780635887664",
-      "nextMilestone": 50,
-      "classesToGo": 1,
-      "badgeName": "Progress Seeker",
-      "major": false
-    },
-    {
       "memberId": 20970483,
       "name": "Caitlyn Wendelborn",
-      "totalVisits": 498,
+      "totalVisits": 499,
       "photoUrl": null,
       "nextMilestone": 500,
-      "classesToGo": 2,
+      "classesToGo": 1,
       "badgeName": "The Relentless Machine",
       "major": true
     },
     {
       "memberId": 30985435,
       "name": "Joseph Vite",
-      "totalVisits": 48,
+      "totalVisits": 49,
       "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/30985435.png?t=1787812125979",
       "nextMilestone": 50,
-      "classesToGo": 2,
+      "classesToGo": 1,
       "badgeName": "Progress Seeker",
       "major": false
     },
     {
       "memberId": 32525085,
       "name": "Soo Opetaia",
-      "totalVisits": 48,
+      "totalVisits": 49,
       "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/32525085.png?t=1788306561562",
       "nextMilestone": 50,
-      "classesToGo": 2,
+      "classesToGo": 1,
+      "badgeName": "Progress Seeker",
+      "major": false
+    },
+    {
+      "memberId": 32120014,
+      "name": "Mary Selave",
+      "totalVisits": 49,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/32120014.png?t=1780635887664",
+      "nextMilestone": 50,
+      "classesToGo": 1,
       "badgeName": "Progress Seeker",
       "major": false
     }
