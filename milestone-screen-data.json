@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06",
+  "generatedAt": "2026-09-07",
   "majorMilestones": [
     {
       "memberId": 20972505,
@@ -40,16 +40,6 @@
       "totalVisits": 100,
       "photoUrl": null,
       "date": "2026-09-01"
-    },
-    {
-      "memberId": 28994259,
-      "name": "Jett Popinski",
-      "milestone": 100,
-      "badgeName": "Built Different",
-      "major": true,
-      "totalVisits": 100,
-      "photoUrl": null,
-      "date": "2026-08-31"
     }
   ],
   "everyLevelUp": [
@@ -126,16 +116,6 @@
       "major": false
     },
     {
-      "memberId": 29570996,
-      "name": "Sela Niu",
-      "totalVisits": 49,
-      "photoUrl": null,
-      "nextMilestone": 50,
-      "classesToGo": 1,
-      "badgeName": "Progress Seeker",
-      "major": false
-    },
-    {
       "memberId": 30985435,
       "name": "Joseph Vite",
       "totalVisits": 49,
@@ -156,6 +136,26 @@
       "major": false
     },
     {
+      "memberId": 29570996,
+      "name": "Sela Niu",
+      "totalVisits": 49,
+      "photoUrl": null,
+      "nextMilestone": 50,
+      "classesToGo": 1,
+      "badgeName": "Progress Seeker",
+      "major": false
+    },
+    {
+      "memberId": 31087429,
+      "name": "Tevita Vaai",
+      "totalVisits": 98,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/31087429.png?t=1786997234001",
+      "nextMilestone": 100,
+      "classesToGo": 2,
+      "badgeName": "Built Different",
+      "major": true
+    },
+    {
       "memberId": 28069509,
       "name": "Gabriella Cringasu",
       "totalVisits": 98,
@@ -174,16 +174,6 @@
       "classesToGo": 2,
       "badgeName": "Progress Seeker",
       "major": false
-    },
-    {
-      "memberId": 31087429,
-      "name": "Tevita Vaai",
-      "totalVisits": 98,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/31087429.png?t=1786997234001",
-      "nextMilestone": 100,
-      "classesToGo": 2,
-      "badgeName": "Built Different",
-      "major": true
     }
   ]
 }
