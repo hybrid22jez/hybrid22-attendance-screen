@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-09-07",
+  "generatedAt": "2026-09-08",
   "majorMilestones": [
+    {
+      "memberId": 31087429,
+      "name": "Tevita Vaai",
+      "milestone": 100,
+      "badgeName": "Built Different",
+      "major": true,
+      "totalVisits": 100,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/31087429.png?t=1786997234001",
+      "date": "2026-09-08"
+    },
     {
       "memberId": 20972505,
       "name": "Wendy Cook",
@@ -30,19 +40,29 @@
       "totalVisits": 100,
       "photoUrl": null,
       "date": "2026-09-02"
-    },
-    {
-      "memberId": 29871768,
-      "name": "Leilani Aria",
-      "milestone": 100,
-      "badgeName": "Built Different",
-      "major": true,
-      "totalVisits": 100,
-      "photoUrl": null,
-      "date": "2026-09-01"
     }
   ],
   "everyLevelUp": [
+    {
+      "memberId": 31975887,
+      "name": "Wendy C",
+      "milestone": 50,
+      "badgeName": "Progress Seeker",
+      "major": false,
+      "totalVisits": 51,
+      "photoUrl": null,
+      "date": "2026-09-08"
+    },
+    {
+      "memberId": 32525085,
+      "name": "Soo Opetaia",
+      "milestone": 50,
+      "badgeName": "Progress Seeker",
+      "major": false,
+      "totalVisits": 50,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/32525085.png?t=1788306561562",
+      "date": "2026-09-08"
+    },
     {
       "memberId": 32120014,
       "name": "Mary Selave",
@@ -72,49 +92,9 @@
       "totalVisits": 50,
       "photoUrl": null,
       "date": "2026-09-03"
-    },
-    {
-      "memberId": 22178022,
-      "name": "Angel Mills",
-      "milestone": 200,
-      "badgeName": "Hybrid Royalty",
-      "major": false,
-      "totalVisits": 200,
-      "photoUrl": null,
-      "date": "2026-09-01"
-    },
-    {
-      "memberId": 30999898,
-      "name": "Cleve Fryer",
-      "milestone": 50,
-      "badgeName": "Progress Seeker",
-      "major": false,
-      "totalVisits": 50,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/30999898.png?t=1787639422566",
-      "date": "2026-09-01"
-    },
-    {
-      "memberId": 31632835,
-      "name": "Aymee Wilson",
-      "milestone": 50,
-      "badgeName": "Progress Seeker",
-      "major": false,
-      "totalVisits": 50,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/31632835.png?t=1787637777318",
-      "date": "2026-09-01"
     }
   ],
   "almostThere": [
-    {
-      "memberId": 31975887,
-      "name": "Wendy C",
-      "totalVisits": 49,
-      "photoUrl": null,
-      "nextMilestone": 50,
-      "classesToGo": 1,
-      "badgeName": "Progress Seeker",
-      "major": false
-    },
     {
       "memberId": 30985435,
       "name": "Joseph Vite",
@@ -126,14 +106,14 @@
       "major": false
     },
     {
-      "memberId": 32525085,
-      "name": "Soo Opetaia",
-      "totalVisits": 49,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/32525085.png?t=1788306561562",
-      "nextMilestone": 50,
+      "memberId": 28069509,
+      "name": "Gabriella Cringasu",
+      "totalVisits": 99,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/28069509.png?t=1787639317801",
+      "nextMilestone": 100,
       "classesToGo": 1,
-      "badgeName": "Progress Seeker",
-      "major": false
+      "badgeName": "Built Different",
+      "major": true
     },
     {
       "memberId": 29570996,
@@ -144,26 +124,6 @@
       "classesToGo": 1,
       "badgeName": "Progress Seeker",
       "major": false
-    },
-    {
-      "memberId": 31087429,
-      "name": "Tevita Vaai",
-      "totalVisits": 98,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/31087429.png?t=1786997234001",
-      "nextMilestone": 100,
-      "classesToGo": 2,
-      "badgeName": "Built Different",
-      "major": true
-    },
-    {
-      "memberId": 28069509,
-      "name": "Gabriella Cringasu",
-      "totalVisits": 98,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/28069509.png?t=1787639317801",
-      "nextMilestone": 100,
-      "classesToGo": 2,
-      "badgeName": "Built Different",
-      "major": true
     },
     {
       "memberId": 31121081,
