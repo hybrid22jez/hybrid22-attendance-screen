@@ -1,6 +1,26 @@
 {
-  "generatedAt": "2026-09-10",
+  "generatedAt": "2026-09-11",
   "majorMilestones": [
+    {
+      "memberId": 26920766,
+      "name": "Joseph  Maota",
+      "milestone": 100,
+      "badgeName": "Built Different",
+      "major": true,
+      "totalVisits": 100,
+      "photoUrl": null,
+      "date": "2026-09-11"
+    },
+    {
+      "memberId": 28069509,
+      "name": "Gabriella Cringasu",
+      "milestone": 100,
+      "badgeName": "Built Different",
+      "major": true,
+      "totalVisits": 100,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/28069509.png?t=1787639317801",
+      "date": "2026-09-11"
+    },
     {
       "memberId": 31087429,
       "name": "Tevita Vaai",
@@ -86,26 +106,6 @@
   ],
   "almostThere": [
     {
-      "memberId": 26920766,
-      "name": "Joseph  Maota",
-      "totalVisits": 99,
-      "photoUrl": null,
-      "nextMilestone": 100,
-      "classesToGo": 1,
-      "badgeName": "Built Different",
-      "major": true
-    },
-    {
-      "memberId": 28069509,
-      "name": "Gabriella Cringasu",
-      "totalVisits": 99,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/28069509.png?t=1787639317801",
-      "nextMilestone": 100,
-      "classesToGo": 1,
-      "badgeName": "Built Different",
-      "major": true
-    },
-    {
       "memberId": 29570996,
       "name": "Sela Niu",
       "totalVisits": 49,
@@ -126,10 +126,30 @@
       "major": false
     },
     {
+      "memberId": 23659580,
+      "name": "Martha Metuisela",
+      "totalVisits": 348,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/23659580.png?t=1786792054617",
+      "nextMilestone": 350,
+      "classesToGo": 2,
+      "badgeName": "Hybrid Hall of Fame",
+      "major": false
+    },
+    {
       "memberId": 31121081,
       "name": "Barris Kirkman",
       "totalVisits": 48,
       "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/31121081.png?t=1787741421712",
+      "nextMilestone": 50,
+      "classesToGo": 2,
+      "badgeName": "Progress Seeker",
+      "major": false
+    },
+    {
+      "memberId": 29579617,
+      "name": "Madeline Brown",
+      "totalVisits": 48,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/29579617.png?t=1787142042725",
       "nextMilestone": 50,
       "classesToGo": 2,
       "badgeName": "Progress Seeker",
