@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11",
+  "generatedAt": "2026-09-12",
   "majorMilestones": [
     {
       "memberId": 26920766,
@@ -92,19 +92,19 @@
       "totalVisits": 50,
       "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/32120014.png?t=1780635887664",
       "date": "2026-09-06"
-    },
-    {
-      "memberId": 20603239,
-      "name": "Jennifer  peters",
-      "milestone": 50,
-      "badgeName": "Progress Seeker",
-      "major": false,
-      "totalVisits": 50,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/20603239.png?t=1787639088618",
-      "date": "2026-09-05"
     }
   ],
   "almostThere": [
+    {
+      "memberId": 31121081,
+      "name": "Barris Kirkman",
+      "totalVisits": 49,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/31121081.png?t=1787741421712",
+      "nextMilestone": 50,
+      "classesToGo": 1,
+      "badgeName": "Progress Seeker",
+      "major": false
+    },
     {
       "memberId": 29570996,
       "name": "Sela Niu",
@@ -116,10 +116,10 @@
       "major": false
     },
     {
-      "memberId": 29461653,
-      "name": "Shannon Briscoe",
+      "memberId": 29579617,
+      "name": "Madeline Brown",
       "totalVisits": 48,
-      "photoUrl": null,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/29579617.png?t=1787142042725",
       "nextMilestone": 50,
       "classesToGo": 2,
       "badgeName": "Progress Seeker",
@@ -136,20 +136,10 @@
       "major": false
     },
     {
-      "memberId": 31121081,
-      "name": "Barris Kirkman",
+      "memberId": 29461653,
+      "name": "Shannon Briscoe",
       "totalVisits": 48,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/31121081.png?t=1787741421712",
-      "nextMilestone": 50,
-      "classesToGo": 2,
-      "badgeName": "Progress Seeker",
-      "major": false
-    },
-    {
-      "memberId": 29579617,
-      "name": "Madeline Brown",
-      "totalVisits": 48,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/29579617.png?t=1787142042725",
+      "photoUrl": null,
       "nextMilestone": 50,
       "classesToGo": 2,
       "badgeName": "Progress Seeker",
