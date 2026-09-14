@@ -9,8 +9,8 @@ const path = require('path');
 const { google } = require('googleapis');
 
 // ---- Fill these in ----
-const SHEET_ID = '1SlD-lrcjTumjDzy33IjTCdniuhL9YXyHwctgeDWnz48'; // from the sheet's URL
-const SHEET_RANGE = 'Form Responses 1!A2:F'; // adjust tab name if different
+const SHEET_ID = 'PASTE_YOUR_SHEET_ID_HERE'; // from the sheet's URL
+const SHEET_RANGE = 'Form Responses 1!A2:F';
 // ------------------------
 
 function melbourneToday() {
@@ -43,9 +43,18 @@ function toNotices(rows) {
     .filter(n => n.title.trim().length > 0);
 }
 
+function parseAuDate(str, fallback) {
+  // Expects dd/mm/yyyy (as set in the sheet's locale). Returns an ISO
+  // yyyy-mm-dd string so it can be compared safely against today's date.
+  if (!str) return fallback;
+  const [day, month, year] = str.split('/');
+  if (!day || !month || !year) return fallback;
+  return `${year}-${month.padStart(2, '0')}-${day.padStart(2, '0')}`;
+}
+
 function isLive(notice, today) {
-  const from = notice.showFrom || '0000-01-01';
-  const until = notice.showUntil || '9999-12-31';
+  const from = parseAuDate(notice.showFrom, '0000-01-01');
+  const until = parseAuDate(notice.showUntil, '9999-12-31');
   return from <= today && today <= until;
 }
 
