@@ -1,0 +1,119 @@
+{
+  "generatedAt": "2026-09-14",
+  "majorMilestones": [
+    {
+      "memberId": 26920766,
+      "name": "Joseph  Maota",
+      "milestone": 100,
+      "badgeName": "Built Different",
+      "major": true,
+      "totalVisits": 100,
+      "photoUrl": null,
+      "date": "2026-09-11"
+    },
+    {
+      "memberId": 28069509,
+      "name": "Gabriella Cringasu",
+      "milestone": 100,
+      "badgeName": "Built Different",
+      "major": true,
+      "totalVisits": 100,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/28069509.png?t=1787639317801",
+      "date": "2026-09-11"
+    },
+    {
+      "memberId": 31087429,
+      "name": "Tevita Vaai",
+      "milestone": 100,
+      "badgeName": "Built Different",
+      "major": true,
+      "totalVisits": 100,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/31087429.png?t=1786997234001",
+      "date": "2026-09-08"
+    }
+  ],
+  "everyLevelUp": [
+    {
+      "memberId": 23659580,
+      "name": "Martha Metuisela",
+      "milestone": 350,
+      "badgeName": "Hybrid Hall of Fame",
+      "major": false,
+      "totalVisits": 350,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/23659580.png?t=1786792054617",
+      "date": "2026-09-14"
+    },
+    {
+      "memberId": 30985435,
+      "name": "Joseph Vite",
+      "milestone": 50,
+      "badgeName": "Progress Seeker",
+      "major": false,
+      "totalVisits": 50,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/30985435.png?t=1787812125979",
+      "date": "2026-09-09"
+    },
+    {
+      "memberId": 31975887,
+      "name": "Wendy C",
+      "milestone": 50,
+      "badgeName": "Progress Seeker",
+      "major": false,
+      "totalVisits": 51,
+      "photoUrl": null,
+      "date": "2026-09-08"
+    },
+    {
+      "memberId": 32525085,
+      "name": "Soo Opetaia",
+      "milestone": 50,
+      "badgeName": "Progress Seeker",
+      "major": false,
+      "totalVisits": 50,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/32525085.png?t=1788306561562",
+      "date": "2026-09-08"
+    }
+  ],
+  "almostThere": [
+    {
+      "memberId": 31121081,
+      "name": "Barris Kirkman",
+      "totalVisits": 49,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/31121081.png?t=1787741421712",
+      "nextMilestone": 50,
+      "classesToGo": 1,
+      "badgeName": "Progress Seeker",
+      "major": false
+    },
+    {
+      "memberId": 29570996,
+      "name": "Sela Niu",
+      "totalVisits": 49,
+      "photoUrl": null,
+      "nextMilestone": 50,
+      "classesToGo": 1,
+      "badgeName": "Progress Seeker",
+      "major": false
+    },
+    {
+      "memberId": 29579617,
+      "name": "Madeline Brown",
+      "totalVisits": 48,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/29579617.png?t=1787142042725",
+      "nextMilestone": 50,
+      "classesToGo": 2,
+      "badgeName": "Progress Seeker",
+      "major": false
+    },
+    {
+      "memberId": 29461653,
+      "name": "Shannon Briscoe",
+      "totalVisits": 48,
+      "photoUrl": null,
+      "nextMilestone": 50,
+      "classesToGo": 2,
+      "badgeName": "Progress Seeker",
+      "major": false
+    }
+  ]
+}
