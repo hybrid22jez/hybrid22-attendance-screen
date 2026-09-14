@@ -9,7 +9,7 @@ const path = require('path');
 const { google } = require('googleapis');
 
 // ---- Fill these in ----
-const SHEET_ID = 'PASTE_YOUR_SHEET_ID_HERE'; // from the sheet's URL
+const SHEET_ID = '1SlD-lrcjTumjDzy33IjTCdniuhL9YXyHwctgeDWnz48'; // from the sheet's URL
 const SHEET_RANGE = 'Form Responses 1!A2:F'; // adjust tab name if different
 // ------------------------
 
