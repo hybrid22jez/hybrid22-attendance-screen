@@ -92,7 +92,13 @@ function renderPage(notices) {
     font-size:22px;
     letter-spacing:0.02em;
     color:#C23B22;
+    margin:0 0 6px;
+  }
+  .prompt{
+    font-size:14px;
+    color:#9A968C;
     margin:0 0 28px;
+    font-style:italic;
   }
   .notice{
     border-bottom:1px solid #333;
@@ -118,6 +124,7 @@ function renderPage(notices) {
 </head>
 <body>
   <h1>Hybrid 22 — This Week</h1>
+  <p class="prompt">Read it with energy, not just words off a page. Tonality matters.</p>
   ${items}
 </body>
 </html>`;
