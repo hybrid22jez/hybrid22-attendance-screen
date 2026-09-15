@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15",
+  "generatedAt": "2026-09-16",
   "majorMilestones": [
     {
       "memberId": 26920766,
@@ -24,6 +24,16 @@
   ],
   "everyLevelUp": [
     {
+      "memberId": 31121081,
+      "name": "Barris Kirkman",
+      "milestone": 50,
+      "badgeName": "Progress Seeker",
+      "major": false,
+      "totalVisits": 50,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/31121081.png?t=1787741421712",
+      "date": "2026-09-16"
+    },
+    {
       "memberId": 23659580,
       "name": "Martha Metuisela",
       "milestone": 350,
@@ -32,16 +42,6 @@
       "totalVisits": 350,
       "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/23659580.png?t=1786792054617",
       "date": "2026-09-14"
-    },
-    {
-      "memberId": 30985435,
-      "name": "Joseph Vite",
-      "milestone": 50,
-      "badgeName": "Progress Seeker",
-      "major": false,
-      "totalVisits": 50,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/30985435.png?t=1787812125979",
-      "date": "2026-09-09"
     }
   ],
   "almostThere": [
@@ -56,13 +56,13 @@
       "major": false
     },
     {
-      "memberId": 31121081,
-      "name": "Barris Kirkman",
-      "totalVisits": 49,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/31121081.png?t=1787741421712",
-      "nextMilestone": 50,
+      "memberId": 24424077,
+      "name": "Sineva Siau",
+      "totalVisits": 199,
+      "photoUrl": null,
+      "nextMilestone": 200,
       "classesToGo": 1,
-      "badgeName": "Progress Seeker",
+      "badgeName": "Hybrid Royalty",
       "major": false
     },
     {
@@ -73,16 +73,6 @@
       "nextMilestone": 50,
       "classesToGo": 1,
       "badgeName": "Progress Seeker",
-      "major": false
-    },
-    {
-      "memberId": 24424077,
-      "name": "Sineva Siau",
-      "totalVisits": 198,
-      "photoUrl": null,
-      "nextMilestone": 200,
-      "classesToGo": 2,
-      "badgeName": "Hybrid Royalty",
       "major": false
     },
     {
