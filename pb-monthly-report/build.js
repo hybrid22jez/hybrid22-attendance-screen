@@ -11,7 +11,7 @@ const { google } = require('googleapis');
 
 // ---- Fill these in ----
 const SHEET_ID = '1_bzQsJkbg_QUfD9BWWStT1qUFkHedYfekNnDOTZ9xC4'; // the "PB Board Sync" sheet's URL
-const RECIPIENTS = ['zane.hybrid22@gmail.com', 'kat.j.fitness@gmail.com'];
+const RECIPIENTS = ['zane.hybrid22@gmail.com', 'kat.j.fitness@gmail.com', 'jezaem.hybrid22@gmail.com'];
 // ------------------------
 
 const STATE_PATH = path.join(__dirname, 'state.json');
@@ -28,6 +28,20 @@ function isLastDayOfMonth() {
   const today = melbourneDateParts(0);
   const tomorrow = melbourneDateParts(1);
   return tomorrow.month !== today.month;
+}
+
+// Mirrors the board's own formatValue() — mm:ss under an hour, h:mm:ss beyond.
+function formatTimeValue(totalSeconds) {
+  const total = Math.round(totalSeconds);
+  const hours = Math.floor(total / 3600);
+  const mins = Math.floor((total % 3600) / 60);
+  const secs = total % 60;
+  const pad = n => (n < 10 ? '0' : '') + n;
+  return hours > 0 ? `${hours}:${pad(mins)}:${pad(secs)}` : `${mins}:${pad(secs)}`;
+}
+
+function formatValue(unit, value) {
+  return unit === 'time' ? formatTimeValue(value) : `${value}kg`;
 }
 
 async function getSheetRows(sheets, range) {
@@ -81,10 +95,6 @@ async function main() {
 
   // ---- New PBs this month (from Entries — each row is a member's current best) ----
   const newPbsThisMonth = entryRows.filter(r => (r.updatedAt || '').slice(0, 7) === thisMonth);
-  const newPbsByLift = {};
-  newPbsThisMonth.forEach(r => {
-    newPbsByLift[r.liftName] = (newPbsByLift[r.liftName] || 0) + 1;
-  });
 
   // ---- Parse history records, find this month's attempts + improvers ----
   const participantsThisMonth = new Set();
@@ -134,12 +144,17 @@ async function main() {
   saveState({ lastParticipantCount: participantsThisMonth.size, lastRunMonth: thisMonth });
 
   // ---- Compose the email ----
-  const liftBreakdownLines = Object.entries(newPbsByLift)
-    .map(([lift, count]) => `  - ${lift}: ${count}`)
+  const newPbLines = newPbsThisMonth
+    .map(r => `  - ${r.member} — ${r.liftName} (${r.reps}RM): ${formatValue(r.unit, r.weight)}`)
     .join('\n') || '  (none logged this month)';
 
   const improverLines = topImprovers
-    .map(i => `  - ${i.member} — ${i.lift}: ${i.unit === 'time' ? 'improved time' : (i.delta > 0 ? '+' : '') + i.delta + 'kg'}`)
+    .map(i => {
+      const change = i.unit === 'time'
+        ? `${Math.abs(i.delta) >= 60 ? formatTimeValue(Math.abs(i.delta)) : Math.abs(i.delta) + 's'} faster`
+        : `${i.delta > 0 ? '+' : ''}${i.delta}kg`;
+      return `  - ${i.member} — ${i.lift}: ${change}`;
+    })
     .join('\n') || '  (not enough data yet to compare)';
 
   const trendLine = participantDelta === null
@@ -149,16 +164,19 @@ async function main() {
   const body = `
 Hybrid 22 — PB Board Monthly Report (${thisMonth})
 
-FOR KAT — training metrics
+OVERVIEW
 ----------------------------------
-New PBs logged this month: ${newPbsThisMonth.length}
-By lift:
-${liftBreakdownLines}
+${participantsThisMonth.size} members logged a lift this month (${trendLine}), with ${newPbsThisMonth.length} new PBs set across ${Object.keys(newPbsThisMonth.reduce((acc, r) => { acc[r.liftName] = true; return acc; }, {})).length} different lifts.
 
-Top improvers this month:
+NEW PBs THIS MONTH
+----------------------------------
+${newPbLines}
+
+TOP IMPROVERS THIS MONTH
+----------------------------------
 ${improverLines}
 
-FOR ZANE — participation & engagement
+PARTICIPATION & ENGAGEMENT
 ----------------------------------
 Members who logged at least one lift this month: ${participantsThisMonth.size} (${trendLine})
 Gender split: ${genderCount.M} male, ${genderCount.F} female
