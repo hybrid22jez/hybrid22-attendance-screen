@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16",
+  "generatedAt": "2026-09-17",
   "majorMilestones": [
     {
       "memberId": 26920766,
@@ -24,6 +24,16 @@
   ],
   "everyLevelUp": [
     {
+      "memberId": 29579617,
+      "name": "Madeline Brown",
+      "milestone": 50,
+      "badgeName": "Progress Seeker",
+      "major": false,
+      "totalVisits": 51,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/29579617.png?t=1787142042725",
+      "date": "2026-09-17"
+    },
+    {
       "memberId": 31121081,
       "name": "Barris Kirkman",
       "milestone": 50,
@@ -46,10 +56,10 @@
   ],
   "almostThere": [
     {
-      "memberId": 29579617,
-      "name": "Madeline Brown",
+      "memberId": 29461653,
+      "name": "Shannon Briscoe",
       "totalVisits": 49,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/29579617.png?t=1787142042725",
+      "photoUrl": null,
       "nextMilestone": 50,
       "classesToGo": 1,
       "badgeName": "Progress Seeker",
@@ -76,13 +86,23 @@
       "major": false
     },
     {
-      "memberId": 29461653,
-      "name": "Shannon Briscoe",
-      "totalVisits": 48,
-      "photoUrl": null,
-      "nextMilestone": 50,
+      "memberId": 20970612,
+      "name": "Courtney Butler",
+      "totalVisits": 248,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/20970612.png?t=1788943130653",
+      "nextMilestone": 250,
       "classesToGo": 2,
-      "badgeName": "Progress Seeker",
+      "badgeName": "Super Saiyan",
+      "major": true
+    },
+    {
+      "memberId": 21002003,
+      "name": "Verona Villegas",
+      "totalVisits": 198,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/21002003.png?t=1787175638864",
+      "nextMilestone": 200,
+      "classesToGo": 2,
+      "badgeName": "Hybrid Royalty",
       "major": false
     }
   ]
