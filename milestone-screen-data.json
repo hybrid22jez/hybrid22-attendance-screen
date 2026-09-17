@@ -1,27 +1,6 @@
 {
-  "generatedAt": "2026-09-17",
-  "majorMilestones": [
-    {
-      "memberId": 26920766,
-      "name": "Joseph  Maota",
-      "milestone": 100,
-      "badgeName": "Built Different",
-      "major": true,
-      "totalVisits": 100,
-      "photoUrl": null,
-      "date": "2026-09-11"
-    },
-    {
-      "memberId": 28069509,
-      "name": "Gabriella Cringasu",
-      "milestone": 100,
-      "badgeName": "Built Different",
-      "major": true,
-      "totalVisits": 100,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/28069509.png?t=1787639317801",
-      "date": "2026-09-11"
-    }
-  ],
+  "generatedAt": "2026-09-18",
+  "majorMilestones": [],
   "everyLevelUp": [
     {
       "memberId": 29579617,
@@ -56,6 +35,26 @@
   ],
   "almostThere": [
     {
+      "memberId": 21002003,
+      "name": "Verona Villegas",
+      "totalVisits": 199,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/21002003.png?t=1787175638864",
+      "nextMilestone": 200,
+      "classesToGo": 1,
+      "badgeName": "Hybrid Royalty",
+      "major": false
+    },
+    {
+      "memberId": 20970612,
+      "name": "Courtney Butler",
+      "totalVisits": 249,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/20970612.png?t=1788943130653",
+      "nextMilestone": 250,
+      "classesToGo": 1,
+      "badgeName": "Super Saiyan",
+      "major": true
+    },
+    {
       "memberId": 29461653,
       "name": "Shannon Briscoe",
       "totalVisits": 49,
@@ -86,24 +85,14 @@
       "major": false
     },
     {
-      "memberId": 20970612,
-      "name": "Courtney Butler",
+      "memberId": 24491488,
+      "name": "Rima Malaki",
       "totalVisits": 248,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/20970612.png?t=1788943130653",
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/24491488.png?t=1787910333851",
       "nextMilestone": 250,
       "classesToGo": 2,
       "badgeName": "Super Saiyan",
       "major": true
-    },
-    {
-      "memberId": 21002003,
-      "name": "Verona Villegas",
-      "totalVisits": 198,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/21002003.png?t=1787175638864",
-      "nextMilestone": 200,
-      "classesToGo": 2,
-      "badgeName": "Hybrid Royalty",
-      "major": false
     }
   ]
 }
