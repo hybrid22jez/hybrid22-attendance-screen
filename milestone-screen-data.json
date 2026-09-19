@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-09-19",
-  "majorMilestones": [],
+  "generatedAt": "2026-09-20",
+  "majorMilestones": [
+    {
+      "memberId": 20970612,
+      "name": "Courtney Butler",
+      "milestone": 250,
+      "badgeName": "Super Saiyan",
+      "major": true,
+      "totalVisits": 251,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/20970612.png?t=1788943130653",
+      "date": "2026-09-20"
+    }
+  ],
   "everyLevelUp": [
     {
       "memberId": 29579617,
@@ -35,10 +46,20 @@
   ],
   "almostThere": [
     {
-      "memberId": 20970612,
-      "name": "Courtney Butler",
+      "memberId": 24424077,
+      "name": "Sineva Siau",
+      "totalVisits": 199,
+      "photoUrl": null,
+      "nextMilestone": 200,
+      "classesToGo": 1,
+      "badgeName": "Hybrid Royalty",
+      "major": false
+    },
+    {
+      "memberId": 24491488,
+      "name": "Rima Malaki",
       "totalVisits": 249,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/20970612.png?t=1788943130653",
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/24491488.png?t=1787910333851",
       "nextMilestone": 250,
       "classesToGo": 1,
       "badgeName": "Super Saiyan",
@@ -65,16 +86,6 @@
       "major": false
     },
     {
-      "memberId": 24424077,
-      "name": "Sineva Siau",
-      "totalVisits": 199,
-      "photoUrl": null,
-      "nextMilestone": 200,
-      "classesToGo": 1,
-      "badgeName": "Hybrid Royalty",
-      "major": false
-    },
-    {
       "memberId": 29570996,
       "name": "Sela Niu",
       "totalVisits": 49,
@@ -83,16 +94,6 @@
       "classesToGo": 1,
       "badgeName": "Progress Seeker",
       "major": false
-    },
-    {
-      "memberId": 24491488,
-      "name": "Rima Malaki",
-      "totalVisits": 248,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/24491488.png?t=1787910333851",
-      "nextMilestone": 250,
-      "classesToGo": 2,
-      "badgeName": "Super Saiyan",
-      "major": true
     }
   ]
 }
