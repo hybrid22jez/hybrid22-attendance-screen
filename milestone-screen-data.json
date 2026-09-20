@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-09-20",
+  "generatedAt": "2026-09-21",
   "majorMilestones": [
+    {
+      "memberId": 24491488,
+      "name": "Rima Malaki",
+      "milestone": 250,
+      "badgeName": "Super Saiyan",
+      "major": true,
+      "totalVisits": 250,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/24491488.png?t=1787910333851",
+      "date": "2026-09-21"
+    },
     {
       "memberId": 20970612,
       "name": "Courtney Butler",
@@ -13,6 +23,16 @@
     }
   ],
   "everyLevelUp": [
+    {
+      "memberId": 21002003,
+      "name": "Verona Villegas",
+      "milestone": 200,
+      "badgeName": "Hybrid Royalty",
+      "major": false,
+      "totalVisits": 200,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/21002003.png?t=1787175638864",
+      "date": "2026-09-21"
+    },
     {
       "memberId": 29579617,
       "name": "Madeline Brown",
@@ -32,16 +52,6 @@
       "totalVisits": 50,
       "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/31121081.png?t=1787741421712",
       "date": "2026-09-16"
-    },
-    {
-      "memberId": 23659580,
-      "name": "Martha Metuisela",
-      "milestone": 350,
-      "badgeName": "Hybrid Hall of Fame",
-      "major": false,
-      "totalVisits": 350,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/23659580.png?t=1786792054617",
-      "date": "2026-09-14"
     }
   ],
   "almostThere": [
@@ -50,26 +60,6 @@
       "name": "Sineva Siau",
       "totalVisits": 199,
       "photoUrl": null,
-      "nextMilestone": 200,
-      "classesToGo": 1,
-      "badgeName": "Hybrid Royalty",
-      "major": false
-    },
-    {
-      "memberId": 24491488,
-      "name": "Rima Malaki",
-      "totalVisits": 249,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/24491488.png?t=1787910333851",
-      "nextMilestone": 250,
-      "classesToGo": 1,
-      "badgeName": "Super Saiyan",
-      "major": true
-    },
-    {
-      "memberId": 21002003,
-      "name": "Verona Villegas",
-      "totalVisits": 199,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/21002003.png?t=1787175638864",
       "nextMilestone": 200,
       "classesToGo": 1,
       "badgeName": "Hybrid Royalty",
@@ -92,6 +82,16 @@
       "photoUrl": null,
       "nextMilestone": 50,
       "classesToGo": 1,
+      "badgeName": "Progress Seeker",
+      "major": false
+    },
+    {
+      "memberId": 21046817,
+      "name": "Dee Akl",
+      "totalVisits": 48,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/21046817.png?t=1789166503956",
+      "nextMilestone": 50,
+      "classesToGo": 2,
       "badgeName": "Progress Seeker",
       "major": false
     }
