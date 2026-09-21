@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21",
+  "generatedAt": "2026-09-22",
   "majorMilestones": [
     {
       "memberId": 24491488,
@@ -23,6 +23,16 @@
     }
   ],
   "everyLevelUp": [
+    {
+      "memberId": 29461653,
+      "name": "Shannon Briscoe",
+      "milestone": 50,
+      "badgeName": "Progress Seeker",
+      "major": false,
+      "totalVisits": 50,
+      "photoUrl": null,
+      "date": "2026-09-22"
+    },
     {
       "memberId": 21002003,
       "name": "Verona Villegas",
@@ -66,8 +76,8 @@
       "major": false
     },
     {
-      "memberId": 29461653,
-      "name": "Shannon Briscoe",
+      "memberId": 29570996,
+      "name": "Sela Niu",
       "totalVisits": 49,
       "photoUrl": null,
       "nextMilestone": 50,
@@ -76,13 +86,13 @@
       "major": false
     },
     {
-      "memberId": 29570996,
-      "name": "Sela Niu",
-      "totalVisits": 49,
-      "photoUrl": null,
-      "nextMilestone": 50,
-      "classesToGo": 1,
-      "badgeName": "Progress Seeker",
+      "memberId": 24404509,
+      "name": "Teekz😘🫪 Takirau",
+      "totalVisits": 198,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/24404509.png?t=1787639045595",
+      "nextMilestone": 200,
+      "classesToGo": 2,
+      "badgeName": "Hybrid Royalty",
       "major": false
     },
     {
