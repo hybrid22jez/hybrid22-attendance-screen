@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22",
+  "generatedAt": "2026-09-23",
   "majorMilestones": [
     {
       "memberId": 24491488,
@@ -52,19 +52,29 @@
       "totalVisits": 51,
       "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/29579617.png?t=1787142042725",
       "date": "2026-09-17"
-    },
-    {
-      "memberId": 31121081,
-      "name": "Barris Kirkman",
-      "milestone": 50,
-      "badgeName": "Progress Seeker",
-      "major": false,
-      "totalVisits": 50,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/31121081.png?t=1787741421712",
-      "date": "2026-09-16"
     }
   ],
   "almostThere": [
+    {
+      "memberId": 24404509,
+      "name": "Teekz😘🫪 Takirau",
+      "totalVisits": 199,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/24404509.png?t=1787639045595",
+      "nextMilestone": 200,
+      "classesToGo": 1,
+      "badgeName": "Hybrid Royalty",
+      "major": false
+    },
+    {
+      "memberId": 21046817,
+      "name": "Dee Akl",
+      "totalVisits": 49,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/21046817.png?t=1789166503956",
+      "nextMilestone": 50,
+      "classesToGo": 1,
+      "badgeName": "Progress Seeker",
+      "major": false
+    },
     {
       "memberId": 24424077,
       "name": "Sineva Siau",
@@ -86,20 +96,20 @@
       "major": false
     },
     {
-      "memberId": 24404509,
-      "name": "Teekz😘🫪 Takirau",
-      "totalVisits": 198,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/24404509.png?t=1787639045595",
-      "nextMilestone": 200,
+      "memberId": 29818559,
+      "name": "Riley Goldsmith",
+      "totalVisits": 98,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/29818559.png?t=1787132120562",
+      "nextMilestone": 100,
       "classesToGo": 2,
-      "badgeName": "Hybrid Royalty",
-      "major": false
+      "badgeName": "Built Different",
+      "major": true
     },
     {
-      "memberId": 21046817,
-      "name": "Dee Akl",
+      "memberId": 20972176,
+      "name": "Sheridan Cassar",
       "totalVisits": 48,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/21046817.png?t=1789166503956",
+      "photoUrl": null,
       "nextMilestone": 50,
       "classesToGo": 2,
       "badgeName": "Progress Seeker",
