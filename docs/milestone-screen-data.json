@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23",
+  "generatedAt": "2026-09-24",
   "majorMilestones": [
     {
       "memberId": 24491488,
@@ -24,6 +24,36 @@
   ],
   "everyLevelUp": [
     {
+      "memberId": 24404509,
+      "name": "Teekz😘🫪 Takirau",
+      "milestone": 200,
+      "badgeName": "Hybrid Royalty",
+      "major": false,
+      "totalVisits": 200,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/24404509.png?t=1787639045595",
+      "date": "2026-09-24"
+    },
+    {
+      "memberId": 24424077,
+      "name": "Sineva Siau",
+      "milestone": 200,
+      "badgeName": "Hybrid Royalty",
+      "major": false,
+      "totalVisits": 200,
+      "photoUrl": null,
+      "date": "2026-09-24"
+    },
+    {
+      "memberId": 21046817,
+      "name": "Dee Akl",
+      "milestone": 50,
+      "badgeName": "Progress Seeker",
+      "major": false,
+      "totalVisits": 50,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/21046817.png?t=1789166503956",
+      "date": "2026-09-24"
+    },
+    {
       "memberId": 29461653,
       "name": "Shannon Briscoe",
       "milestone": 50,
@@ -42,49 +72,9 @@
       "totalVisits": 200,
       "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/21002003.png?t=1787175638864",
       "date": "2026-09-21"
-    },
-    {
-      "memberId": 29579617,
-      "name": "Madeline Brown",
-      "milestone": 50,
-      "badgeName": "Progress Seeker",
-      "major": false,
-      "totalVisits": 51,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/29579617.png?t=1787142042725",
-      "date": "2026-09-17"
     }
   ],
   "almostThere": [
-    {
-      "memberId": 24404509,
-      "name": "Teekz😘🫪 Takirau",
-      "totalVisits": 199,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/24404509.png?t=1787639045595",
-      "nextMilestone": 200,
-      "classesToGo": 1,
-      "badgeName": "Hybrid Royalty",
-      "major": false
-    },
-    {
-      "memberId": 21046817,
-      "name": "Dee Akl",
-      "totalVisits": 49,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/21046817.png?t=1789166503956",
-      "nextMilestone": 50,
-      "classesToGo": 1,
-      "badgeName": "Progress Seeker",
-      "major": false
-    },
-    {
-      "memberId": 24424077,
-      "name": "Sineva Siau",
-      "totalVisits": 199,
-      "photoUrl": null,
-      "nextMilestone": 200,
-      "classesToGo": 1,
-      "badgeName": "Hybrid Royalty",
-      "major": false
-    },
     {
       "memberId": 29570996,
       "name": "Sela Niu",
@@ -96,16 +86,6 @@
       "major": false
     },
     {
-      "memberId": 29818559,
-      "name": "Riley Goldsmith",
-      "totalVisits": 98,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/29818559.png?t=1787132120562",
-      "nextMilestone": 100,
-      "classesToGo": 2,
-      "badgeName": "Built Different",
-      "major": true
-    },
-    {
       "memberId": 20972176,
       "name": "Sheridan Cassar",
       "totalVisits": 48,
@@ -114,6 +94,36 @@
       "classesToGo": 2,
       "badgeName": "Progress Seeker",
       "major": false
+    },
+    {
+      "memberId": 20971554,
+      "name": "Emma Clayton",
+      "totalVisits": 248,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/20971554.png?t=1728212627919",
+      "nextMilestone": 250,
+      "classesToGo": 2,
+      "badgeName": "Super Saiyan",
+      "major": true
+    },
+    {
+      "memberId": 22082031,
+      "name": "Greg Lloyd",
+      "totalVisits": 448,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/22082031.png?t=1788737206495",
+      "nextMilestone": 450,
+      "classesToGo": 2,
+      "badgeName": "The Unbreakable One",
+      "major": false
+    },
+    {
+      "memberId": 29818559,
+      "name": "Riley Goldsmith",
+      "totalVisits": 98,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/29818559.png?t=1787132120562",
+      "nextMilestone": 100,
+      "classesToGo": 2,
+      "badgeName": "Built Different",
+      "major": true
     }
   ]
 }
