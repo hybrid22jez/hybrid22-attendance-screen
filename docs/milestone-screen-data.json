@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-09-25",
+  "generatedAt": "2026-09-26",
   "majorMilestones": [
+    {
+      "memberId": 29818559,
+      "name": "Riley Goldsmith",
+      "milestone": 100,
+      "badgeName": "Built Different",
+      "major": true,
+      "totalVisits": 100,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/29818559.png?t=1787132120562",
+      "date": "2026-09-26"
+    },
     {
       "memberId": 24491488,
       "name": "Rima Malaki",
@@ -23,6 +33,16 @@
     }
   ],
   "everyLevelUp": [
+    {
+      "memberId": 20972176,
+      "name": "Sheridan Cassar",
+      "milestone": 50,
+      "badgeName": "Progress Seeker",
+      "major": false,
+      "totalVisits": 50,
+      "photoUrl": null,
+      "date": "2026-09-26"
+    },
     {
       "memberId": 24404509,
       "name": "Teekz😘🫪 Takirau",
@@ -86,24 +106,14 @@
       "major": true
     },
     {
-      "memberId": 20972176,
-      "name": "Sheridan Cassar",
-      "totalVisits": 49,
-      "photoUrl": null,
-      "nextMilestone": 50,
+      "memberId": 22082031,
+      "name": "Greg Lloyd",
+      "totalVisits": 449,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/22082031.png?t=1788737206495",
+      "nextMilestone": 450,
       "classesToGo": 1,
-      "badgeName": "Progress Seeker",
+      "badgeName": "The Unbreakable One",
       "major": false
-    },
-    {
-      "memberId": 29818559,
-      "name": "Riley Goldsmith",
-      "totalVisits": 99,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/29818559.png?t=1787132120562",
-      "nextMilestone": 100,
-      "classesToGo": 1,
-      "badgeName": "Built Different",
-      "major": true
     },
     {
       "memberId": 29570996,
@@ -124,16 +134,6 @@
       "classesToGo": 2,
       "badgeName": "Super Saiyan",
       "major": true
-    },
-    {
-      "memberId": 22082031,
-      "name": "Greg Lloyd",
-      "totalVisits": 448,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/22082031.png?t=1788737206495",
-      "nextMilestone": 450,
-      "classesToGo": 2,
-      "badgeName": "The Unbreakable One",
-      "major": false
     }
   ]
 }
