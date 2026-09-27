@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27",
+  "generatedAt": "2026-09-28",
   "majorMilestones": [
     {
       "memberId": 29818559,
@@ -10,19 +10,19 @@
       "totalVisits": 100,
       "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/29818559.png?t=1787132120562",
       "date": "2026-09-26"
-    },
-    {
-      "memberId": 24491488,
-      "name": "Rima Malaki",
-      "milestone": 250,
-      "badgeName": "Super Saiyan",
-      "major": true,
-      "totalVisits": 250,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/24491488.png?t=1787910333851",
-      "date": "2026-09-21"
     }
   ],
   "everyLevelUp": [
+    {
+      "memberId": 22082031,
+      "name": "Greg Lloyd",
+      "milestone": 450,
+      "badgeName": "The Unbreakable One",
+      "major": false,
+      "totalVisits": 450,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/22082031.png?t=1788737206495",
+      "date": "2026-09-28"
+    },
     {
       "memberId": 20972176,
       "name": "Sheridan Cassar",
@@ -72,19 +72,19 @@
       "totalVisits": 50,
       "photoUrl": null,
       "date": "2026-09-22"
-    },
-    {
-      "memberId": 21002003,
-      "name": "Verona Villegas",
-      "milestone": 200,
-      "badgeName": "Hybrid Royalty",
-      "major": false,
-      "totalVisits": 200,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/21002003.png?t=1787175638864",
-      "date": "2026-09-21"
     }
   ],
   "almostThere": [
+    {
+      "memberId": 21227268,
+      "name": "Krystal Diep",
+      "totalVisits": 249,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/21227268.png?t=1789518307925",
+      "nextMilestone": 250,
+      "classesToGo": 1,
+      "badgeName": "Super Saiyan",
+      "major": true
+    },
     {
       "memberId": 20971554,
       "name": "Emma Clayton",
@@ -96,16 +96,6 @@
       "major": true
     },
     {
-      "memberId": 22082031,
-      "name": "Greg Lloyd",
-      "totalVisits": 449,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/22082031.png?t=1788737206495",
-      "nextMilestone": 450,
-      "classesToGo": 1,
-      "badgeName": "The Unbreakable One",
-      "major": false
-    },
-    {
       "memberId": 29570996,
       "name": "Sela Niu",
       "totalVisits": 49,
@@ -114,16 +104,6 @@
       "classesToGo": 1,
       "badgeName": "Progress Seeker",
       "major": false
-    },
-    {
-      "memberId": 21227268,
-      "name": "Krystal Diep",
-      "totalVisits": 248,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/21227268.png?t=1789518307925",
-      "nextMilestone": 250,
-      "classesToGo": 2,
-      "badgeName": "Super Saiyan",
-      "major": true
     }
   ]
 }
