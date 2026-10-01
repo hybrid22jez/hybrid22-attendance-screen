@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01",
+  "generatedAt": "2026-10-02",
   "majorMilestones": [
     {
       "memberId": 20971554,
@@ -34,6 +34,16 @@
   ],
   "everyLevelUp": [
     {
+      "memberId": 21007550,
+      "name": "Aylah Olsen",
+      "milestone": 400,
+      "badgeName": "Hidden Power Unleashed",
+      "major": false,
+      "totalVisits": 400,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/21007550.png?t=1788932124089",
+      "date": "2026-10-02"
+    },
+    {
       "memberId": 22082031,
       "name": "Greg Lloyd",
       "milestone": 450,
@@ -66,22 +76,32 @@
       "major": false
     },
     {
-      "memberId": 21007550,
-      "name": "Aylah Olsen",
-      "totalVisits": 399,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/21007550.png?t=1788932124089",
-      "nextMilestone": 400,
-      "classesToGo": 1,
-      "badgeName": "Hidden Power Unleashed",
-      "major": false
-    },
-    {
       "memberId": 29570996,
       "name": "Sela Niu",
       "totalVisits": 49,
       "photoUrl": null,
       "nextMilestone": 50,
       "classesToGo": 1,
+      "badgeName": "Progress Seeker",
+      "major": false
+    },
+    {
+      "memberId": 32752084,
+      "name": "Andrew Richards",
+      "totalVisits": 48,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/32752084.png?t=1787124700964",
+      "nextMilestone": 50,
+      "classesToGo": 2,
+      "badgeName": "Progress Seeker",
+      "major": false
+    },
+    {
+      "memberId": 32129475,
+      "name": "Margaret Mailei-Iona",
+      "totalVisits": 48,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/32129475.png?t=1780494676943",
+      "nextMilestone": 50,
+      "classesToGo": 2,
       "badgeName": "Progress Seeker",
       "major": false
     },
