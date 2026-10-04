@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04",
+  "generatedAt": "2026-10-05",
   "majorMilestones": [
     {
       "memberId": 20971554,
@@ -32,16 +32,6 @@
       "totalVisits": 400,
       "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/21007550.png?t=1788932124089",
       "date": "2026-10-02"
-    },
-    {
-      "memberId": 22082031,
-      "name": "Greg Lloyd",
-      "milestone": 450,
-      "badgeName": "The Unbreakable One",
-      "major": false,
-      "totalVisits": 450,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/22082031.png?t=1788737206495",
-      "date": "2026-09-28"
     }
   ],
   "almostThere": [
