@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05",
+  "generatedAt": "2026-10-06",
   "majorMilestones": [
     {
       "memberId": 20971554,
@@ -10,19 +10,19 @@
       "totalVisits": 251,
       "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/20971554.png?t=1728212627919",
       "date": "2026-10-01"
-    },
-    {
-      "memberId": 21227268,
-      "name": "Krystal Diep",
-      "milestone": 250,
-      "badgeName": "Super Saiyan",
-      "major": true,
-      "totalVisits": 250,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/21227268.png?t=1789518307925",
-      "date": "2026-09-29"
     }
   ],
   "everyLevelUp": [
+    {
+      "memberId": 32752084,
+      "name": "Andrew Richards",
+      "milestone": 50,
+      "badgeName": "Progress Seeker",
+      "major": false,
+      "totalVisits": 50,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/32752084.png?t=1787124700964",
+      "date": "2026-10-06"
+    },
     {
       "memberId": 21007550,
       "name": "Aylah Olsen",
@@ -35,16 +35,6 @@
     }
   ],
   "almostThere": [
-    {
-      "memberId": 32752084,
-      "name": "Andrew Richards",
-      "totalVisits": 49,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/32752084.png?t=1787124700964",
-      "nextMilestone": 50,
-      "classesToGo": 1,
-      "badgeName": "Progress Seeker",
-      "major": false
-    },
     {
       "memberId": 21009429,
       "name": "Dane Koscak",
@@ -62,6 +52,16 @@
       "photoUrl": null,
       "nextMilestone": 50,
       "classesToGo": 1,
+      "badgeName": "Progress Seeker",
+      "major": false
+    },
+    {
+      "memberId": 33022736,
+      "name": "Malay Chakraborty",
+      "totalVisits": 48,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/33022736.png?t=1789436154163",
+      "nextMilestone": 50,
+      "classesToGo": 2,
       "badgeName": "Progress Seeker",
       "major": false
     },
