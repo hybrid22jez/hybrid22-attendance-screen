@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06",
+  "generatedAt": "2026-10-07",
   "majorMilestones": [
     {
       "memberId": 20971554,
@@ -13,6 +13,16 @@
     }
   ],
   "everyLevelUp": [
+    {
+      "memberId": 21009429,
+      "name": "Dane Koscak",
+      "milestone": 450,
+      "badgeName": "The Unbreakable One",
+      "major": false,
+      "totalVisits": 450,
+      "photoUrl": null,
+      "date": "2026-10-07"
+    },
     {
       "memberId": 32752084,
       "name": "Andrew Richards",
@@ -36,13 +46,13 @@
   ],
   "almostThere": [
     {
-      "memberId": 21009429,
-      "name": "Dane Koscak",
-      "totalVisits": 449,
-      "photoUrl": null,
-      "nextMilestone": 450,
+      "memberId": 32129475,
+      "name": "Margaret Mailei-Iona",
+      "totalVisits": 49,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/32129475.png?t=1780494676943",
+      "nextMilestone": 50,
       "classesToGo": 1,
-      "badgeName": "The Unbreakable One",
+      "badgeName": "Progress Seeker",
       "major": false
     },
     {
@@ -60,16 +70,6 @@
       "name": "Malay Chakraborty",
       "totalVisits": 48,
       "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/33022736.png?t=1789436154163",
-      "nextMilestone": 50,
-      "classesToGo": 2,
-      "badgeName": "Progress Seeker",
-      "major": false
-    },
-    {
-      "memberId": 32129475,
-      "name": "Margaret Mailei-Iona",
-      "totalVisits": 48,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/32129475.png?t=1780494676943",
       "nextMilestone": 50,
       "classesToGo": 2,
       "badgeName": "Progress Seeker",
