@@ -1,18 +1,17 @@
 {
-  "generatedAt": "2026-10-07",
-  "majorMilestones": [
-    {
-      "memberId": 20971554,
-      "name": "Emma Clayton",
-      "milestone": 250,
-      "badgeName": "Super Saiyan",
-      "major": true,
-      "totalVisits": 251,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/20971554.png?t=1728212627919",
-      "date": "2026-10-01"
-    }
-  ],
+  "generatedAt": "2026-10-08",
+  "majorMilestones": [],
   "everyLevelUp": [
+    {
+      "memberId": 33022736,
+      "name": "Malay Chakraborty",
+      "milestone": 50,
+      "badgeName": "Progress Seeker",
+      "major": false,
+      "totalVisits": 51,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/33022736.png?t=1789436154163",
+      "date": "2026-10-08"
+    },
     {
       "memberId": 21009429,
       "name": "Dane Koscak",
@@ -66,10 +65,20 @@
       "major": false
     },
     {
-      "memberId": 33022736,
-      "name": "Malay Chakraborty",
+      "memberId": 31688169,
+      "name": "Beth Porter",
       "totalVisits": 48,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/33022736.png?t=1789436154163",
+      "photoUrl": null,
+      "nextMilestone": 50,
+      "classesToGo": 2,
+      "badgeName": "Progress Seeker",
+      "major": false
+    },
+    {
+      "memberId": 30919180,
+      "name": "Rachel Collisson",
+      "totalVisits": 48,
+      "photoUrl": null,
       "nextMilestone": 50,
       "classesToGo": 2,
       "badgeName": "Progress Seeker",
