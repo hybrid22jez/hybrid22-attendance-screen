@@ -1,7 +1,47 @@
 {
-  "generatedAt": "2026-10-12",
+  "generatedAt": "2026-10-13",
   "majorMilestones": [],
   "everyLevelUp": [
+    {
+      "memberId": 31688169,
+      "name": "Beth Porter",
+      "milestone": 50,
+      "badgeName": "Progress Seeker",
+      "major": false,
+      "totalVisits": 50,
+      "photoUrl": null,
+      "date": "2026-10-13"
+    },
+    {
+      "memberId": 32642842,
+      "name": "Ethan Engelbrecht",
+      "milestone": 50,
+      "badgeName": "Progress Seeker",
+      "major": false,
+      "totalVisits": 50,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/32642842.png?t=1787132138680",
+      "date": "2026-10-13"
+    },
+    {
+      "memberId": 20971481,
+      "name": "Maria Mills",
+      "milestone": 650,
+      "badgeName": "Legend of the Room",
+      "major": false,
+      "totalVisits": 650,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/host/40242/20971481.png?t=1786177684278",
+      "date": "2026-10-13"
+    },
+    {
+      "memberId": 14467536,
+      "name": "Alysha Borg",
+      "milestone": 200,
+      "badgeName": "Hybrid Royalty",
+      "major": false,
+      "totalVisits": 200,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/14467536.png?t=1788921047840",
+      "date": "2026-10-13"
+    },
     {
       "memberId": 33022736,
       "name": "Malay Chakraborty",
@@ -21,48 +61,48 @@
       "totalVisits": 450,
       "photoUrl": null,
       "date": "2026-10-07"
-    },
-    {
-      "memberId": 32752084,
-      "name": "Andrew Richards",
-      "milestone": 50,
-      "badgeName": "Progress Seeker",
-      "major": false,
-      "totalVisits": 50,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/32752084.png?t=1787124700964",
-      "date": "2026-10-06"
     }
   ],
   "almostThere": [
     {
-      "memberId": 20971481,
-      "name": "Maria Mills",
-      "totalVisits": 649,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/host/40242/20971481.png?t=1786177684278",
-      "nextMilestone": 650,
+      "memberId": 20972304,
+      "name": "Symphony Robinson",
+      "totalVisits": 49,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/20972304.png?t=1789023992835",
+      "nextMilestone": 50,
       "classesToGo": 1,
-      "badgeName": "Legend of the Room",
+      "badgeName": "Progress Seeker",
       "major": false
     },
     {
-      "memberId": 14467536,
-      "name": "Alysha Borg",
-      "totalVisits": 199,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/14467536.png?t=1788921047840",
-      "nextMilestone": 200,
-      "classesToGo": 1,
-      "badgeName": "Hybrid Royalty",
-      "major": false
-    },
-    {
-      "memberId": 31688169,
-      "name": "Beth Porter",
+      "memberId": 29570996,
+      "name": "Sela Niu",
       "totalVisits": 49,
       "photoUrl": null,
       "nextMilestone": 50,
       "classesToGo": 1,
       "badgeName": "Progress Seeker",
       "major": false
+    },
+    {
+      "memberId": 25938359,
+      "name": "Jaimee Strachan",
+      "totalVisits": 149,
+      "photoUrl": null,
+      "nextMilestone": 150,
+      "classesToGo": 1,
+      "badgeName": "The Unstoppable",
+      "major": false
+    },
+    {
+      "memberId": 31288049,
+      "name": "Naveen Kanna Ekambaram",
+      "totalVisits": 99,
+      "photoUrl": null,
+      "nextMilestone": 100,
+      "classesToGo": 1,
+      "badgeName": "Built Different",
+      "major": true
     },
     {
       "memberId": 30549716,
@@ -85,16 +125,6 @@
       "major": false
     },
     {
-      "memberId": 29570996,
-      "name": "Sela Niu",
-      "totalVisits": 49,
-      "photoUrl": null,
-      "nextMilestone": 50,
-      "classesToGo": 1,
-      "badgeName": "Progress Seeker",
-      "major": false
-    },
-    {
       "memberId": 30919180,
       "name": "Rachel Collisson",
       "totalVisits": 48,
@@ -105,30 +135,20 @@
       "major": false
     },
     {
-      "memberId": 31288049,
-      "name": "Naveen Kanna Ekambaram",
-      "totalVisits": 98,
-      "photoUrl": null,
-      "nextMilestone": 100,
-      "classesToGo": 2,
-      "badgeName": "Built Different",
-      "major": true
-    },
-    {
-      "memberId": 25363047,
-      "name": "Amar Kumar",
+      "memberId": 29668276,
+      "name": "Shana Adamov",
       "totalVisits": 48,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/25363047.png?t=1787213505638",
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/29668276.png?t=1790814221882",
       "nextMilestone": 50,
       "classesToGo": 2,
       "badgeName": "Progress Seeker",
       "major": false
     },
     {
-      "memberId": 32642842,
-      "name": "Ethan Engelbrecht",
+      "memberId": 25363047,
+      "name": "Amar Kumar",
       "totalVisits": 48,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/32642842.png?t=1787132138680",
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/25363047.png?t=1787213505638",
       "nextMilestone": 50,
       "classesToGo": 2,
       "badgeName": "Progress Seeker",
