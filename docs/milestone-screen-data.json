@@ -1,7 +1,28 @@
 {
-  "generatedAt": "2026-10-13",
-  "majorMilestones": [],
+  "generatedAt": "2026-10-14",
+  "majorMilestones": [
+    {
+      "memberId": 31288049,
+      "name": "Naveen Kanna Ekambaram",
+      "milestone": 100,
+      "badgeName": "Built Different",
+      "major": true,
+      "totalVisits": 100,
+      "photoUrl": null,
+      "date": "2026-10-14"
+    }
+  ],
   "everyLevelUp": [
+    {
+      "memberId": 30549716,
+      "name": "Kaylah Cunliffe",
+      "milestone": 50,
+      "badgeName": "Progress Seeker",
+      "major": false,
+      "totalVisits": 50,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/30549716.png?t=1787207289343",
+      "date": "2026-10-14"
+    },
     {
       "memberId": 31688169,
       "name": "Beth Porter",
@@ -51,19 +72,29 @@
       "totalVisits": 51,
       "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/33022736.png?t=1789436154163",
       "date": "2026-10-08"
-    },
-    {
-      "memberId": 21009429,
-      "name": "Dane Koscak",
-      "milestone": 450,
-      "badgeName": "The Unbreakable One",
-      "major": false,
-      "totalVisits": 450,
-      "photoUrl": null,
-      "date": "2026-10-07"
     }
   ],
   "almostThere": [
+    {
+      "memberId": 32129475,
+      "name": "Margaret Mailei-Iona",
+      "totalVisits": 49,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/32129475.png?t=1780494676943",
+      "nextMilestone": 50,
+      "classesToGo": 1,
+      "badgeName": "Progress Seeker",
+      "major": false
+    },
+    {
+      "memberId": 30919180,
+      "name": "Rachel Collisson",
+      "totalVisits": 49,
+      "photoUrl": null,
+      "nextMilestone": 50,
+      "classesToGo": 1,
+      "badgeName": "Progress Seeker",
+      "major": false
+    },
     {
       "memberId": 20972304,
       "name": "Symphony Robinson",
@@ -95,44 +126,24 @@
       "major": false
     },
     {
-      "memberId": 31288049,
-      "name": "Naveen Kanna Ekambaram",
-      "totalVisits": 99,
+      "memberId": 20972020,
+      "name": "Ruth Kieru",
+      "totalVisits": 248,
       "photoUrl": null,
-      "nextMilestone": 100,
-      "classesToGo": 1,
-      "badgeName": "Built Different",
+      "nextMilestone": 250,
+      "classesToGo": 2,
+      "badgeName": "Super Saiyan",
       "major": true
     },
     {
-      "memberId": 30549716,
-      "name": "Kaylah Cunliffe",
-      "totalVisits": 49,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/30549716.png?t=1787207289343",
-      "nextMilestone": 50,
-      "classesToGo": 1,
-      "badgeName": "Progress Seeker",
-      "major": false
-    },
-    {
-      "memberId": 32129475,
-      "name": "Margaret Mailei-Iona",
-      "totalVisits": 49,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/32129475.png?t=1780494676943",
-      "nextMilestone": 50,
-      "classesToGo": 1,
-      "badgeName": "Progress Seeker",
-      "major": false
-    },
-    {
-      "memberId": 30919180,
-      "name": "Rachel Collisson",
-      "totalVisits": 48,
-      "photoUrl": null,
-      "nextMilestone": 50,
+      "memberId": 20972314,
+      "name": "Tamarah Rae",
+      "totalVisits": 98,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/20972314.png?t=1787130944041",
+      "nextMilestone": 100,
       "classesToGo": 2,
-      "badgeName": "Progress Seeker",
-      "major": false
+      "badgeName": "Built Different",
+      "major": true
     },
     {
       "memberId": 29668276,
