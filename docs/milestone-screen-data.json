@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14",
+  "generatedAt": "2026-10-15",
   "majorMilestones": [
     {
       "memberId": 31288049,
@@ -13,6 +13,36 @@
     }
   ],
   "everyLevelUp": [
+    {
+      "memberId": 32129475,
+      "name": "Margaret Mailei-Iona",
+      "milestone": 50,
+      "badgeName": "Progress Seeker",
+      "major": false,
+      "totalVisits": 50,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/32129475.png?t=1780494676943",
+      "date": "2026-10-15"
+    },
+    {
+      "memberId": 30919180,
+      "name": "Rachel Collisson",
+      "milestone": 50,
+      "badgeName": "Progress Seeker",
+      "major": false,
+      "totalVisits": 50,
+      "photoUrl": null,
+      "date": "2026-10-15"
+    },
+    {
+      "memberId": 33342660,
+      "name": "Maggie Trapp",
+      "milestone": 50,
+      "badgeName": "Progress Seeker",
+      "major": false,
+      "totalVisits": 50,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/33342660.png?t=1788860862776",
+      "date": "2026-10-15"
+    },
     {
       "memberId": 30549716,
       "name": "Kaylah Cunliffe",
@@ -62,38 +92,18 @@
       "totalVisits": 200,
       "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/14467536.png?t=1788921047840",
       "date": "2026-10-13"
-    },
-    {
-      "memberId": 33022736,
-      "name": "Malay Chakraborty",
-      "milestone": 50,
-      "badgeName": "Progress Seeker",
-      "major": false,
-      "totalVisits": 51,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/33022736.png?t=1789436154163",
-      "date": "2026-10-08"
     }
   ],
   "almostThere": [
     {
-      "memberId": 32129475,
-      "name": "Margaret Mailei-Iona",
-      "totalVisits": 49,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/32129475.png?t=1780494676943",
-      "nextMilestone": 50,
-      "classesToGo": 1,
-      "badgeName": "Progress Seeker",
-      "major": false
-    },
-    {
-      "memberId": 30919180,
-      "name": "Rachel Collisson",
-      "totalVisits": 49,
+      "memberId": 20972020,
+      "name": "Ruth Kieru",
+      "totalVisits": 249,
       "photoUrl": null,
-      "nextMilestone": 50,
+      "nextMilestone": 250,
       "classesToGo": 1,
-      "badgeName": "Progress Seeker",
-      "major": false
+      "badgeName": "Super Saiyan",
+      "major": true
     },
     {
       "memberId": 20972304,
@@ -126,24 +136,24 @@
       "major": false
     },
     {
-      "memberId": 20972020,
-      "name": "Ruth Kieru",
-      "totalVisits": 248,
-      "photoUrl": null,
-      "nextMilestone": 250,
-      "classesToGo": 2,
-      "badgeName": "Super Saiyan",
+      "memberId": 20972314,
+      "name": "Tamarah Rae",
+      "totalVisits": 99,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/20972314.png?t=1787130944041",
+      "nextMilestone": 100,
+      "classesToGo": 1,
+      "badgeName": "Built Different",
       "major": true
     },
     {
-      "memberId": 20972314,
-      "name": "Tamarah Rae",
-      "totalVisits": 98,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/20972314.png?t=1787130944041",
-      "nextMilestone": 100,
+      "memberId": 25939762,
+      "name": "Ama Hemana",
+      "totalVisits": 48,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/25939762.png?t=1789371061104",
+      "nextMilestone": 50,
       "classesToGo": 2,
-      "badgeName": "Built Different",
-      "major": true
+      "badgeName": "Progress Seeker",
+      "major": false
     },
     {
       "memberId": 29668276,
