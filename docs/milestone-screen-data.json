@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-10-19",
+  "generatedAt": "2026-10-20",
   "majorMilestones": [
+    {
+      "memberId": 20972020,
+      "name": "Ruth Kieru",
+      "milestone": 250,
+      "badgeName": "Super Saiyan",
+      "major": true,
+      "totalVisits": 250,
+      "photoUrl": null,
+      "date": "2026-10-20"
+    },
     {
       "memberId": 20972314,
       "name": "Tamarah Rae",
@@ -23,6 +33,36 @@
     }
   ],
   "everyLevelUp": [
+    {
+      "memberId": 20970404,
+      "name": "Benjamin Goodwin",
+      "milestone": 550,
+      "badgeName": "The Warrior's Bloodline",
+      "major": false,
+      "totalVisits": 550,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/20970404.png?t=1787639193885",
+      "date": "2026-10-20"
+    },
+    {
+      "memberId": 25938359,
+      "name": "Jaimee Strachan",
+      "milestone": 150,
+      "badgeName": "The Unstoppable",
+      "major": false,
+      "totalVisits": 151,
+      "photoUrl": null,
+      "date": "2026-10-20"
+    },
+    {
+      "memberId": 20970849,
+      "name": "Destiny Hemara",
+      "milestone": 50,
+      "badgeName": "Progress Seeker",
+      "major": false,
+      "totalVisits": 50,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/20970849.png?t=1788988243794",
+      "date": "2026-10-20"
+    },
     {
       "memberId": 21007320,
       "name": "Lydia Smith",
@@ -102,49 +142,19 @@
       "totalVisits": 50,
       "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/30549716.png?t=1787207289343",
       "date": "2026-10-14"
-    },
-    {
-      "memberId": 31688169,
-      "name": "Beth Porter",
-      "milestone": 50,
-      "badgeName": "Progress Seeker",
-      "major": false,
-      "totalVisits": 50,
-      "photoUrl": null,
-      "date": "2026-10-13"
-    },
-    {
-      "memberId": 32642842,
-      "name": "Ethan Engelbrecht",
-      "milestone": 50,
-      "badgeName": "Progress Seeker",
-      "major": false,
-      "totalVisits": 50,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/32642842.png?t=1787132138680",
-      "date": "2026-10-13"
-    },
-    {
-      "memberId": 20971481,
-      "name": "Maria Mills",
-      "milestone": 650,
-      "badgeName": "Legend of the Room",
-      "major": false,
-      "totalVisits": 650,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/host/40242/20971481.png?t=1786177684278",
-      "date": "2026-10-13"
-    },
-    {
-      "memberId": 14467536,
-      "name": "Alysha Borg",
-      "milestone": 200,
-      "badgeName": "Hybrid Royalty",
-      "major": false,
-      "totalVisits": 200,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/14467536.png?t=1788921047840",
-      "date": "2026-10-13"
     }
   ],
   "almostThere": [
+    {
+      "memberId": 26876129,
+      "name": "Laura Boyd",
+      "totalVisits": 199,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/26876129.png?t=1788934521811",
+      "nextMilestone": 200,
+      "classesToGo": 1,
+      "badgeName": "Hybrid Royalty",
+      "major": false
+    },
     {
       "memberId": 25939762,
       "name": "Ama Hemana",
@@ -156,53 +166,33 @@
       "major": false
     },
     {
-      "memberId": 25938359,
-      "name": "Jaimee Strachan",
-      "totalVisits": 149,
+      "memberId": 32632862,
+      "name": "Majar Hikuroa-Betham",
+      "totalVisits": 48,
       "photoUrl": null,
-      "nextMilestone": 150,
-      "classesToGo": 1,
-      "badgeName": "The Unstoppable",
-      "major": false
-    },
-    {
-      "memberId": 20972020,
-      "name": "Ruth Kieru",
-      "totalVisits": 249,
-      "photoUrl": null,
-      "nextMilestone": 250,
-      "classesToGo": 1,
-      "badgeName": "Super Saiyan",
-      "major": true
-    },
-    {
-      "memberId": 20970404,
-      "name": "Benjamin Goodwin",
-      "totalVisits": 548,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/20970404.png?t=1787639193885",
-      "nextMilestone": 550,
+      "nextMilestone": 50,
       "classesToGo": 2,
-      "badgeName": "The Warrior's Bloodline",
+      "badgeName": "Progress Seeker",
       "major": false
     },
     {
-      "memberId": 26876129,
-      "name": "Laura Boyd",
+      "memberId": 23556605,
+      "name": "Emma Beik",
       "totalVisits": 198,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/26876129.png?t=1788934521811",
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/23556605.png?t=1787489235271",
       "nextMilestone": 200,
       "classesToGo": 2,
       "badgeName": "Hybrid Royalty",
       "major": false
     },
     {
-      "memberId": 20970849,
-      "name": "Destiny Hemara",
-      "totalVisits": 48,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/20970849.png?t=1788988243794",
-      "nextMilestone": 50,
+      "memberId": 21002125,
+      "name": "Nadia Olsen",
+      "totalVisits": 348,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/21002125.png?t=1789103225442",
+      "nextMilestone": 350,
       "classesToGo": 2,
-      "badgeName": "Progress Seeker",
+      "badgeName": "Hybrid Hall of Fame",
       "major": false
     },
     {
