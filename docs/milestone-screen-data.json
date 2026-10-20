@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20",
+  "generatedAt": "2026-10-21",
   "majorMilestones": [
     {
       "memberId": 20972020,
@@ -20,19 +20,19 @@
       "totalVisits": 100,
       "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/20972314.png?t=1787130944041",
       "date": "2026-10-16"
-    },
-    {
-      "memberId": 31288049,
-      "name": "Naveen Kanna Ekambaram",
-      "milestone": 100,
-      "badgeName": "Built Different",
-      "major": true,
-      "totalVisits": 100,
-      "photoUrl": null,
-      "date": "2026-10-14"
     }
   ],
   "everyLevelUp": [
+    {
+      "memberId": 26876129,
+      "name": "Laura Boyd",
+      "milestone": 200,
+      "badgeName": "Hybrid Royalty",
+      "major": false,
+      "totalVisits": 200,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/26876129.png?t=1788934521811",
+      "date": "2026-10-21"
+    },
     {
       "memberId": 20970404,
       "name": "Benjamin Goodwin",
@@ -132,27 +132,17 @@
       "totalVisits": 50,
       "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/33342660.png?t=1788860862776",
       "date": "2026-10-15"
-    },
-    {
-      "memberId": 30549716,
-      "name": "Kaylah Cunliffe",
-      "milestone": 50,
-      "badgeName": "Progress Seeker",
-      "major": false,
-      "totalVisits": 50,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/30549716.png?t=1787207289343",
-      "date": "2026-10-14"
     }
   ],
   "almostThere": [
     {
-      "memberId": 26876129,
-      "name": "Laura Boyd",
-      "totalVisits": 199,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/26876129.png?t=1788934521811",
-      "nextMilestone": 200,
+      "memberId": 32632862,
+      "name": "Majar Hikuroa-Betham",
+      "totalVisits": 49,
+      "photoUrl": null,
+      "nextMilestone": 50,
       "classesToGo": 1,
-      "badgeName": "Hybrid Royalty",
+      "badgeName": "Progress Seeker",
       "major": false
     },
     {
@@ -162,16 +152,6 @@
       "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/25939762.png?t=1789371061104",
       "nextMilestone": 50,
       "classesToGo": 1,
-      "badgeName": "Progress Seeker",
-      "major": false
-    },
-    {
-      "memberId": 32632862,
-      "name": "Majar Hikuroa-Betham",
-      "totalVisits": 48,
-      "photoUrl": null,
-      "nextMilestone": 50,
-      "classesToGo": 2,
       "badgeName": "Progress Seeker",
       "major": false
     },
