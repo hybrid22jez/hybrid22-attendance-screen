@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21",
+  "generatedAt": "2026-10-22",
   "majorMilestones": [
     {
       "memberId": 20972020,
@@ -23,6 +23,26 @@
     }
   ],
   "everyLevelUp": [
+    {
+      "memberId": 25939762,
+      "name": "Ama Hemana",
+      "milestone": 50,
+      "badgeName": "Progress Seeker",
+      "major": false,
+      "totalVisits": 53,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/25939762.png?t=1789371061104",
+      "date": "2026-10-22"
+    },
+    {
+      "memberId": 32632862,
+      "name": "Majar Hikuroa-Betham",
+      "milestone": 50,
+      "badgeName": "Progress Seeker",
+      "major": false,
+      "totalVisits": 50,
+      "photoUrl": null,
+      "date": "2026-10-22"
+    },
     {
       "memberId": 26876129,
       "name": "Laura Boyd",
@@ -102,57 +122,17 @@
       "totalVisits": 50,
       "photoUrl": null,
       "date": "2026-10-16"
-    },
-    {
-      "memberId": 32129475,
-      "name": "Margaret Mailei-Iona",
-      "milestone": 50,
-      "badgeName": "Progress Seeker",
-      "major": false,
-      "totalVisits": 50,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/32129475.png?t=1780494676943",
-      "date": "2026-10-15"
-    },
-    {
-      "memberId": 30919180,
-      "name": "Rachel Collisson",
-      "milestone": 50,
-      "badgeName": "Progress Seeker",
-      "major": false,
-      "totalVisits": 50,
-      "photoUrl": null,
-      "date": "2026-10-15"
-    },
-    {
-      "memberId": 33342660,
-      "name": "Maggie Trapp",
-      "milestone": 50,
-      "badgeName": "Progress Seeker",
-      "major": false,
-      "totalVisits": 50,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/33342660.png?t=1788860862776",
-      "date": "2026-10-15"
     }
   ],
   "almostThere": [
     {
-      "memberId": 32632862,
-      "name": "Majar Hikuroa-Betham",
-      "totalVisits": 49,
-      "photoUrl": null,
-      "nextMilestone": 50,
+      "memberId": 21002125,
+      "name": "Nadia Olsen",
+      "totalVisits": 349,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/21002125.png?t=1789103225442",
+      "nextMilestone": 350,
       "classesToGo": 1,
-      "badgeName": "Progress Seeker",
-      "major": false
-    },
-    {
-      "memberId": 25939762,
-      "name": "Ama Hemana",
-      "totalVisits": 49,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/25939762.png?t=1789371061104",
-      "nextMilestone": 50,
-      "classesToGo": 1,
-      "badgeName": "Progress Seeker",
+      "badgeName": "Hybrid Hall of Fame",
       "major": false
     },
     {
@@ -163,16 +143,6 @@
       "nextMilestone": 200,
       "classesToGo": 2,
       "badgeName": "Hybrid Royalty",
-      "major": false
-    },
-    {
-      "memberId": 21002125,
-      "name": "Nadia Olsen",
-      "totalVisits": 348,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/21002125.png?t=1789103225442",
-      "nextMilestone": 350,
-      "classesToGo": 2,
-      "badgeName": "Hybrid Hall of Fame",
       "major": false
     },
     {
