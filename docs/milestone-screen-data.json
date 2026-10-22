@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22",
+  "generatedAt": "2026-10-23",
   "majorMilestones": [
     {
       "memberId": 20972020,
@@ -10,19 +10,19 @@
       "totalVisits": 250,
       "photoUrl": null,
       "date": "2026-10-20"
-    },
-    {
-      "memberId": 20972314,
-      "name": "Tamarah Rae",
-      "milestone": 100,
-      "badgeName": "Built Different",
-      "major": true,
-      "totalVisits": 100,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/20972314.png?t=1787130944041",
-      "date": "2026-10-16"
     }
   ],
   "everyLevelUp": [
+    {
+      "memberId": 21002125,
+      "name": "Nadia Olsen",
+      "milestone": 350,
+      "badgeName": "Hybrid Hall of Fame",
+      "major": false,
+      "totalVisits": 350,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/21002125.png?t=1789103225442",
+      "date": "2026-10-23"
+    },
     {
       "memberId": 25939762,
       "name": "Ama Hemana",
@@ -112,36 +112,16 @@
       "totalVisits": 50,
       "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/20972304.png?t=1789023992835",
       "date": "2026-10-17"
-    },
-    {
-      "memberId": 29570996,
-      "name": "Sela Niu",
-      "milestone": 50,
-      "badgeName": "Progress Seeker",
-      "major": false,
-      "totalVisits": 50,
-      "photoUrl": null,
-      "date": "2026-10-16"
     }
   ],
   "almostThere": [
     {
-      "memberId": 21002125,
-      "name": "Nadia Olsen",
-      "totalVisits": 349,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/21002125.png?t=1789103225442",
-      "nextMilestone": 350,
-      "classesToGo": 1,
-      "badgeName": "Hybrid Hall of Fame",
-      "major": false
-    },
-    {
       "memberId": 23556605,
       "name": "Emma Beik",
-      "totalVisits": 198,
+      "totalVisits": 199,
       "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/23556605.png?t=1787489235271",
       "nextMilestone": 200,
-      "classesToGo": 2,
+      "classesToGo": 1,
       "badgeName": "Hybrid Royalty",
       "major": false
     },
@@ -153,6 +133,26 @@
       "nextMilestone": 50,
       "classesToGo": 2,
       "badgeName": "Progress Seeker",
+      "major": false
+    },
+    {
+      "memberId": 32410387,
+      "name": "Ashleigh Egan",
+      "totalVisits": 48,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/32410387.png?t=1787639210775",
+      "nextMilestone": 50,
+      "classesToGo": 2,
+      "badgeName": "Progress Seeker",
+      "major": false
+    },
+    {
+      "memberId": 26288976,
+      "name": "Eunice Agyare",
+      "totalVisits": 198,
+      "photoUrl": null,
+      "nextMilestone": 200,
+      "classesToGo": 2,
+      "badgeName": "Hybrid Royalty",
       "major": false
     },
     {
