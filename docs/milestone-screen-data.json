@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24",
+  "generatedAt": "2026-10-25",
   "majorMilestones": [
     {
       "memberId": 20972020,
@@ -92,16 +92,6 @@
       "totalVisits": 350,
       "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/21007320.png?t=1787087890619",
       "date": "2026-10-19"
-    },
-    {
-      "memberId": 25363047,
-      "name": "Amar Kumar",
-      "milestone": 50,
-      "badgeName": "Progress Seeker",
-      "major": false,
-      "totalVisits": 50,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/25363047.png?t=1787213505638",
-      "date": "2026-10-18"
     }
   ],
   "almostThere": [
