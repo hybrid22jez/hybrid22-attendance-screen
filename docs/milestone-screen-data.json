@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25",
+  "generatedAt": "2026-10-26",
   "majorMilestones": [
     {
       "memberId": 20972020,
@@ -82,16 +82,6 @@
       "totalVisits": 50,
       "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/20970849.png?t=1788988243794",
       "date": "2026-10-20"
-    },
-    {
-      "memberId": 21007320,
-      "name": "Lydia Smith",
-      "milestone": 350,
-      "badgeName": "Hybrid Hall of Fame",
-      "major": false,
-      "totalVisits": 350,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/21007320.png?t=1787087890619",
-      "date": "2026-10-19"
     }
   ],
   "almostThere": [
@@ -102,6 +92,16 @@
       "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/23556605.png?t=1787489235271",
       "nextMilestone": 200,
       "classesToGo": 1,
+      "badgeName": "Hybrid Royalty",
+      "major": false
+    },
+    {
+      "memberId": 26288976,
+      "name": "Eunice Agyare",
+      "totalVisits": 198,
+      "photoUrl": null,
+      "nextMilestone": 200,
+      "classesToGo": 2,
       "badgeName": "Hybrid Royalty",
       "major": false
     },
@@ -123,16 +123,6 @@
       "nextMilestone": 50,
       "classesToGo": 2,
       "badgeName": "Progress Seeker",
-      "major": false
-    },
-    {
-      "memberId": 26288976,
-      "name": "Eunice Agyare",
-      "totalVisits": 198,
-      "photoUrl": null,
-      "nextMilestone": 200,
-      "classesToGo": 2,
-      "badgeName": "Hybrid Royalty",
       "major": false
     },
     {
