@@ -1,18 +1,27 @@
 {
-  "generatedAt": "2026-10-26",
-  "majorMilestones": [
-    {
-      "memberId": 20972020,
-      "name": "Ruth Kieru",
-      "milestone": 250,
-      "badgeName": "Super Saiyan",
-      "major": true,
-      "totalVisits": 250,
-      "photoUrl": null,
-      "date": "2026-10-20"
-    }
-  ],
+  "generatedAt": "2026-10-27",
+  "majorMilestones": [],
   "everyLevelUp": [
+    {
+      "memberId": 26288976,
+      "name": "Eunice Agyare",
+      "milestone": 200,
+      "badgeName": "Hybrid Royalty",
+      "major": false,
+      "totalVisits": 201,
+      "photoUrl": null,
+      "date": "2026-10-27"
+    },
+    {
+      "memberId": 23556605,
+      "name": "Emma Beik",
+      "milestone": 200,
+      "badgeName": "Hybrid Royalty",
+      "major": false,
+      "totalVisits": 200,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/23556605.png?t=1787489235271",
+      "date": "2026-10-27"
+    },
     {
       "memberId": 21002125,
       "name": "Nadia Olsen",
@@ -52,76 +61,16 @@
       "totalVisits": 200,
       "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/26876129.png?t=1788934521811",
       "date": "2026-10-21"
-    },
-    {
-      "memberId": 20970404,
-      "name": "Benjamin Goodwin",
-      "milestone": 550,
-      "badgeName": "The Warrior's Bloodline",
-      "major": false,
-      "totalVisits": 550,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/20970404.png?t=1787639193885",
-      "date": "2026-10-20"
-    },
-    {
-      "memberId": 25938359,
-      "name": "Jaimee Strachan",
-      "milestone": 150,
-      "badgeName": "The Unstoppable",
-      "major": false,
-      "totalVisits": 151,
-      "photoUrl": null,
-      "date": "2026-10-20"
-    },
-    {
-      "memberId": 20970849,
-      "name": "Destiny Hemara",
-      "milestone": 50,
-      "badgeName": "Progress Seeker",
-      "major": false,
-      "totalVisits": 50,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/20970849.png?t=1788988243794",
-      "date": "2026-10-20"
     }
   ],
   "almostThere": [
     {
-      "memberId": 23556605,
-      "name": "Emma Beik",
-      "totalVisits": 199,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/23556605.png?t=1787489235271",
-      "nextMilestone": 200,
-      "classesToGo": 1,
-      "badgeName": "Hybrid Royalty",
-      "major": false
-    },
-    {
-      "memberId": 26288976,
-      "name": "Eunice Agyare",
-      "totalVisits": 198,
-      "photoUrl": null,
-      "nextMilestone": 200,
-      "classesToGo": 2,
-      "badgeName": "Hybrid Royalty",
-      "major": false
-    },
-    {
-      "memberId": 30237255,
-      "name": "Merita  Bruce",
-      "totalVisits": 48,
-      "photoUrl": null,
-      "nextMilestone": 50,
-      "classesToGo": 2,
-      "badgeName": "Progress Seeker",
-      "major": false
-    },
-    {
       "memberId": 32410387,
       "name": "Ashleigh Egan",
-      "totalVisits": 48,
+      "totalVisits": 49,
       "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/32410387.png?t=1787639210775",
       "nextMilestone": 50,
-      "classesToGo": 2,
+      "classesToGo": 1,
       "badgeName": "Progress Seeker",
       "major": false
     },
@@ -130,6 +79,16 @@
       "name": "Darcy Solomon",
       "totalVisits": 48,
       "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/33342670.png?t=1788860108056",
+      "nextMilestone": 50,
+      "classesToGo": 2,
+      "badgeName": "Progress Seeker",
+      "major": false
+    },
+    {
+      "memberId": 30237255,
+      "name": "Merita  Bruce",
+      "totalVisits": 48,
+      "photoUrl": null,
       "nextMilestone": 50,
       "classesToGo": 2,
       "badgeName": "Progress Seeker",
