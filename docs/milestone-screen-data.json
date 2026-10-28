@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28",
+  "generatedAt": "2026-10-29",
   "majorMilestones": [],
   "everyLevelUp": [
     {
@@ -41,29 +41,19 @@
       "totalVisits": 350,
       "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/21002125.png?t=1789103225442",
       "date": "2026-10-23"
-    },
-    {
-      "memberId": 25939762,
-      "name": "Ama Hemana",
-      "milestone": 50,
-      "badgeName": "Progress Seeker",
-      "major": false,
-      "totalVisits": 53,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/25939762.png?t=1789371061104",
-      "date": "2026-10-22"
-    },
-    {
-      "memberId": 32632862,
-      "name": "Majar Hikuroa-Betham",
-      "milestone": 50,
-      "badgeName": "Progress Seeker",
-      "major": false,
-      "totalVisits": 50,
-      "photoUrl": null,
-      "date": "2026-10-22"
     }
   ],
   "almostThere": [
+    {
+      "memberId": 31780863,
+      "name": "Mudit Shukla",
+      "totalVisits": 99,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/31780863.png?t=1786955401854",
+      "nextMilestone": 100,
+      "classesToGo": 1,
+      "badgeName": "Built Different",
+      "major": true
+    },
     {
       "memberId": 32410387,
       "name": "Ashleigh Egan",
