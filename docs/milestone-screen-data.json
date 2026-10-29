@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29",
+  "generatedAt": "2026-10-30",
   "majorMilestones": [],
   "everyLevelUp": [
     {
@@ -31,29 +31,9 @@
       "totalVisits": 200,
       "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/23556605.png?t=1787489235271",
       "date": "2026-10-27"
-    },
-    {
-      "memberId": 21002125,
-      "name": "Nadia Olsen",
-      "milestone": 350,
-      "badgeName": "Hybrid Hall of Fame",
-      "major": false,
-      "totalVisits": 350,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/21002125.png?t=1789103225442",
-      "date": "2026-10-23"
     }
   ],
   "almostThere": [
-    {
-      "memberId": 31780863,
-      "name": "Mudit Shukla",
-      "totalVisits": 99,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/31780863.png?t=1786955401854",
-      "nextMilestone": 100,
-      "classesToGo": 1,
-      "badgeName": "Built Different",
-      "major": true
-    },
     {
       "memberId": 32410387,
       "name": "Ashleigh Egan",
@@ -63,6 +43,16 @@
       "classesToGo": 1,
       "badgeName": "Progress Seeker",
       "major": false
+    },
+    {
+      "memberId": 31780863,
+      "name": "Mudit Shukla",
+      "totalVisits": 99,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/31780863.png?t=1786955401854",
+      "nextMilestone": 100,
+      "classesToGo": 1,
+      "badgeName": "Built Different",
+      "major": true
     },
     {
       "memberId": 30237255,
