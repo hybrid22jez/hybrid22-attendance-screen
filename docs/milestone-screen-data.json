@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03",
+  "generatedAt": "2026-11-04",
   "majorMilestones": [
     {
       "memberId": 31780863,
@@ -32,16 +32,6 @@
       "totalVisits": 50,
       "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/32410387.png?t=1787639210775",
       "date": "2026-10-31"
-    },
-    {
-      "memberId": 33342670,
-      "name": "Darcy Solomon",
-      "milestone": 50,
-      "badgeName": "Progress Seeker",
-      "major": false,
-      "totalVisits": 50,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/33342670.png?t=1788860108056",
-      "date": "2026-10-28"
     }
   ],
   "almostThere": [
