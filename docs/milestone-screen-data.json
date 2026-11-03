@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02",
+  "generatedAt": "2026-11-03",
   "majorMilestones": [
     {
       "memberId": 31780863,
@@ -42,36 +42,16 @@
       "totalVisits": 50,
       "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/33342670.png?t=1788860108056",
       "date": "2026-10-28"
-    },
-    {
-      "memberId": 26288976,
-      "name": "Eunice Agyare",
-      "milestone": 200,
-      "badgeName": "Hybrid Royalty",
-      "major": false,
-      "totalVisits": 201,
-      "photoUrl": null,
-      "date": "2026-10-27"
-    },
-    {
-      "memberId": 23556605,
-      "name": "Emma Beik",
-      "milestone": 200,
-      "badgeName": "Hybrid Royalty",
-      "major": false,
-      "totalVisits": 200,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/23556605.png?t=1787489235271",
-      "date": "2026-10-27"
     }
   ],
   "almostThere": [
     {
       "memberId": 30237255,
       "name": "Merita  Bruce",
-      "totalVisits": 48,
+      "totalVisits": 49,
       "photoUrl": null,
       "nextMilestone": 50,
-      "classesToGo": 2,
+      "classesToGo": 1,
       "badgeName": "Progress Seeker",
       "major": false
     },
