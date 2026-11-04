@@ -114,15 +114,21 @@
   // a fixed duration would make a 40-person list fly past unreadably fast.
   const SECONDS_PER_ITEM = 2.5;
 
+  // Names and links come from the data file; escape them so nothing in a
+  // member's profile can inject markup onto the screen.
+  function esc(value) {
+    return String(value ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  }
+
   function initials(name) {
     return (name || '').split(' ').filter(Boolean).map(p => p[0]).slice(0, 2).join('').toUpperCase();
   }
 
   function avatarHtml(item) {
     if (item.photoUrl) {
-      return `<div class="avatar"><img src="${item.photoUrl}" alt=""></div>`;
+      return `<div class="avatar"><img src="${esc(item.photoUrl)}" alt=""></div>`;
     }
-    return `<div class="avatar">${initials(item.name)}</div>`;
+    return `<div class="avatar">${esc(initials(item.name))}</div>`;
   }
 
   function majorRow(item) {
@@ -133,8 +139,8 @@
           <div class="star-badge"><i class="ti ti-star-filled"></i></div>
         </div>
         <div>
-          <p class="row-name">${item.name}</p>
-          <p class="row-detail">${item.milestone} classes · ${item.badgeName}</p>
+          <p class="row-name">${esc(item.name)}</p>
+          <p class="row-detail">${item.milestone} classes · ${esc(item.badgeName)}</p>
         </div>
       </div>`;
   }
@@ -144,8 +150,8 @@
       <div class="row">
         <div class="going-badge">${item.classesToGo}</div>
         <div>
-          <p class="row-name">${item.name}</p>
-          <p class="row-detail">${item.classesToGo} class${item.classesToGo === 1 ? '' : 'es'} from ${item.nextMilestone} · ${item.badgeName}</p>
+          <p class="row-name">${esc(item.name)}</p>
+          <p class="row-detail">${item.classesToGo} class${item.classesToGo === 1 ? '' : 'es'} from ${item.nextMilestone} · ${esc(item.badgeName)}</p>
         </div>
       </div>`;
   }
@@ -155,8 +161,8 @@
       <div class="ticker-item">
         ${avatarHtml(item)}
         <div>
-          <p class="row-name" style="font-size:14px;">${item.name}</p>
-          <p class="row-detail">${item.milestone} · ${item.badgeName}</p>
+          <p class="row-name" style="font-size:14px;">${esc(item.name)}</p>
+          <p class="row-detail">${item.milestone} · ${esc(item.badgeName)}</p>
         </div>
       </div>`;
   }

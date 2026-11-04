@@ -1,9 +1,8 @@
 {
-  "generatedAt": "2026-11-04",
+  "generatedAt": "2026-11-05",
   "majorMilestones": [
     {
-      "memberId": 31780863,
-      "name": "Mudit Shukla",
+      "name": "Mudit S.",
       "milestone": 100,
       "badgeName": "Built Different",
       "major": true,
@@ -14,8 +13,7 @@
   ],
   "everyLevelUp": [
     {
-      "memberId": 31002043,
-      "name": "Daniel Filimoeatu",
+      "name": "Daniel F.",
       "milestone": 50,
       "badgeName": "Progress Seeker",
       "major": false,
@@ -24,8 +22,7 @@
       "date": "2026-10-31"
     },
     {
-      "memberId": 32410387,
-      "name": "Ashleigh Egan",
+      "name": "Ashleigh E.",
       "milestone": 50,
       "badgeName": "Progress Seeker",
       "major": false,
@@ -36,8 +33,7 @@
   ],
   "almostThere": [
     {
-      "memberId": 30237255,
-      "name": "Merita  Bruce",
+      "name": "Merita B.",
       "totalVisits": 49,
       "photoUrl": null,
       "nextMilestone": 50,
@@ -46,8 +42,25 @@
       "major": false
     },
     {
-      "memberId": 23951799,
-      "name": "Mel Kivalu",
+      "name": "Owen L.",
+      "totalVisits": 98,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/29569199.png?t=1789377548860",
+      "nextMilestone": 100,
+      "classesToGo": 2,
+      "badgeName": "Built Different",
+      "major": true
+    },
+    {
+      "name": "Ebony H.",
+      "totalVisits": 148,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/23828586.png?t=1788136307510",
+      "nextMilestone": 150,
+      "classesToGo": 2,
+      "badgeName": "The Unstoppable",
+      "major": false
+    },
+    {
+      "name": "Mel K.",
       "totalVisits": 198,
       "photoUrl": null,
       "nextMilestone": 200,
@@ -56,8 +69,7 @@
       "major": false
     },
     {
-      "memberId": 29668276,
-      "name": "Shana Adamov",
+      "name": "Shana A.",
       "totalVisits": 48,
       "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/29668276.png?t=1790814221882",
       "nextMilestone": 50,
