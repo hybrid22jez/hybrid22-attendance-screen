@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05",
+  "generatedAt": "2026-11-06",
   "majorMilestones": [
     {
       "name": "Mudit S.",
@@ -12,6 +12,15 @@
     }
   ],
   "everyLevelUp": [
+    {
+      "name": "Mel K.",
+      "milestone": 200,
+      "badgeName": "Hybrid Royalty",
+      "major": false,
+      "totalVisits": 200,
+      "photoUrl": null,
+      "date": "2026-11-06"
+    },
     {
       "name": "Daniel F.",
       "milestone": 50,
@@ -51,21 +60,21 @@
       "major": true
     },
     {
+      "name": "John C.",
+      "totalVisits": 48,
+      "photoUrl": null,
+      "nextMilestone": 50,
+      "classesToGo": 2,
+      "badgeName": "Progress Seeker",
+      "major": false
+    },
+    {
       "name": "Ebony H.",
       "totalVisits": 148,
       "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/23828586.png?t=1788136307510",
       "nextMilestone": 150,
       "classesToGo": 2,
       "badgeName": "The Unstoppable",
-      "major": false
-    },
-    {
-      "name": "Mel K.",
-      "totalVisits": 198,
-      "photoUrl": null,
-      "nextMilestone": 200,
-      "classesToGo": 2,
-      "badgeName": "Hybrid Royalty",
       "major": false
     },
     {
