@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07",
+  "generatedAt": "2026-11-08",
   "majorMilestones": [],
   "everyLevelUp": [
     {
@@ -23,6 +23,15 @@
   ],
   "almostThere": [
     {
+      "name": "John C.",
+      "totalVisits": 49,
+      "photoUrl": null,
+      "nextMilestone": 50,
+      "classesToGo": 1,
+      "badgeName": "Progress Seeker",
+      "major": false
+    },
+    {
       "name": "Owen L.",
       "totalVisits": 98,
       "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/29569199.png?t=1789377548860",
@@ -30,15 +39,6 @@
       "classesToGo": 2,
       "badgeName": "Built Different",
       "major": true
-    },
-    {
-      "name": "John C.",
-      "totalVisits": 48,
-      "photoUrl": null,
-      "nextMilestone": 50,
-      "classesToGo": 2,
-      "badgeName": "Progress Seeker",
-      "major": false
     },
     {
       "name": "Shantelle R.",
