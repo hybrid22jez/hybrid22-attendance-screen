@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08",
+  "generatedAt": "2026-11-09",
   "majorMilestones": [],
   "everyLevelUp": [
     {
@@ -41,6 +41,15 @@
       "major": true
     },
     {
+      "name": "Shana A.",
+      "totalVisits": 48,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/29668276.png?t=1790814221882",
+      "nextMilestone": 50,
+      "classesToGo": 2,
+      "badgeName": "Progress Seeker",
+      "major": false
+    },
+    {
       "name": "Shantelle R.",
       "totalVisits": 48,
       "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/32635880.png?t=1787101959081",
@@ -56,15 +65,6 @@
       "nextMilestone": 150,
       "classesToGo": 2,
       "badgeName": "The Unstoppable",
-      "major": false
-    },
-    {
-      "name": "Shana A.",
-      "totalVisits": 48,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/29668276.png?t=1790814221882",
-      "nextMilestone": 50,
-      "classesToGo": 2,
-      "badgeName": "Progress Seeker",
       "major": false
     }
   ]
