@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13",
+  "generatedAt": "2026-11-14",
   "majorMilestones": [
     {
       "name": "Owen L.",
@@ -29,15 +29,6 @@
       "totalVisits": 50,
       "photoUrl": null,
       "date": "2026-11-11"
-    },
-    {
-      "name": "Merita B.",
-      "milestone": 50,
-      "badgeName": "Progress Seeker",
-      "major": false,
-      "totalVisits": 50,
-      "photoUrl": null,
-      "date": "2026-11-07"
     }
   ],
   "almostThere": [
@@ -51,6 +42,15 @@
       "major": false
     },
     {
+      "name": "Ngawai M.",
+      "totalVisits": 199,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/22622425.png?t=1747895963304",
+      "nextMilestone": 200,
+      "classesToGo": 1,
+      "badgeName": "Hybrid Royalty",
+      "major": false
+    },
+    {
       "name": "Ebony H.",
       "totalVisits": 149,
       "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/23828586.png?t=1788136307510",
@@ -61,11 +61,56 @@
     },
     {
       "name": "Rachelle B.",
-      "totalVisits": 48,
+      "totalVisits": 49,
       "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/31142515.png?t=1789139999678",
+      "nextMilestone": 50,
+      "classesToGo": 1,
+      "badgeName": "Progress Seeker",
+      "major": false
+    },
+    {
+      "name": "Tu S.",
+      "totalVisits": 48,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/33107682.png?t=1787256327396",
       "nextMilestone": 50,
       "classesToGo": 2,
       "badgeName": "Progress Seeker",
+      "major": false
+    },
+    {
+      "name": "Ane N.",
+      "totalVisits": 98,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/30985487.png?t=1782209096711",
+      "nextMilestone": 100,
+      "classesToGo": 2,
+      "badgeName": "Built Different",
+      "major": true
+    },
+    {
+      "name": "Caity W.",
+      "totalVisits": 548,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/20970483.png?t=1788749860765",
+      "nextMilestone": 550,
+      "classesToGo": 2,
+      "badgeName": "The Warrior's Bloodline",
+      "major": false
+    },
+    {
+      "name": "Teasha P.",
+      "totalVisits": 148,
+      "photoUrl": null,
+      "nextMilestone": 150,
+      "classesToGo": 2,
+      "badgeName": "The Unstoppable",
+      "major": false
+    },
+    {
+      "name": "Monique E.",
+      "totalVisits": 198,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/27443770.png?t=1788653532831",
+      "nextMilestone": 200,
+      "classesToGo": 2,
+      "badgeName": "Hybrid Royalty",
       "major": false
     },
     {
