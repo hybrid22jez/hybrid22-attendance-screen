@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14",
+  "generatedAt": "2026-11-15",
   "majorMilestones": [
     {
       "name": "Owen L.",
@@ -69,6 +69,15 @@
       "major": false
     },
     {
+      "name": "Teasha P.",
+      "totalVisits": 148,
+      "photoUrl": null,
+      "nextMilestone": 150,
+      "classesToGo": 2,
+      "badgeName": "The Unstoppable",
+      "major": false
+    },
+    {
       "name": "Tu S.",
       "totalVisits": 48,
       "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/33107682.png?t=1787256327396",
@@ -93,15 +102,6 @@
       "nextMilestone": 550,
       "classesToGo": 2,
       "badgeName": "The Warrior's Bloodline",
-      "major": false
-    },
-    {
-      "name": "Teasha P.",
-      "totalVisits": 148,
-      "photoUrl": null,
-      "nextMilestone": 150,
-      "classesToGo": 2,
-      "badgeName": "The Unstoppable",
       "major": false
     },
     {
