@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17",
+  "generatedAt": "2026-11-18",
   "majorMilestones": [
     {
       "name": "Ane N.",
@@ -12,6 +12,15 @@
     }
   ],
   "everyLevelUp": [
+    {
+      "name": "Tu S.",
+      "milestone": 50,
+      "badgeName": "Progress Seeker",
+      "major": false,
+      "totalVisits": 50,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/33107682.png?t=1787256327396",
+      "date": "2026-11-18"
+    },
     {
       "name": "Ebony H.",
       "milestone": 150,
@@ -56,15 +65,6 @@
       "totalVisits": 50,
       "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/32635880.png?t=1787101959081",
       "date": "2026-11-12"
-    },
-    {
-      "name": "John C.",
-      "milestone": 50,
-      "badgeName": "Progress Seeker",
-      "major": false,
-      "totalVisits": 50,
-      "photoUrl": null,
-      "date": "2026-11-11"
     }
   ],
   "almostThere": [
@@ -76,15 +76,6 @@
       "classesToGo": 1,
       "badgeName": "The Relentless Machine",
       "major": true
-    },
-    {
-      "name": "Tu S.",
-      "totalVisits": 49,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/33107682.png?t=1787256327396",
-      "nextMilestone": 50,
-      "classesToGo": 1,
-      "badgeName": "Progress Seeker",
-      "major": false
     },
     {
       "name": "Rachelle B.",
