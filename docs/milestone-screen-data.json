@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-11-18",
+  "generatedAt": "2026-11-19",
   "majorMilestones": [
+    {
+      "name": "Mimi F.",
+      "milestone": 500,
+      "badgeName": "The Relentless Machine",
+      "major": true,
+      "totalVisits": 500,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/20971584.png?t=1740829858590",
+      "date": "2026-11-19"
+    },
     {
       "name": "Ane N.",
       "milestone": 100,
@@ -56,27 +65,9 @@
       "totalVisits": 150,
       "photoUrl": null,
       "date": "2026-11-17"
-    },
-    {
-      "name": "Shantelle R.",
-      "milestone": 50,
-      "badgeName": "Progress Seeker",
-      "major": false,
-      "totalVisits": 50,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/32635880.png?t=1787101959081",
-      "date": "2026-11-12"
     }
   ],
   "almostThere": [
-    {
-      "name": "Mimi F.",
-      "totalVisits": 499,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/20971584.png?t=1740829858590",
-      "nextMilestone": 500,
-      "classesToGo": 1,
-      "badgeName": "The Relentless Machine",
-      "major": true
-    },
     {
       "name": "Rachelle B.",
       "totalVisits": 49,
