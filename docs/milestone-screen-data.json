@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20",
+  "generatedAt": "2026-11-21",
   "majorMilestones": [
     {
       "name": "Mimi F.",
@@ -77,6 +77,15 @@
     }
   ],
   "almostThere": [
+    {
+      "name": "Peter N.",
+      "totalVisits": 299,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/20971826.png?t=1738958069254",
+      "nextMilestone": 300,
+      "classesToGo": 1,
+      "badgeName": "Apex Athlete",
+      "major": false
+    },
     {
       "name": "Rachelle B.",
       "totalVisits": 49,
