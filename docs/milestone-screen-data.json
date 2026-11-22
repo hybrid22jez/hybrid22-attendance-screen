@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22",
+  "generatedAt": "2026-11-23",
   "majorMilestones": [
     {
       "name": "Mimi F.",
@@ -21,6 +21,15 @@
     }
   ],
   "everyLevelUp": [
+    {
+      "name": "Ngawai M.",
+      "milestone": 200,
+      "badgeName": "Hybrid Royalty",
+      "major": false,
+      "totalVisits": 200,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/22622425.png?t=1747895963304",
+      "date": "2026-11-23"
+    },
     {
       "name": "Lauren T.",
       "milestone": 50,
@@ -78,21 +87,21 @@
   ],
   "almostThere": [
     {
-      "name": "Peter N.",
-      "totalVisits": 299,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/20971826.png?t=1738958069254",
-      "nextMilestone": 300,
-      "classesToGo": 1,
-      "badgeName": "Apex Athlete",
-      "major": false
-    },
-    {
       "name": "Rachelle B.",
       "totalVisits": 49,
       "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/31142515.png?t=1789139999678",
       "nextMilestone": 50,
       "classesToGo": 1,
       "badgeName": "Progress Seeker",
+      "major": false
+    },
+    {
+      "name": "Peter N.",
+      "totalVisits": 299,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/20971826.png?t=1738958069254",
+      "nextMilestone": 300,
+      "classesToGo": 1,
+      "badgeName": "Apex Athlete",
       "major": false
     },
     {
@@ -105,12 +114,12 @@
       "major": false
     },
     {
-      "name": "Ngawai M.",
-      "totalVisits": 199,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/22622425.png?t=1747895963304",
-      "nextMilestone": 200,
-      "classesToGo": 1,
-      "badgeName": "Hybrid Royalty",
+      "name": "Marcus H.",
+      "totalVisits": 48,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/32640014.png?t=1789471834611",
+      "nextMilestone": 50,
+      "classesToGo": 2,
+      "badgeName": "Progress Seeker",
       "major": false
     },
     {
