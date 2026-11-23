@@ -1,6 +1,6 @@
 {
   "asOf": "2026-11-23",
-  "generatedAt": "2026-11-23T02:48:09.189Z",
+  "generatedAt": "2026-11-23T02:55:01.483Z",
   "goalDate": "2027-03-31",
   "plan": [
     {
@@ -40,7 +40,7 @@
   "members": {
     "now": 200,
     "goal": 300,
-    "start": 216,
+    "start": 200,
     "startDate": "2026-11-23",
     "frozen": 35,
     "frozenNoEnd": 21,
@@ -51,26 +51,36 @@
   },
   "mrr": null,
   "leads": {
-    "month": 21,
+    "month": 35,
     "weekly": [
-      3,
-      17
+      12,
+      10,
+      17,
+      9,
+      6,
+      26,
+      25,
+      16,
+      13,
+      14,
+      7,
+      12
     ]
   },
   "conv": {
-    "rate": 0.19230769230769232,
-    "twelve": 0.19230769230769232,
-    "n": 26,
-    "converted": 5,
+    "rate": 0.16326530612244897,
+    "twelve": 0.16326530612244897,
+    "n": 49,
+    "converted": 8,
     "weekly": [
-      0.19230769230769232
+      0.16326530612244897
     ]
   },
   "churn": {
     "rate": 0,
     "target": 0.03,
     "cancels": 0,
-    "startMembers": 216,
+    "startMembers": 200,
     "startDate": "2026-11-23",
     "weekly": [
       0
