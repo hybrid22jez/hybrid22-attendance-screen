@@ -82,7 +82,7 @@ body.tv .feeds,body.tv .costs{font-size:12.5px;margin-top:10px;border-top:1px so
 <div class="card"><table class="plan" id="plan"></table><div class="dim" id="plannote" style="margin-top:8px;font-size:12.5px"></div></div>
 
 <div class="foot money">
-<b>How each number is worked out.</b> Data from Momence every morning (Mindbody from 4 Jan). Members: people with an active paid membership (direct debit or upfront); trials, class packs, Recovery Lounge and complimentary passes don't count, and frozen members are shown apart. Leads: new accounts. Converted: leads from the last 30 days who now hold a paid membership, with 12 month shown separately. Churn: cancellations this month ÷ members at the start of the month; a member who leaves while frozen counts on the day they leave. Attendance: classes attended per member per week over the last 7 days. CAC: monthly acquisition spend (advertising, other marketing incl. Zane and Alana's retainer, Tay's sales wages, commissions) ÷ new members in the last 30 days. Jez's time and rent are general business costs, not CAC. Trend lines start on the first day of data and fill in week by week.
+<b>How each number is worked out.</b> Data from Momence every morning (Mindbody from 4 Jan). Members: people with an active paid membership (direct debit or upfront); trials, class packs, Recovery Lounge and complimentary passes don't count, and frozen members (anyone currently frozen, however long ago they froze and with or without an end date) are shown apart. Leads: people who start a Free Week Trial or 2 Weeks Free. Converted: those leads from the last 30 days who now hold a paid membership, with 12 month shown separately. Churn: cancellations this month ÷ members at the start of the month; a member who leaves while frozen counts as a cancel on the day they leave. Attendance: classes attended per member per week over the last 7 days. CAC: monthly acquisition spend (advertising, other marketing incl. Zane and Alana's retainer, Tay's sales wages, commissions) ÷ new members in the last 30 days. Jez's time and rent are general business costs, not CAC. Trend lines start on the first day of data and fill in week by week.
 </div>
 </div>
 <div class="tip" id="tip"></div>
@@ -161,9 +161,9 @@ function render(){
 
   $("#drivers").append(
     kCard({nt:"Plan starts Dec", name:"Leads in (this month)", val:D.leads.month, target:P.leads, show:D.leads.month,
-      tgtText:P.leads==null?`${P.label} Dec target ${D.plan[0].leads} · new accounts`:`${P.label} target ${P.leads} (about ${Math.round(P.leads/4.35)} a week) · new accounts`, weekly:D.leads.weekly, fmt:v=>v+" leads that week", feeds:"Feeds net new members and CAC"}),
+      tgtText:P.leads==null?`${P.label} Dec target ${D.plan[0].leads} · Free Week Trial and 2 Weeks Free starts`:`${P.label} target ${P.leads} (about ${Math.round(P.leads/4.35)} a week) · Free Week Trial and 2 Weeks Free starts`, weekly:D.leads.weekly, fmt:v=>v+" leads that week", feeds:"Feeds net new members and CAC"}),
     kCard({nt:"Plan starts Dec", name:"Leads converted", val:D.conv.rate, target:P.conv, show:pct(D.conv.rate),
-      tgtText:`${P.conv==null?P.label+' Dec target '+pct(D.plan[0].conv):P.label+' target '+pct(P.conv)} · last 30 days, ${D.conv.n} leads · 12 month only ${pct(D.conv.twelve)}`, weekly:D.conv.weekly, fmt:pct, feeds:"Feeds net new members and CAC"}));
+      tgtText:`${P.conv==null?P.label+' Dec target '+pct(D.plan[0].conv):P.label+' target '+pct(P.conv)} · ${D.conv.converted ?? '–'} of ${D.conv.n} trial leads from the last 30 days joined · 12 month only ${pct(D.conv.twelve)}`, weekly:D.conv.weekly, fmt:pct, feeds:"Feeds net new members and CAC"}));
   if (money_ok) $("#drivers").append(
     kCard({name:"CAC (blended)", cls:"money", val:D.cac.full, target:D.cac.target, lower:true, show:money(D.cac.full),
       tgtText:`Target ${money(D.cac.target)} · ${money(D.cac.costs.reduce((a,c)=>a+c[1],0))} spend ÷ ${D.cac.newCustomers} new members (${D.cac.basis}) · pays back in ${D.cac.full?(D.cac.full/D.cac.revPerMember).toFixed(1):"–"} months`,
@@ -173,7 +173,7 @@ function render(){
     kCard({name:"Attendance", val:D.att.rate, target:D.att.target, show:D.att.rate==null?"–":D.att.rate.toFixed(1),
       tgtText:`Classes per member per week · target ${D.att.target}${D.att.days<7?` · ${D.att.days} of 7 days of data`:""}`, weekly:D.att.weekly, fmt:v=>v.toFixed(1)+" a week", feeds:"Early warning for churn"}),
     kCard({name:"Churn (this month)", val:D.churn.rate, target:D.churn.target, lower:true, show:pct(D.churn.rate),
-      tgtText:`Target under ${pct(D.churn.target)} · ${D.churn.cancels} cancelled of ${D.churn.startMembers} · frozen ${D.members.frozen} (${pct(D.members.frozen/(D.members.now||1))}) shown apart`, weekly:D.churn.weekly, fmt:pct, feeds:"Takes away from net new members and MRR"}));
+      tgtText:`Target under ${pct(D.churn.target)} · ${D.churn.cancels} cancelled of ${D.churn.startMembers} · frozen ${D.members.frozen} (${pct(D.members.frozen/(D.members.now||1))})${D.members.frozenNoEnd?`, ${D.members.frozenNoEnd} with no end date`:''}, shown apart`, weekly:D.churn.weekly, fmt:pct, feeds:"Takes away from net new members and MRR"}));
 
   const netNeeded = monthsLeft > 0 ? (D.members.goal - D.members.now) / monthsLeft : 0;
   $("#outputs").append(
