@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hybrid 22 Motherboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0e0e10;--card:#18181c;--line:#2a2a31;--ink:#f4f4f6;--mute:#9a9aa6;--pink:#ff9bd9;--good:#5fd39a;--warn:#ffb35c;--bad:#ff6b6b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1280px;margin:0 auto;padding:20px}
+header{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;margin-bottom:14px}
+h1{font-size:20px;margin:0;font-weight:800;letter-spacing:.02em}
+h1 span{color:var(--pink)}
+.sub{color:var(--mute);font-size:13px;margin-top:2px}
+.tabs{display:flex;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:3px}
+.tabs a{color:var(--mute);text-decoration:none;padding:7px 14px;border-radius:8px;font-size:13px;font-weight:600}
+.tabs a.on{background:var(--pink);color:#111}
+.sample{background:#2b2210;border:1px solid #5a4416;color:#ffd48a;font-size:12.5px;padding:8px 12px;border-radius:8px;margin-bottom:16px}
+.label{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--mute);font-weight:600;margin:18px 0 8px}
+.goals{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;position:relative}
+.goal .big{font-size:40px;font-weight:800;line-height:1}
+.goal .of{color:var(--mute);font-size:15px;font-weight:500}
+.bar{height:10px;background:#26262c;border-radius:6px;margin:14px 0 6px;position:relative;overflow:visible}
+.bar i{display:block;height:100%;border-radius:6px;background:var(--pink)}
+.bar b{position:absolute;top:-4px;width:2px;height:18px;background:var(--ink)}
+.meta{display:flex;justify-content:space-between;font-size:12.5px;color:var(--mute);gap:8px;flex-wrap:wrap}
+.flow{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.out{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:12px}
+.k .name{font-size:13px;color:var(--mute);font-weight:600;display:flex;justify-content:space-between;gap:6px}
+.k .val{font-size:30px;font-weight:800;margin:6px 0 2px}
+.k .tgt{font-size:12.5px;color:var(--mute)}
+.pill{font-size:11px;font-weight:700;padding:2px 8px;border-radius:20px;white-space:nowrap}
+.pill.good{background:rgba(95,211,154,.15);color:var(--good)}
+.pill.warn{background:rgba(255,179,92,.15);color:var(--warn)}
+.pill.bad{background:rgba(255,107,107,.15);color:var(--bad)}
+.pill.none{background:#26262c;color:var(--mute)}
+svg.spark{width:100%;height:42px;margin-top:8px;display:block}
+.feeds{font-size:11.5px;color:var(--mute);margin-top:8px;border-top:1px solid var(--line);padding-top:8px}
+.arrow{text-align:center;color:var(--pink);font-size:13px;font-weight:600;letter-spacing:.08em;margin:10px 0 0}
+.tip{position:fixed;pointer-events:none;background:#000;border:1px solid var(--line);color:var(--ink);font-size:12px;padding:5px 8px;border-radius:6px;display:none;z-index:9}
+.costs{font-size:12.5px;margin-top:10px;border-top:1px solid var(--line);padding-top:8px}.costs div{display:flex;justify-content:space-between;padding:2px 0;color:var(--mute)}.costs .ad{color:var(--ink);border-top:1px solid var(--line);margin-top:4px;padding-top:6px}
+.plan{width:100%;border-collapse:collapse;font-size:14px}.plan th,.plan td{text-align:right;padding:6px 8px;border-bottom:1px solid var(--line)}.plan th:first-child,.plan td:first-child{text-align:left;color:var(--mute)}.plan th{color:var(--mute);font-weight:600;font-size:12px}.plan .cur{color:var(--pink);font-weight:700}
+.notes{background:#1d1a12;border:1px solid #3d3417;color:#e8cf8f;font-size:12.5px;padding:8px 12px;border-radius:8px;margin-bottom:16px;line-height:1.6}.notes:empty{display:none}.dim{color:var(--mute)}
+.foot{color:var(--mute);font-size:12px;margin-top:22px;line-height:1.6}
+.money{}
+/* TV view */
+body.tv .money{display:none!important}
+body.tv .wrap{max-width:1600px}
+body.tv .goal .big{font-size:72px}
+body.tv .k .val{font-size:44px}
+body.tv .k .name{font-size:16px}
+body.tv .feeds,body.tv .costs{font-size:12.5px;margin-top:10px;border-top:1px solid var(--line);padding-top:8px}.costs div{display:flex;justify-content:space-between;padding:2px 0;color:var(--mute)}.costs .ad{color:var(--ink);border-top:1px solid var(--line);margin-top:4px;padding-top:6px}
+.foot{display:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div>
+    <h1>HYBRID 22 <span>MOTHERBOARD</span></h1>
+    <div class="sub" id="sub">Goal: 300 members and $78k MRR by 31 March 2027</div>
+  </div>
+  <nav class="tabs" id="tabs"><a href="#owners" id="t-owners">Owners</a><a href="#tv" id="t-tv">Team / TV</a></nav>
+</header>
+<div class="notes money" id="notes"></div>
+
+<div class="label">The two goals</div>
+<div class="goals" id="goals"></div>
+
+<div class="label">What drives them</div>
+<div class="flow" id="drivers"></div>
+<div class="arrow">LEADS × CONVERSION − CHURN = NET NEW MEMBERS → MRR</div>
+
+<div class="label">Where they land this month</div>
+<div class="out" id="outputs"></div>
+
+<div class="label">The plan to 31 March</div>
+<div class="card"><table class="plan" id="plan"></table><div class="dim" id="plannote" style="margin-top:8px;font-size:12.5px"></div></div>
+
+<div class="foot money">
+<b>How each number is worked out.</b> Data from Momence every morning (Mindbody from 4 Jan). Members: people with an active paid membership (direct debit or upfront); trials, class packs, Recovery Lounge and complimentary passes don't count, and frozen members are shown apart. Leads: new accounts. Converted: leads from the last 30 days who now hold a paid membership, with 12 month shown separately. Churn: cancellations this month ÷ members at the start of the month; a member who leaves while frozen counts on the day they leave. Attendance: classes attended per member per week over the last 7 days. CAC: monthly acquisition spend (advertising, other marketing incl. Zane and Alana's retainer, Tay's sales wages, commissions) ÷ new members in the last 30 days. Jez's time and rent are general business costs, not CAC. Trend lines start on the first day of data and fill in week by week.
+</div>
+</div>
+<div class="tip" id="tip"></div>
+<script id="kpi-data" type="application/json">__KPI_DATA__</script>
+<script>
+const $ = s => document.querySelector(s);
+const pct = v => v == null ? "–" : (v*100).toFixed(v < .1 && v > 0 ? 1 : 0) + "%";
+const money = v => v == null ? "–" : "$" + Math.round(v).toLocaleString("en-AU");
+const num = v => v == null ? "–" : Math.round(v).toLocaleString("en-AU");
+const day = s => new Date(s + "T00:00:00");
+let D, weeksLeft, monthsLeft;
+
+function status(val, target, lowerIsBetter){
+  if (target == null) return ["none","Target to set"];
+  if (val == null) return ["none","Not enough data yet"];
+  const r = lowerIsBetter ? (val === 0 ? 2 : target / val) : val / target;
+  if (r >= 1) return ["good","On track"];
+  if (r >= .9) return ["warn","Close"];
+  return ["bad","Behind"];
+}
+const tip = $("#tip");
+function spark(values, fmt){
+  values = (values || []).filter(v => v != null);
+  if (values.length < 2) { const d = document.createElement("div"); d.className = "tgt"; d.style.marginTop = "10px"; d.textContent = "Trend line fills in as the weeks go by"; return d; }
+  const w = 300, h = 42, p = 3, min = Math.min(...values), max = Math.max(...values), span = (max - min) || 1;
+  const pts = values.map((v,i) => [p + i*(w-2*p)/(values.length-1), h - p - (v-min)/span*(h-2*p)]);
+  const svg = document.createElementNS("http://www.w3.org/2000/svg","svg");
+  svg.setAttribute("viewBox",`0 0 ${w} ${h}`); svg.setAttribute("preserveAspectRatio","none"); svg.classList.add("spark");
+  svg.innerHTML = `<polyline fill="none" stroke="#ff9bd9" stroke-width="2" vector-effect="non-scaling-stroke" points="${pts.map(q=>q.join(",")).join(" ")}"/>`;
+  pts.forEach((q,i) => {
+    const c = document.createElementNS("http://www.w3.org/2000/svg","circle");
+    c.setAttribute("cx",q[0]); c.setAttribute("cy",q[1]); c.setAttribute("r",i===pts.length-1?3.5:7);
+    c.setAttribute("fill", i===pts.length-1 ? "#ff9bd9" : "transparent");
+    c.addEventListener("mousemove", e => { tip.style.display="block"; tip.style.left=(e.clientX+12)+"px"; tip.style.top=(e.clientY-28)+"px";
+      const ago = values.length-1-i; tip.textContent = `${ago===0?"This week":ago+" wk ago"}: ${fmt(values[i])}`; });
+    c.addEventListener("mouseleave", () => tip.style.display="none");
+    svg.appendChild(c);
+  });
+  return svg;
+}
+function goalCard(title, now, goal, start, fmt, cls){
+  const el = document.createElement("div"); el.className = "card goal " + (cls||"");
+  const total = day(D.goalDate) - day(D.members.startDate);
+  const done = day(D.asOf) - day(D.members.startDate);
+  const paceNow = total > 0 ? start + (goal - start) * done / total : start;
+  const perWeek = weeksLeft > 0 ? (goal - now) / weeksLeft : 0;
+  const [s, word] = status(now, paceNow);
+  el.innerHTML = `<div class="k"><div class="name">${title}<span class="pill ${s}">${word}</span></div></div>
+    <div class="big">${fmt(now)} <span class="of">of ${fmt(goal)}</span></div>
+    <div class="bar"><i style="width:${Math.min(100,now/goal*100)}%"></i><b style="left:${Math.min(100,paceNow/goal*100)}%" title="Where we should be today"></b></div>
+    <div class="meta"><span>${Math.round(now/goal*100)}% there · pace line says ${fmt(paceNow)} today</span><span>Need ${fmt(perWeek)}/week for ${Math.round(weeksLeft)} weeks</span></div>`;
+  return el;
+}
+function kCard(o){
+  const el = document.createElement("div"); el.className = "card k " + (o.cls||"");
+  let [s, word] = status(o.val, o.target, o.lower);
+  if (o.target == null && o.nt) word = o.nt;
+  el.innerHTML = `<div class="name">${o.name}<span class="pill ${s}">${word}</span></div>
+    <div class="val">${o.show}</div><div class="tgt">${o.tgtText}</div>`;
+  if (o.extra) el.insertAdjacentHTML("beforeend", o.extra);
+  el.appendChild(spark(o.weekly, o.fmt));
+  if (o.feeds) el.insertAdjacentHTML("beforeend", `<div class="feeds">${o.feeds}</div>`);
+  return el;
+}
+function planNow(){ const k=D.asOf.slice(0,7); return D.plan.find(p=>p.m===k) || (k<D.plan[0].m?null:D.plan[D.plan.length-1]); }
+const PRE = {label:"Plan starts 1 Dec ·", leads:null, conv:null, joins:null};
+
+function render(){
+  const P = planNow() || PRE;
+  const money_ok = D.mrr != null;
+  ["#goals","#drivers","#outputs"].forEach(s => $(s).innerHTML = "");
+  $("#sub").textContent = `Goal: 300 members and $78k MRR by 31 March 2027 · updated ${new Date(D.generatedAt).toLocaleString("en-AU",{timeZone:"Australia/Melbourne",weekday:"short",day:"numeric",month:"short",hour:"numeric",minute:"2-digit"})}`;
+  $("#notes").textContent = (D.notes||[]).join(" ");
+  $("#goals").append(goalCard("Members", D.members.now, D.members.goal, D.members.start, num));
+  if (money_ok) $("#goals").append(goalCard("MRR", D.mrr.now, D.mrr.goal, D.mrr.start, money, "money"));
+
+  $("#drivers").append(
+    kCard({nt:"Plan starts Dec", name:"Leads in (this month)", val:D.leads.month, target:P.leads, show:D.leads.month,
+      tgtText:P.leads==null?`${P.label} Dec target ${D.plan[0].leads} · new accounts`:`${P.label} target ${P.leads} (about ${Math.round(P.leads/4.35)} a week) · new accounts`, weekly:D.leads.weekly, fmt:v=>v+" leads that week", feeds:"Feeds net new members and CAC"}),
+    kCard({nt:"Plan starts Dec", name:"Leads converted", val:D.conv.rate, target:P.conv, show:pct(D.conv.rate),
+      tgtText:`${P.conv==null?P.label+' Dec target '+pct(D.plan[0].conv):P.label+' target '+pct(P.conv)} · last 30 days, ${D.conv.n} leads · 12 month only ${pct(D.conv.twelve)}`, weekly:D.conv.weekly, fmt:pct, feeds:"Feeds net new members and CAC"}));
+  if (money_ok) $("#drivers").append(
+    kCard({name:"CAC (blended)", cls:"money", val:D.cac.full, target:D.cac.target, lower:true, show:money(D.cac.full),
+      tgtText:`Target ${money(D.cac.target)} · ${money(D.cac.costs.reduce((a,c)=>a+c[1],0))} spend ÷ ${D.cac.newCustomers} new members (${D.cac.basis}) · pays back in ${D.cac.full?(D.cac.full/D.cac.revPerMember).toFixed(1):"–"} months`,
+      extra:`<div class="costs">${D.cac.costs.map(c=>`<div><span>${c[0]}</span><span>${money(c[1])}</span></div>`).join("")}<div class="ad"><span>Ad CAC (ads only)</span><span>${money(D.cac.ad)}</span></div><div style="margin-top:6px">Excludes Jez's time and rent, which are general business costs</div></div>`,
+      feeds:"Most of this is fixed cost, so more members from the same spend brings it down"}));
+  $("#drivers").append(
+    kCard({name:"Attendance", val:D.att.rate, target:D.att.target, show:D.att.rate==null?"–":D.att.rate.toFixed(1),
+      tgtText:`Classes per member per week · target ${D.att.target}${D.att.days<7?` · ${D.att.days} of 7 days of data`:""}`, weekly:D.att.weekly, fmt:v=>v.toFixed(1)+" a week", feeds:"Early warning for churn"}),
+    kCard({name:"Churn (this month)", val:D.churn.rate, target:D.churn.target, lower:true, show:pct(D.churn.rate),
+      tgtText:`Target under ${pct(D.churn.target)} · ${D.churn.cancels} cancelled of ${D.churn.startMembers} · frozen ${D.members.frozen} (${pct(D.members.frozen/(D.members.now||1))}) shown apart`, weekly:D.churn.weekly, fmt:pct, feeds:"Takes away from net new members and MRR"}));
+
+  const netNeeded = monthsLeft > 0 ? (D.members.goal - D.members.now) / monthsLeft : 0;
+  $("#outputs").append(
+    kCard({nt:"Plan starts Dec", name:"Net new members (this month)", val:D.netNew.month, target:P.joins==null?null:P.joins - Math.round(D.members.now*D.churn.target), show:(D.netNew.month>=0?"+":"")+D.netNew.month,
+      tgtText:`${D.netNew.joins} joined, ${D.netNew.cancels} cancelled · ${P.joins==null?'Dec plan: '+D.plan[0].joins:P.label+' plan: '+P.joins} joins · need about +${Math.ceil(netNeeded)} net a month to reach 300`, weekly:D.netNew.weekly, fmt:v=>(v>=0?"+":"")+v}));
+  if (money_ok) $("#outputs").append(
+    kCard({name:"MRR added (this month)", cls:"money", val:D.mrrAdded, target:(D.mrr.goal-D.mrr.now)/(monthsLeft||1), show:money(D.mrrAdded),
+      tgtText:`Need about ${money((D.mrr.goal-D.mrr.now)/(monthsLeft||1))} a month to reach $78k${D.mrr.unknownAmounts?` · ${D.mrr.unknownAmounts} members missing a payment amount`:""}`, weekly:D.mrr.weekly, fmt:money}));
+}
+function renderPlan(){
+  const P=planNow(), t=$("#plan"); t.innerHTML="";
+  const rows=[["Joins needed",p=>p.joins],["Conversion target",p=>pct(p.conv)],["Leads needed",p=>p.leads],["Leads a week",p=>Math.round(p.leads/4.35)]];
+  const h=t.insertRow(); h.insertCell().textContent=""; D.plan.forEach(p=>{const c=document.createElement("th");c.textContent=p.label;if(p===P)c.className="cur";h.appendChild(c);});
+  rows.forEach(([n,f])=>{const r=t.insertRow(); r.insertCell().textContent=n; D.plan.forEach(p=>{const c=r.insertCell(); c.textContent=f(p); if(p===P)c.className="cur";});});
+  $("#plannote").textContent=`3% churn a month built in. Best month for joins so far: ${D.bestMonth.joins} (${D.bestMonth.label}).`;
+}
+function route(){
+  const tv = location.hash === "#tv" || (D && D.view === "tv");
+  document.body.classList.toggle("tv", tv);
+  $("#t-tv").classList.toggle("on", tv); $("#t-owners").classList.toggle("on", !tv);
+  if (D && D.view === "tv") $("#tabs").style.display = "none";
+}
+function start(data){
+  D = data;
+  weeksLeft = Math.max(0, (day(D.goalDate) - day(D.asOf)) / 6048e5);
+  monthsLeft = weeksLeft / 4.345;
+  route(); render(); renderPlan();
+}
+addEventListener("hashchange", route);
+const inline = document.getElementById("kpi-data").textContent.trim();
+if (inline && inline[0] === "{") start(JSON.parse(inline));
+else {
+  const load = () => fetch("kpi-data.json?t=" + Date.now()).then(r => r.json()).then(start).catch(() => {});
+  load(); setInterval(load, 30 * 60 * 1000); // TV screen picks up the new file through the day
+}
+</script>
+</body>
+</html>

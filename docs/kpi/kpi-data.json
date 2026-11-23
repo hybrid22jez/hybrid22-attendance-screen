@@ -1,0 +1,104 @@
+{
+  "asOf": "2026-11-23",
+  "generatedAt": "2026-11-23T01:04:45.370Z",
+  "goalDate": "2027-03-31",
+  "plan": [
+    {
+      "m": "2026-12",
+      "label": "Dec",
+      "joins": 21,
+      "conv": 0.32,
+      "leads": 66
+    },
+    {
+      "m": "2027-01",
+      "label": "Jan",
+      "joins": 39,
+      "conv": 0.38,
+      "leads": 103
+    },
+    {
+      "m": "2027-02",
+      "label": "Feb",
+      "joins": 33,
+      "conv": 0.4,
+      "leads": 83
+    },
+    {
+      "m": "2027-03",
+      "label": "Mar",
+      "joins": 35,
+      "conv": 0.4,
+      "leads": 88
+    }
+  ],
+  "bestMonth": {
+    "joins": 31,
+    "label": "Jul 2026"
+  },
+  "daysOfData": 0,
+  "members": {
+    "now": 216,
+    "goal": 300,
+    "start": 216,
+    "startDate": "2026-11-23",
+    "frozen": 0,
+    "weekly": [
+      216
+    ]
+  },
+  "mrr": null,
+  "leads": {
+    "month": 34,
+    "weekly": [
+      12,
+      10,
+      17,
+      9,
+      6,
+      26,
+      25,
+      16,
+      13,
+      13,
+      7,
+      12
+    ]
+  },
+  "conv": {
+    "rate": 0.14583333333333334,
+    "twelve": 0.14583333333333334,
+    "n": 48,
+    "weekly": [
+      0.14583333333333334
+    ]
+  },
+  "churn": {
+    "rate": 0,
+    "target": 0.03,
+    "cancels": 0,
+    "startMembers": 216,
+    "startDate": "2026-11-23",
+    "weekly": [
+      0
+    ]
+  },
+  "att": {
+    "rate": null,
+    "target": 2.6,
+    "days": 0,
+    "weekly": []
+  },
+  "cac": null,
+  "netNew": {
+    "month": 6,
+    "joins": 6,
+    "cancels": 0,
+    "weekly": [
+      6
+    ]
+  },
+  "mrrAdded": null,
+  "notes": [],
+  "view": "tv"
+}
