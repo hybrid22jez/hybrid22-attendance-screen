@@ -1,6 +1,6 @@
 {
   "asOf": "2026-11-23",
-  "generatedAt": "2026-11-23T03:08:32.339Z",
+  "generatedAt": "2026-11-23T03:33:23.670Z",
   "goalDate": "2027-03-31",
   "plan": [
     {
@@ -41,7 +41,7 @@
     "now": 192,
     "pending": 8,
     "goal": 300,
-    "start": 200,
+    "start": 192,
     "startDate": "2026-11-23",
     "frozen": 35,
     "frozenNoEnd": 21,
@@ -68,6 +68,14 @@
       13
     ]
   },
+  "first": {
+    "month": 21,
+    "rate": 0.5833333333333334,
+    "target": 0.5,
+    "weekly": [
+      0.5833333333333334
+    ]
+  },
   "conv": {
     "rate": 0.16,
     "twelve": 0.16,
@@ -82,7 +90,7 @@
     "rate": 0,
     "target": 0.03,
     "cancels": 0,
-    "startMembers": 200,
+    "startMembers": 192,
     "startDate": "2026-11-23",
     "weekly": [
       0
