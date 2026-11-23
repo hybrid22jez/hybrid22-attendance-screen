@@ -1,35 +1,35 @@
 {
   "asOf": "2026-11-23",
-  "generatedAt": "2026-11-23T02:26:26.412Z",
+  "generatedAt": "2026-11-23T02:48:09.189Z",
   "goalDate": "2027-03-31",
   "plan": [
     {
       "m": "2026-12",
       "label": "Dec",
-      "joins": 21,
+      "joins": 22,
       "conv": 0.32,
-      "leads": 66
+      "leads": 69
     },
     {
       "m": "2027-01",
       "label": "Jan",
-      "joins": 39,
+      "joins": 40,
       "conv": 0.38,
-      "leads": 103
+      "leads": 105
     },
     {
       "m": "2027-02",
       "label": "Feb",
-      "joins": 33,
+      "joins": 34,
       "conv": 0.4,
-      "leads": 83
+      "leads": 85
     },
     {
       "m": "2027-03",
       "label": "Mar",
-      "joins": 35,
+      "joins": 36,
       "conv": 0.4,
-      "leads": 88
+      "leads": 90
     }
   ],
   "bestMonth": {
@@ -38,15 +38,15 @@
   },
   "daysOfData": 0,
   "members": {
-    "now": 216,
+    "now": 200,
     "goal": 300,
     "start": 216,
     "startDate": "2026-11-23",
-    "frozen": 36,
+    "frozen": 35,
     "frozenNoEnd": 21,
     "frozenOverdue": 0,
     "weekly": [
-      216
+      200
     ]
   },
   "mrr": null,
