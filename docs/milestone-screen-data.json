@@ -103,6 +103,24 @@
       "classesToGo": 2,
       "badgeName": "The Unstoppable",
       "major": false
+    },
+    {
+      "name": "Laura M.",
+      "totalVisits": 247,
+      "photoUrl": null,
+      "nextMilestone": 250,
+      "classesToGo": 3,
+      "badgeName": "Super Saiyan",
+      "major": true
+    },
+    {
+      "name": "Tina P.",
+      "totalVisits": 47,
+      "photoUrl": null,
+      "nextMilestone": 50,
+      "classesToGo": 3,
+      "badgeName": "Progress Seeker",
+      "major": false
     }
   ]
 }

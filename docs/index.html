@@ -2,117 +2,197 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Hybrid 22 — Attendance Milestones</title>
+<title>Hybrid 22 · Attendance Milestones</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2/dist/tabler-icons.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@500;600&display=swap">
 <style>
+  /* TV display, designed at 1920x1080. Everything is sized in rem and the
+     root font size scales with the screen width, so the layout looks the
+     same on a 1080p or 4K TV (16px at 1920 wide). */
   :root {
-    --gold: #C9A15A;
+    /* Progress Pink - the Hybrid 22 brand accent (same value as the KPI dashboard). */
+    --pink: #FF9BD9;
     --bg: #000000;
-    --card: #141414;
-    --border: #2A2A2A;
+    --card: #111111;
+    --line: #232323;
     --text: #F4F1E9;
-    --muted: #9A9A9A;
-    --muted-dim: #8A8A8A;
-    --avatar: #3A3A3A;
-    --flame: #D85A30;
-    --award: #7F77DD;
+    --muted: #9A968E;
+    --dim: #5E5B56;
+    --chip: #262626;
+    font-size: calc(100vw / 120);
   }
   * { box-sizing: border-box; }
+  html, body { height: 100%; }
   body {
     margin: 0;
     background: var(--bg);
-    font-family: 'Segoe UI', Roboto, Arial, sans-serif;
     color: var(--text);
-    padding: 2rem;
+    font-family: 'Barlow', 'Segoe UI', Roboto, Arial, sans-serif;
+    overflow: hidden;
   }
-  .screen { max-width: 1400px; margin: 0 auto; }
-  .header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 2rem; }
-  .header-left { display: flex; align-items: center; gap: 16px; }
-  .logo { width: 52px; height: 52px; border-radius: 12px; background: var(--gold); display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 20px; color: #0F1B33; }
-  .title { font-size: 28px; font-weight: 600; margin: 0; }
-  .subtitle { font-size: 16px; color: var(--muted); margin: 0; }
-  .updated { color: var(--muted-dim); font-size: 15px; }
+  .screen {
+    height: 100vh;
+    padding: 2.5rem;
+    display: grid;
+    grid-template-columns: 1.6fr 1fr;
+    gap: 2rem;
+  }
+  .card {
+    background: var(--card);
+    border-radius: 1.5rem;
+    padding: 2.25rem 2.5rem 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+  }
+  .card-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-bottom: 1.25rem;
+    border-bottom: 2px solid var(--line);
+  }
+  .card-title {
+    font-family: 'Barlow Condensed', 'Segoe UI', sans-serif;
+    font-weight: 800;
+    font-size: 3.25rem;
+    line-height: 1;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  .card-title .accent { color: var(--pink); }
+    .card-meta {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
 
-  .top-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-bottom: 24px; }
-  .card { background: var(--card); border-radius: 16px; padding: 1.5rem; }
-  .card-header { display: flex; align-items: center; gap: 10px; margin-bottom: 4px; }
-  .card-header i { font-size: 24px; }
-  .card-title { font-size: 18px; font-weight: 600; }
-  .card-subtitle { color: var(--muted-dim); font-size: 13px; margin: 0 0 14px; }
+  /* List viewport: fills the rest of the card. If the rows don't fit, the
+     list is doubled and scrolls up on a loop. */
+  /* Side padding leaves room for the pink ring on major milestone avatars. */
+  .list { flex: 1; min-height: 0; overflow: hidden; position: relative; margin: 0 -0.75rem; padding: 0 0.75rem; }
+  .list.scrolling::before, .list.scrolling::after {
+    content: ''; position: absolute; left: 0; right: 0; height: 3rem; z-index: 2; pointer-events: none;
+  }
+  .list.scrolling::before { top: 0; background: linear-gradient(var(--card), transparent); }
+  .list.scrolling::after { bottom: 0; background: linear-gradient(transparent, var(--card)); }
+  .track { will-change: transform; }
+  .list.scrolling .track { animation: scrollV linear infinite; }
+  @keyframes scrollV { from { transform: translateY(0); } to { transform: translateY(-50%); } }
 
-  .row { display: flex; align-items: center; gap: 14px; padding: 10px 0; border-bottom: 0.5px solid var(--border); }
-  .row:last-child { border-bottom: none; }
-  .avatar-wrap { position: relative; flex-shrink: 0; }
-  .avatar { width: 44px; height: 44px; border-radius: 50%; background: var(--avatar); display: flex; align-items: center; justify-content: center; font-size: 15px; color: #D4D4D4; font-weight: 600; overflow: hidden; }
+  .row {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.25rem 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .avatar {
+    width: 5.25rem; height: 5.25rem; flex-shrink: 0;
+    border-radius: 50%;
+    background: var(--chip);
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700; font-size: 2rem; color: #CFCAC0;
+    overflow: hidden;
+  }
   .avatar img { width: 100%; height: 100%; object-fit: cover; }
-  .star-badge { position: absolute; bottom: -2px; right: -2px; width: 20px; height: 20px; border-radius: 50%; background: var(--gold); border: 2px solid var(--card); display: flex; align-items: center; justify-content: center; }
-  .star-badge i { font-size: 10px; color: #0F1B33; }
-  .row-name { font-size: 16px; margin: 0; font-weight: 500; }
-  .row-detail { font-size: 13px; margin: 0; color: var(--muted); }
-  .going-badge { width: 34px; height: 34px; border-radius: 50%; background: var(--avatar); display: flex; align-items: center; justify-content: center; font-size: 13px; color: var(--muted); font-weight: 600; flex-shrink: 0; }
+  .row.major .avatar { box-shadow: 0 0 0 0.25rem var(--card), 0 0 0 0.45rem var(--pink); }
+  .who { flex: 1; min-width: 0; }
+  .name {
+    margin: 0;
+    font-weight: 600;
+    font-size: 2.25rem;
+    line-height: 1.15;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .detail {
+    margin: 0.25rem 0 0;
+    font-size: 1.4rem;
+    color: var(--muted);
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .detail .badge { color: var(--text); opacity: 0.85; }
+  .row.major .detail .badge { color: var(--pink); opacity: 1; }
+  .when { color: var(--dim); }
 
-  .scroll-v { height: 320px; overflow: hidden; position: relative; }
-  /* Duration is set inline by JS, scaled to the number of items - see
-     SECONDS_PER_ITEM below. Only the animation name/timing/looping are
-     fixed here. */
-  .scroll-v .track { animation-name: scrollV; animation-timing-function: linear; animation-iteration-count: infinite; }
-  .scroll-v:hover .track { animation-play-state: paused; }
-  @keyframes scrollV { 0% { transform: translateY(0); } 100% { transform: translateY(-50%); } }
+  .count { text-align: right; flex-shrink: 0; }
+  .count .num {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 800;
+    font-size: 4.25rem;
+    line-height: 0.9;
+  }
+  .row.major .count .num { color: var(--pink); }
+  .count .unit {
+    display: block;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 1.15rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
 
-  .ticker-card { padding: 1.5rem 0; }
-  .ticker-card .card-header { padding: 0 1.5rem; margin-bottom: 14px; }
-  .ticker-wrap { overflow: hidden; width: 100%; }
-  .ticker-wrap .track { display: flex; width: max-content; gap: 32px; padding: 0 1.5rem; animation-name: scrollH; animation-timing-function: linear; animation-iteration-count: infinite; }
-  .ticker-wrap:hover .track { animation-play-state: paused; }
-  @keyframes scrollH { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
-  .ticker-item { display: flex; align-items: center; gap: 10px; flex-shrink: 0; white-space: nowrap; }
-  .ticker-item .avatar { width: 36px; height: 36px; font-size: 13px; }
+  /* Almost There rows */
+  .togo {
+    width: 5.25rem; height: 5.25rem; flex-shrink: 0;
+    border-radius: 50%;
+    border: 0.2rem solid var(--pink);
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    line-height: 1;
+  }
+  .togo .n { font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 2.5rem; }
+  .togo .l { font-size: 0.8rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-top: 0.15rem; }
+  .almost .name { font-size: 2rem; }
 
-  .empty-state { color: var(--muted-dim); font-size: 14px; padding: 12px 0; }
+  .empty {
+    color: var(--muted);
+    font-size: 1.75rem;
+    padding: 2.5rem 0;
+  }
+
+  /* Small freshness stamp for staff - easy to check if the screen has
+     stopped updating, without a header on screen. */
+  .stamp {
+    position: fixed; right: 1.25rem; bottom: 0.6rem;
+    font-size: 0.85rem; color: #3A3835; letter-spacing: 0.04em;
+  }
 </style>
 </head>
 <body>
 <div class="screen">
-  <div class="header">
-    <div class="header-left">
-      <div class="logo">H2</div>
-      <div>
-        <p class="title">Attendance Milestones</p>
-        <p class="subtitle">Who we're celebrating this week</p>
-      </div>
+  <section class="card">
+    <div class="card-head">
+      <h1 class="card-title">This Week's <span class="accent">Milestones</span></h1>
+      <span class="card-meta" id="week-count"></span>
     </div>
-    <span class="updated" id="updated-label">Updated daily</span>
-  </div>
+    <div class="list" id="week-list"><div class="track"></div></div>
+  </section>
 
-  <div class="top-grid">
-    <div class="card" id="major-card">
-      <div class="card-header"><i class="ti ti-trophy" style="color: var(--gold);"></i><span class="card-title">Major Milestones</span></div>
-      <p class="card-subtitle">250 · 500 · 750 · 1000 classes</p>
-      <div id="major-list"></div>
+  <section class="card almost">
+    <div class="card-head">
+      <h2 class="card-title"><span class="accent">Almost</span> There</h2>
     </div>
-
-    <div class="card" id="almost-card">
-      <div class="card-header"><i class="ti ti-flame" style="color: var(--flame);"></i><span class="card-title">Almost There</span></div>
-      <p class="card-subtitle">&nbsp;</p>
-      <div id="almost-list"></div>
-    </div>
-  </div>
-
-  <div class="card ticker-card" id="every-card">
-    <div class="card-header"><i class="ti ti-award" style="color: var(--award);"></i><span class="card-title">Every Level Up This Week</span></div>
-    <div id="every-list"></div>
-  </div>
+    <div class="list" id="almost-list"><div class="track"></div></div>
+  </section>
 </div>
+<div class="stamp" id="stamp"></div>
 
 <script>
-  const SCROLL_THRESHOLD = 6;
   const DATA_URL = 'milestone-screen-data.json';
-  // Roughly how long each person stays readable on screen before the next
-  // one scrolls into view. Total loop duration = items.length * this value,
-  // so a list of 8 and a list of 40 both stay equally readable per-person -
-  // a fixed duration would make a 40-person list fly past unreadably fast.
-  const SECONDS_PER_ITEM = 2.5;
+  // Roughly how long each person stays readable before the next one
+  // scrolls in. Loop duration scales with the list length so long lists
+  // don't fly past.
+  const SECONDS_PER_ITEM = 3;
+  const DATA_REFRESH_MS = 30 * 60 * 1000;   // refetch data every 30 min
+  const PAGE_RELOAD_MS = 6 * 60 * 60 * 1000; // pick up page changes every 6 hrs
 
   // Names and links come from the data file; escape them so nothing in a
   // member's profile can inject markup onto the screen.
@@ -125,97 +205,116 @@
   }
 
   function avatarHtml(item) {
+    const fallback = esc(initials(item.name));
     if (item.photoUrl) {
-      return `<div class="avatar"><img src="${esc(item.photoUrl)}" alt=""></div>`;
+      return `<div class="avatar"><img src="${esc(item.photoUrl)}" alt="" onerror="this.parentNode.textContent='${fallback}'"></div>`;
     }
-    return `<div class="avatar">${esc(initials(item.name))}</div>`;
+    return `<div class="avatar">${fallback}</div>`;
   }
 
-  function majorRow(item) {
+  // Melbourne calendar date, so "Today" flips at local midnight.
+  function melbDate(d) {
+    return d.toLocaleDateString('en-CA', { timeZone: 'Australia/Melbourne' });
+  }
+
+  function whenLabel(dateStr) {
+    if (!dateStr) return '';
+    const now = new Date();
+    const today = melbDate(now);
+    const yesterday = melbDate(new Date(now.getTime() - 86400000));
+    if (dateStr === today) return 'Today';
+    if (dateStr === yesterday) return 'Yesterday';
+    const d = new Date(`${dateStr}T12:00:00+11:00`);
+    return d.toLocaleDateString('en-AU', { weekday: 'long', timeZone: 'Australia/Melbourne' });
+  }
+
+  function milestoneRow(item) {
+    const when = whenLabel(item.date);
     return `
-      <div class="row">
-        <div class="avatar-wrap">
-          ${avatarHtml(item)}
-          <div class="star-badge"><i class="ti ti-star-filled"></i></div>
+      <div class="row${item.major ? ' major' : ''}">
+        ${avatarHtml(item)}
+        <div class="who">
+          <p class="name">${esc(item.name)}</p>
+          <p class="detail"><span class="badge">${esc(item.badgeName)}</span>${when ? ` <span class="when">· ${esc(when)}</span>` : ''}</p>
         </div>
-        <div>
-          <p class="row-name">${esc(item.name)}</p>
-          <p class="row-detail">${item.milestone} classes · ${esc(item.badgeName)}</p>
-        </div>
+        <div class="count"><span class="num">${esc(item.milestone)}</span><span class="unit">Classes</span></div>
       </div>`;
   }
 
   function almostRow(item) {
+    const n = Number(item.classesToGo) || 0;
     return `
       <div class="row">
-        <div class="going-badge">${item.classesToGo}</div>
-        <div>
-          <p class="row-name">${esc(item.name)}</p>
-          <p class="row-detail">${item.classesToGo} class${item.classesToGo === 1 ? '' : 'es'} from ${item.nextMilestone} · ${esc(item.badgeName)}</p>
+        <div class="togo"><span class="n">${n}</span><span class="l">to go</span></div>
+        <div class="who">
+          <p class="name">${esc(item.name)}</p>
+          <p class="detail">Class ${esc(item.nextMilestone)} unlocks <span class="badge">${esc(item.badgeName)}</span></p>
         </div>
       </div>`;
   }
 
-  function tickerItem(item) {
-    return `
-      <div class="ticker-item">
-        ${avatarHtml(item)}
-        <div>
-          <p class="row-name" style="font-size:14px;">${esc(item.name)}</p>
-          <p class="row-detail">${item.milestone} · ${esc(item.badgeName)}</p>
-        </div>
-      </div>`;
+  // Render rows, then only scroll if they don't fit the space available.
+  function renderList(id, items, rowFn, emptyText) {
+    const list = document.getElementById(id);
+    const track = list.querySelector('.track');
+    list.classList.remove('scrolling');
+    track.style.animationDuration = '';
+
+    if (!items.length) {
+      track.innerHTML = `<p class="empty">${emptyText}</p>`;
+      return;
+    }
+    const html = items.map(rowFn).join('');
+    track.innerHTML = html;
+    if (track.scrollHeight > list.clientHeight) {
+      track.innerHTML = html + html;
+      track.style.animationDuration = `${items.length * SECONDS_PER_ITEM}s`;
+      list.classList.add('scrolling');
+    }
   }
 
-  function renderStaticOrScrollVertical(container, items, rowFn) {
-    if (items.length === 0) {
-      container.innerHTML = '<p class="empty-state">Nobody yet this week — check back tomorrow.</p>';
-      return;
-    }
-    if (items.length <= SCROLL_THRESHOLD) {
-      container.innerHTML = items.map(rowFn).join('');
-      return;
-    }
-    // Duplicate the list once so the vertical scroll loops seamlessly.
-    const doubled = [...items, ...items];
-    const duration = items.length * SECONDS_PER_ITEM;
-    container.innerHTML = `<div class="scroll-v"><div class="track" style="animation-duration:${duration}s;">${doubled.map(rowFn).join('')}</div></div>`;
-  }
+  let lastData = null;
 
-  function renderTicker(container, items) {
-    if (items.length === 0) {
-      container.innerHTML = '<p class="empty-state" style="padding:0 1.5rem;">Nobody yet this week — check back tomorrow.</p>';
-      return;
-    }
-    if (items.length <= SCROLL_THRESHOLD) {
-      container.innerHTML = `<div style="display:flex;gap:32px;padding:0 1.5rem;flex-wrap:wrap;">${items.map(tickerItem).join('')}</div>`;
-      return;
-    }
-    const doubled = [...items, ...items];
-    const duration = items.length * SECONDS_PER_ITEM;
-    container.innerHTML = `<div class="ticker-wrap"><div class="track" style="animation-duration:${duration}s;">${doubled.map(tickerItem).join('')}</div></div>`;
+  function render(data) {
+    // Major and regular level ups share the same rolling 7 day window, so
+    // they're shown as one list: newest first, bigger milestone first on
+    // the same day.
+    const week = [...(data.majorMilestones || []), ...(data.everyLevelUp || [])]
+      .sort((a, b) => (b.date || '').localeCompare(a.date || '') || b.milestone - a.milestone);
+
+    document.getElementById('week-count').textContent =
+      week.length ? `${week.length} level up${week.length === 1 ? '' : 's'}` : '';
+    renderList('week-list', week, milestoneRow, 'No milestones yet this week. Who\'s next?');
+    renderList('almost-list', data.almostThere || [], almostRow, 'Nobody close right now.');
+    document.getElementById('stamp').textContent = `Updated ${data.generatedAt || ''}`;
   }
 
   async function load() {
     try {
-      const res = await fetch(`${DATA_URL}?t=${Date.now()}`);
-      const data = await res.json();
-
-      document.getElementById('updated-label').textContent = `Updated ${data.generatedAt}`;
-      renderStaticOrScrollVertical(document.getElementById('major-list'), data.majorMilestones, majorRow);
-      renderStaticOrScrollVertical(document.getElementById('almost-list'), data.almostThere, almostRow);
-      renderTicker(document.getElementById('every-list'), data.everyLevelUp);
+      const res = await fetch(`${DATA_URL}?t=${Date.now()}`, { cache: 'no-store' });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      lastData = await res.json();
+      render(lastData);
     } catch (err) {
+      // Keep showing the last good data (if any) instead of a broken screen.
       console.error('Failed to load milestone screen data:', err);
-      document.getElementById('updated-label').textContent = 'Unable to load data';
+      if (!lastData) document.getElementById('stamp').textContent = 'Waiting for data…';
     }
   }
 
   load();
-  // Kiosk display - reload the page hourly so the freshly-committed JSON
-  // (and this file itself, if it's ever updated) gets picked up without
-  // anyone touching the screen.
-  setInterval(() => window.location.reload(), 60 * 60 * 1000);
+  setInterval(load, DATA_REFRESH_MS);
+  window.addEventListener('resize', () => lastData && render(lastData));
+
+  // Reload the page now and then so design changes reach the TV, but only
+  // after checking the site is reachable. A full reload during a wifi drop
+  // would leave the TV stuck on a browser error page.
+  setInterval(async () => {
+    try {
+      const res = await fetch(`${location.pathname}?t=${Date.now()}`, { method: 'HEAD', cache: 'no-store' });
+      if (res.ok) location.reload();
+    } catch (_) { /* offline - try again next time */ }
+  }, PAGE_RELOAD_MS);
 </script>
 </body>
 </html>
