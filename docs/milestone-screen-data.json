@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23",
+  "generatedAt": "2026-11-24",
   "majorMilestones": [
     {
       "name": "Mimi F.",
@@ -9,18 +9,27 @@
       "totalVisits": 500,
       "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/20971584.png?t=1740829858590",
       "date": "2026-11-19"
-    },
-    {
-      "name": "Ane N.",
-      "milestone": 100,
-      "badgeName": "Built Different",
-      "major": true,
-      "totalVisits": 100,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/30985487.png?t=1782209096711",
-      "date": "2026-11-17"
     }
   ],
   "everyLevelUp": [
+    {
+      "name": "Marcus H.",
+      "milestone": 50,
+      "badgeName": "Progress Seeker",
+      "major": false,
+      "totalVisits": 50,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/32640014.png?t=1789471834611",
+      "date": "2026-11-24"
+    },
+    {
+      "name": "Peter N.",
+      "milestone": 300,
+      "badgeName": "Apex Athlete",
+      "major": false,
+      "totalVisits": 300,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/20971826.png?t=1738958069254",
+      "date": "2026-11-24"
+    },
     {
       "name": "Ngawai M.",
       "milestone": 200,
@@ -47,42 +56,6 @@
       "totalVisits": 50,
       "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/33107682.png?t=1787256327396",
       "date": "2026-11-18"
-    },
-    {
-      "name": "Ebony H.",
-      "milestone": 150,
-      "badgeName": "The Unstoppable",
-      "major": false,
-      "totalVisits": 150,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/23828586.png?t=1788136307510",
-      "date": "2026-11-17"
-    },
-    {
-      "name": "Monique E.",
-      "milestone": 200,
-      "badgeName": "Hybrid Royalty",
-      "major": false,
-      "totalVisits": 200,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/27443770.png?t=1788653532831",
-      "date": "2026-11-17"
-    },
-    {
-      "name": "Caity W.",
-      "milestone": 550,
-      "badgeName": "The Warrior's Bloodline",
-      "major": false,
-      "totalVisits": 550,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/20970483.png?t=1788749860765",
-      "date": "2026-11-17"
-    },
-    {
-      "name": "Leilani A.",
-      "milestone": 150,
-      "badgeName": "The Unstoppable",
-      "major": false,
-      "totalVisits": 150,
-      "photoUrl": null,
-      "date": "2026-11-17"
     }
   ],
   "almostThere": [
@@ -96,15 +69,6 @@
       "major": false
     },
     {
-      "name": "Peter N.",
-      "totalVisits": 299,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/20971826.png?t=1738958069254",
-      "nextMilestone": 300,
-      "classesToGo": 1,
-      "badgeName": "Apex Athlete",
-      "major": false
-    },
-    {
       "name": "Teasha P.",
       "totalVisits": 149,
       "photoUrl": null,
@@ -114,9 +78,9 @@
       "major": false
     },
     {
-      "name": "Marcus H.",
+      "name": "Moz D.",
       "totalVisits": 48,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/32640014.png?t=1789471834611",
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/32494250.png?t=1782250758120",
       "nextMilestone": 50,
       "classesToGo": 2,
       "badgeName": "Progress Seeker",
@@ -129,6 +93,15 @@
       "nextMilestone": 50,
       "classesToGo": 2,
       "badgeName": "Progress Seeker",
+      "major": false
+    },
+    {
+      "name": "Brylee T.",
+      "totalVisits": 148,
+      "photoUrl": null,
+      "nextMilestone": 150,
+      "classesToGo": 2,
+      "badgeName": "The Unstoppable",
       "major": false
     }
   ]
