@@ -1,6 +1,6 @@
 {
-  "asOf": "2026-11-24",
-  "generatedAt": "2026-11-24T03:33:27.644Z",
+  "asOf": "2026-11-25",
+  "generatedAt": "2026-11-25T01:42:27.249Z",
   "goalDate": "2027-03-31",
   "plan": [
     {
@@ -36,79 +36,79 @@
     "joins": 31,
     "label": "Jul 2026"
   },
-  "daysOfData": 1,
+  "daysOfData": 2,
   "members": {
-    "now": 190,
-    "pending": 7,
+    "now": 189,
+    "pending": 8,
     "goal": 300,
     "start": 192,
     "startDate": "2026-11-23",
-    "frozen": 35,
+    "frozen": 36,
     "frozenNoEnd": 21,
     "frozenOverdue": 0,
     "weekly": [
-      190
+      189
     ]
   },
   "mrr": null,
   "leads": {
-    "month": 39,
+    "month": 40,
     "weekly": [
-      10,
+      7,
+      17,
       15,
-      16,
-      6,
-      6,
-      33,
-      17,
-      17,
+      5,
+      5,
+      35,
+      22,
+      11,
+      15,
+      11,
       13,
-      13,
-      8,
-      15
+      10
     ]
   },
   "first": {
-    "month": 25,
-    "rate": 0.6410256410256411,
+    "month": 27,
+    "rate": 0.675,
     "target": 0.5,
     "weekly": [
-      0.6410256410256411
+      0.675
     ]
   },
   "conv": {
-    "rate": 0.16981132075471697,
-    "twelve": 0.16981132075471697,
-    "n": 53,
+    "rate": 0.17647058823529413,
+    "twelve": 0.17647058823529413,
+    "n": 51,
     "converted": 9,
-    "notStarted": 7,
+    "notStarted": 8,
     "weekly": [
-      0.16981132075471697
+      0.17647058823529413
     ]
   },
   "churn": {
-    "rate": 0.015625,
+    "rate": 0.020833333333333332,
     "target": 0.03,
-    "cancels": 3,
+    "cancels": 4,
     "startMembers": 192,
     "startDate": "2026-11-23",
     "weekly": [
-      0.015625
+      0.020833333333333332
     ]
   },
   "att": {
-    "rate": 2.9105263157894736,
+    "rate": 2.5925925925925926,
     "target": 2.6,
-    "days": 1,
+    "days": 2,
     "weekly": [
-      2.9105263157894736
+      2.5925925925925926
     ]
   },
   "cac": null,
   "netNew": {
     "month": -2,
-    "joins": 1,
-    "cancels": 3,
+    "joins": 2,
+    "cancels": 4,
     "weekly": [
       -2
     ]
