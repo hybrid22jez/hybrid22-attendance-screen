@@ -1,16 +1,6 @@
 {
-  "generatedAt": "2026-11-25",
-  "majorMilestones": [
-    {
-      "name": "Mimi F.",
-      "milestone": 500,
-      "badgeName": "The Relentless Machine",
-      "major": true,
-      "totalVisits": 500,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/20971584.png?t=1740829858590",
-      "date": "2026-11-19"
-    }
-  ],
+  "generatedAt": "2026-11-26",
+  "majorMilestones": [],
   "everyLevelUp": [
     {
       "name": "Marcus H.",
@@ -94,6 +84,24 @@
       "classesToGo": 1,
       "badgeName": "The Unstoppable",
       "major": false
+    },
+    {
+      "name": "Simone Z.",
+      "totalVisits": 47,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/13436140.png?t=1787205359640",
+      "nextMilestone": 50,
+      "classesToGo": 3,
+      "badgeName": "Progress Seeker",
+      "major": false
+    },
+    {
+      "name": "Niamh M.",
+      "totalVisits": 97,
+      "photoUrl": null,
+      "nextMilestone": 100,
+      "classesToGo": 3,
+      "badgeName": "Built Different",
+      "major": true
     },
     {
       "name": "Laura M.",
