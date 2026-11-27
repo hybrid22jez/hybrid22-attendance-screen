@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26",
+  "generatedAt": "2026-11-27",
   "majorMilestones": [],
   "everyLevelUp": [
     {
@@ -28,18 +28,27 @@
       "totalVisits": 200,
       "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/22622425.png?t=1747895963304",
       "date": "2026-11-23"
-    },
-    {
-      "name": "Lauren T.",
-      "milestone": 50,
-      "badgeName": "Progress Seeker",
-      "major": false,
-      "totalVisits": 51,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/32454718.png?t=1787812072285",
-      "date": "2026-11-20"
     }
   ],
   "almostThere": [
+    {
+      "name": "Teasha P.",
+      "totalVisits": 149,
+      "photoUrl": null,
+      "nextMilestone": 150,
+      "classesToGo": 1,
+      "badgeName": "The Unstoppable",
+      "major": false
+    },
+    {
+      "name": "Brylee T.",
+      "totalVisits": 149,
+      "photoUrl": null,
+      "nextMilestone": 150,
+      "classesToGo": 1,
+      "badgeName": "The Unstoppable",
+      "major": false
+    },
     {
       "name": "Moz D.",
       "totalVisits": 49,
@@ -68,22 +77,13 @@
       "major": false
     },
     {
-      "name": "Brylee T.",
-      "totalVisits": 149,
+      "name": "Laura M.",
+      "totalVisits": 248,
       "photoUrl": null,
-      "nextMilestone": 150,
-      "classesToGo": 1,
-      "badgeName": "The Unstoppable",
-      "major": false
-    },
-    {
-      "name": "Teasha P.",
-      "totalVisits": 149,
-      "photoUrl": null,
-      "nextMilestone": 150,
-      "classesToGo": 1,
-      "badgeName": "The Unstoppable",
-      "major": false
+      "nextMilestone": 250,
+      "classesToGo": 2,
+      "badgeName": "Super Saiyan",
+      "major": true
     },
     {
       "name": "Simone Z.",
@@ -101,15 +101,6 @@
       "nextMilestone": 100,
       "classesToGo": 3,
       "badgeName": "Built Different",
-      "major": true
-    },
-    {
-      "name": "Laura M.",
-      "totalVisits": 247,
-      "photoUrl": null,
-      "nextMilestone": 250,
-      "classesToGo": 3,
-      "badgeName": "Super Saiyan",
       "major": true
     },
     {
