@@ -1,6 +1,6 @@
 {
-  "asOf": "2026-11-27",
-  "generatedAt": "2026-11-27T01:11:58.857Z",
+  "asOf": "2026-11-28",
+  "generatedAt": "2026-11-28T00:45:14.470Z",
   "goalDate": "2027-03-31",
   "plan": [
     {
@@ -36,10 +36,10 @@
     "joins": 31,
     "label": "Jul 2026"
   },
-  "daysOfData": 4,
+  "daysOfData": 5,
   "members": {
-    "now": 192,
-    "pending": 4,
+    "now": 190,
+    "pending": 5,
     "goal": 300,
     "start": 192,
     "startDate": "2026-11-23",
@@ -47,70 +47,70 @@
     "frozenNoEnd": 22,
     "frozenOverdue": 0,
     "weekly": [
-      192
+      190
     ]
   },
   "mrr": null,
   "leads": {
-    "month": 45,
+    "month": 50,
     "weekly": [
-      8,
+      9,
       19,
       10,
-      7,
-      15,
-      30,
-      19,
-      15,
-      11,
       6,
+      16,
+      31,
+      18,
+      14,
+      12,
+      5,
       15,
-      13
+      18
     ]
   },
   "first": {
     "month": 28,
-    "rate": 0.6222222222222222,
+    "rate": 0.56,
     "target": 0.5,
     "weekly": [
-      0.6222222222222222
+      0.56
     ]
   },
   "conv": {
-    "rate": 0.16666666666666666,
-    "twelve": 0.16666666666666666,
-    "n": 54,
-    "converted": 9,
-    "notStarted": 3,
+    "rate": 0.1694915254237288,
+    "twelve": 0.1694915254237288,
+    "n": 59,
+    "converted": 10,
+    "notStarted": 4,
     "weekly": [
-      0.16666666666666666
+      0.1694915254237288
     ]
   },
   "churn": {
-    "rate": 0.03125,
+    "rate": 0.041666666666666664,
     "target": 0.03,
-    "cancels": 6,
+    "cancels": 8,
     "startMembers": 192,
     "startDate": "2026-11-23",
     "weekly": [
-      0.03125
+      0.041666666666666664
     ]
   },
   "att": {
-    "rate": 2.296875,
+    "rate": 2.2178947368421054,
     "target": 2.6,
-    "days": 4,
+    "days": 5,
     "weekly": [
-      2.296875
+      2.2178947368421054
     ]
   },
   "cac": null,
   "netNew": {
-    "month": 2,
+    "month": 0,
     "joins": 8,
-    "cancels": 6,
+    "cancels": 8,
     "weekly": [
-      2
+      0
     ]
   },
   "mrrAdded": null,
