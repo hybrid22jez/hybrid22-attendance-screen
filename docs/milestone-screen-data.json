@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-11-27",
+  "generatedAt": "2026-11-28",
   "majorMilestones": [],
   "everyLevelUp": [
+    {
+      "name": "Teasha P.",
+      "milestone": 150,
+      "badgeName": "The Unstoppable",
+      "major": false,
+      "totalVisits": 150,
+      "photoUrl": null,
+      "date": "2026-11-28"
+    },
+    {
+      "name": "Brylee T.",
+      "milestone": 150,
+      "badgeName": "The Unstoppable",
+      "major": false,
+      "totalVisits": 150,
+      "photoUrl": null,
+      "date": "2026-11-28"
+    },
+    {
+      "name": "Rachelle B.",
+      "milestone": 50,
+      "badgeName": "Progress Seeker",
+      "major": false,
+      "totalVisits": 50,
+      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/31142515.png?t=1789139999678",
+      "date": "2026-11-28"
+    },
     {
       "name": "Marcus H.",
       "milestone": 50,
@@ -32,36 +59,18 @@
   ],
   "almostThere": [
     {
-      "name": "Teasha P.",
-      "totalVisits": 149,
+      "name": "Laura M.",
+      "totalVisits": 249,
       "photoUrl": null,
-      "nextMilestone": 150,
+      "nextMilestone": 250,
       "classesToGo": 1,
-      "badgeName": "The Unstoppable",
-      "major": false
-    },
-    {
-      "name": "Brylee T.",
-      "totalVisits": 149,
-      "photoUrl": null,
-      "nextMilestone": 150,
-      "classesToGo": 1,
-      "badgeName": "The Unstoppable",
-      "major": false
+      "badgeName": "Super Saiyan",
+      "major": true
     },
     {
       "name": "Moz D.",
       "totalVisits": 49,
       "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/32494250.png?t=1782250758120",
-      "nextMilestone": 50,
-      "classesToGo": 1,
-      "badgeName": "Progress Seeker",
-      "major": false
-    },
-    {
-      "name": "Rachelle B.",
-      "totalVisits": 49,
-      "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/31142515.png?t=1789139999678",
       "nextMilestone": 50,
       "classesToGo": 1,
       "badgeName": "Progress Seeker",
@@ -77,20 +86,11 @@
       "major": false
     },
     {
-      "name": "Laura M.",
-      "totalVisits": 248,
-      "photoUrl": null,
-      "nextMilestone": 250,
-      "classesToGo": 2,
-      "badgeName": "Super Saiyan",
-      "major": true
-    },
-    {
       "name": "Simone Z.",
-      "totalVisits": 47,
+      "totalVisits": 48,
       "photoUrl": "https://ribbon-technologes-images.s3.us-east-2.amazonaws.com/ribbon-app-member-profiles/13436140.png?t=1787205359640",
       "nextMilestone": 50,
-      "classesToGo": 3,
+      "classesToGo": 2,
       "badgeName": "Progress Seeker",
       "major": false
     },
